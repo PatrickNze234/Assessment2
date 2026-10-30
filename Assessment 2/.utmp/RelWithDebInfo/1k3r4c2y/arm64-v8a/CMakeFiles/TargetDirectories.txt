@@ -1,0 +1,5 @@
+C:/Users/patri/Desktop/Assessment 2/Assessment 2/.utmp/RelWithDebInfo/1k3r4c2y/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/patri/Desktop/Assessment 2/Assessment 2/.utmp/RelWithDebInfo/1k3r4c2y/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/patri/Desktop/Assessment 2/Assessment 2/.utmp/RelWithDebInfo/1k3r4c2y/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/patri/Desktop/Assessment 2/Assessment 2/.utmp/RelWithDebInfo/1k3r4c2y/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/patri/Desktop/Assessment 2/Assessment 2/.utmp/RelWithDebInfo/1k3r4c2y/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

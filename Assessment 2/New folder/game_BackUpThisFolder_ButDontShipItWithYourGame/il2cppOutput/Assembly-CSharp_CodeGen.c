@@ -1,0 +1,66 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void BlockSpawner_Update_mA997F8BEE078550069B3DD549BF1757C0D6C8B3C (void);
+extern void BlockSpawner_SpawnCube_m607A3CA8BC3FFA840C0E996258547CE32D8A4A69 (void);
+extern void BlockSpawner__ctor_mCC5AB264D0DB7FF256FAA78F4979DAE608C6B7F4 (void);
+extern void CubeMover_Update_m1B51F27AABB6DCD0CA6EFF7755929035EF38D09A (void);
+extern void CubeMover__ctor_mCF5CB95A89984B5F6B9B2E1DB5A76E39F8125BD1 (void);
+extern void SaberHit_Start_m68E2C18F40F88CD25F2840ED25D8E70B4354670E (void);
+extern void SaberHit_OnTriggerEnter_m42C14896B5F2330953F462351CE5864B27A3F4C4 (void);
+extern void SaberHit__ctor_m338CF24B0A6A67C5F93EF2F95034918BF524E334 (void);
+extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
+extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
+static Il2CppMethodPointer s_methodPointers[10] = 
+{
+	BlockSpawner_Update_mA997F8BEE078550069B3DD549BF1757C0D6C8B3C,
+	BlockSpawner_SpawnCube_m607A3CA8BC3FFA840C0E996258547CE32D8A4A69,
+	BlockSpawner__ctor_mCC5AB264D0DB7FF256FAA78F4979DAE608C6B7F4,
+	CubeMover_Update_m1B51F27AABB6DCD0CA6EFF7755929035EF38D09A,
+	CubeMover__ctor_mCF5CB95A89984B5F6B9B2E1DB5A76E39F8125BD1,
+	SaberHit_Start_m68E2C18F40F88CD25F2840ED25D8E70B4354670E,
+	SaberHit_OnTriggerEnter_m42C14896B5F2330953F462351CE5864B27A3F4C4,
+	SaberHit__ctor_m338CF24B0A6A67C5F93EF2F95034918BF524E334,
+	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
+	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+};
+static const int32_t s_InvokerIndices[10] = 
+{
+	15411,
+	15411,
+	15411,
+	15411,
+	15411,
+	15411,
+	11696,
+	15411,
+	15411,
+	15411,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	10,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

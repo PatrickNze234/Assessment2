@@ -1,0 +1,12880 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1>
+struct InterfaceActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename T1, typename T2>
+struct InterfaceActionInvoker2
+{
+	typedef void (*Action)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct InterfaceFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2>
+struct InterfaceFuncInvoker2
+{
+	typedef R (*Func)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2, typename T3>
+struct InterfaceFuncInvoker3
+{
+	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
+
+struct Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B;
+struct Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752;
+struct Action_1_t7B60C630D15CD21B86B3E04BCD8CD9D47183EF4A;
+struct Action_1_t2DA0411EDF9E3FEFF697DDF6C863566921338C1F;
+struct Action_1_tCFC7B8B521D00ABC92F334305388902DFB6AC890;
+struct Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD;
+struct Action_2_tA93638A9D51C46813D719FA524415A74B9B2EADF;
+struct Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997;
+struct Dictionary_2_tB3A6FD4534611CB161EB80F94B112C862E8998C0;
+struct Dictionary_2_t3B493B7CC2517037FEFC2E8B8F7C2B473A42DF0D;
+struct IReadOnlyList_1_t1785B1942CAB824DA803DFC6ADD04233B2CB32D4;
+struct InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D;
+struct InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC;
+struct List_1_tBFF9DD9FFA06F20E74F9D7AD36610BD754D353A4;
+struct List_1_t12180ACD024006A923F942FF684852AA78532990;
+struct List_1_t8463D6E8766F823573C7FF81CA9AC38D1F351FFF;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2;
+struct List_1_t562223B28012C1C80EA081C8EA42A6A41505A84C;
+struct List_1_t60D7990C09E02A6E8D131BA5D2723BD21A8C49BA;
+struct List_1_tE22B6E306DDA01F674E59C9D38C70B3061C6638A;
+struct List_1_t0C202F614DA60D242F6A9E32E8CA74646B8E2054;
+struct List_1_tE8C9F052852B8FBA7555E816A2DA7FF8FE4764D7;
+struct List_1_tAFE1F3EA76E0D329AD13CAE1E11B56B94E0AB746;
+struct List_1_tE4111BEC044D13259EFD4EC5907636C855887179;
+struct List_1_t6875C91F2673A583453F0303AE0CAA7F73FBA83D;
+struct SubsystemWithProvider_3_t548D9C2A4778C7ADB62496A2A07F8B7563309893;
+struct SubsystemWithProvider_3_tE926FFDCD0BC2F75B118A7CCE6FBFA422A41E2B2;
+struct TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D;
+struct TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA;
+struct TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921;
+struct IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+struct XRFingerShapeConfigurationStateU5BU5D_tC61C0DCE33319E678C385EF105F8753FE94709D6;
+struct XRHandCaptureFrameU5BU5D_t3EB556AB49AB0D0EF28F537695ECC47024C73EA7;
+struct XRHandJointU5BU5D_t194C7684C33D3688873DB8DB9B2A941566857EA1;
+struct XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052;
+struct XRHandRecordingMetadataU5BU5D_t958DFAC78C4CEF4D21A9227D4D89D7A212DB7900;
+struct StatePerHandU5BU5D_tBD75D18C0C0C613F8CFBB12A324E05D0C7863809;
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
+struct BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158;
+struct BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E;
+struct Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235;
+struct BurstCompilerOptions_t5F93118F305E1B0C950C6F9AF8BCA74033DA01C9;
+struct Decoder_tE16E789E38B25DD304004FC630EA8B21000ECBBC;
+struct Delegate_t;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct Encoder_tAF9067231A76315584BDF4CD27990E2F485A78FA;
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095;
+struct Exception_t;
+struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8;
+struct FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6;
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83;
+struct IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0;
+struct MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553;
+struct MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2;
+struct MethodInfo_t;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E;
+struct PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37;
+struct PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F;
+struct RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A;
+struct SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2;
+struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE;
+struct String_t;
+struct SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455;
+struct TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4;
+struct Type_t;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022;
+struct XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237;
+struct XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC;
+struct XRHandRecordingBase_tC2A8DC0AD2C958FD506AF262FA632345C32C4E09;
+struct XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069;
+struct XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98;
+struct XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C;
+struct XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73;
+struct XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996;
+struct CommandBuilder_tA2E5D7A513FE45173EA395D67B25DB94E42CCA84;
+struct U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E;
+struct ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05;
+struct SubsystemUpdater_t59BCE7E7B38E867C0FBDBBA8579C37C08BF26548;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IReadOnlyList_1_t1785B1942CAB824DA803DFC6ADD04233B2CB32D4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6____m_Stream_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74____m_Stream_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623____U3CsubsystemU3Ek__BackingField_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C____U3CsubsystemU3Ek__BackingField_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0____U3CblobU3Ek__BackingField_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral094B45DDD46CF781B40060A8A5DF09CACC719095;
+IL2CPP_EXTERN_C String_t* _stringLiteral1168E92C164109D6220480DEDA987085B2A21155;
+IL2CPP_EXTERN_C String_t* _stringLiteral3251F9D94FAEB0EFF0FCE8361C1F68CC9D1BDC13;
+IL2CPP_EXTERN_C String_t* _stringLiteral456F3D35E0CE4EA382B24CCF659B84A049C3758E;
+IL2CPP_EXTERN_C String_t* _stringLiteral50FFE2A9C9DE765FB90517159FA2BAF3662853CA;
+IL2CPP_EXTERN_C String_t* _stringLiteral56BB44F0ADC5C83FB050927DD57CE286DC1D9E85;
+IL2CPP_EXTERN_C String_t* _stringLiteral834E63BE8F3322C2C564A90DEAEB5FC36D2A8262;
+IL2CPP_EXTERN_C String_t* _stringLiteral8D56F338E331237F2F8BDFC41696919956FA1D59;
+IL2CPP_EXTERN_C String_t* _stringLiteral99F9CDE948F716A4DDFA6FB68F1304E44204098B;
+IL2CPP_EXTERN_C String_t* _stringLiteralA8C84486C65677F5BB4A324135EE22869A8D7030;
+IL2CPP_EXTERN_C String_t* _stringLiteralB6EB371D499F59F5EE96A0D82BA3C47D4C27B2FF;
+IL2CPP_EXTERN_C String_t* _stringLiteralC3CB87FD6B2C61C22472077798A17DEA09DB0A7A;
+IL2CPP_EXTERN_C String_t* _stringLiteralCB5D4466E425294B22178F4106C485DBBB92B0F4;
+IL2CPP_EXTERN_C String_t* _stringLiteralCDE1E994E1A957B279DD9AEB208BAC188AFBF411;
+IL2CPP_EXTERN_C String_t* _stringLiteralE0A6B053A95A75A30479A695E80F51CF43F7263C;
+IL2CPP_EXTERN_C String_t* _stringLiteralE960A08B015C39848F0BF82D13D92DCF40B85C8C;
+IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisString_t_m9832B70DF2B936246FE60F75D3D12CB946C39D16_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m027CD032AC12C28A88485C001DA437F47C424563_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m045A6296FCC367BCE659987653499042D7190930_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlaybackGestureHandler_TryGetCommonGestureHelper_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m313FAE6B7EE351294140F3B288EEDA51EF6E17E7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlaybackGestureHandler_TryGetCommonGestureHelper_TisPose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_mAE200450128248FF211CCD297A64861E2A9D2CA4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlaybackGestureHandler_TryGetCommonGestureHelper_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m396D0DEEEDDAE869FCFB105392D384FBDFF74D16_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlaybackInterpolator_InterpolatePose_mA7075DA7A9E4D028BB4CB18207D1A8D4047A23EF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlaybackInterpolator_InterpolateValue_m35FF537F0491FF97A31EAB9A58FE97F67F7A5CD2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SubsystemWithProvider_3_get_subsystemDescriptor_m95ABAFCF2F776A54F6CBD73A8F1117D47B9F40B0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CTryGetAimActivateValueU3Eb__21_0_m4474CC5FC023BD4BFE9D06D091678D914538AD48_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CTryGetAimActivatedStateU3Eb__22_0_mD455B6E1E956E7AD6BE31172450E1FF8AA185D43_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CTryGetAimPoseU3Eb__20_0_mDEAE4565A1423753DD41BA68121CB68A9F14856F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CTryGetGraspFirmStateU3Eb__24_0_mA50A513ABFF044E7CD9F379D6921604E37EA5F3D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CTryGetGraspValueU3Eb__23_0_m8EA4E0C89533012FF1A749BF454CD0D73BF934DE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CTryGetGripPoseU3Eb__25_0_m77330BB57B42A12B6BF7DB78167AE2EAD15DE4AF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CTryGetPinchPoseU3Eb__26_0_m705BE66F0AE6DFE1014E8881435B9DEF6094DB49_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CTryGetPinchTouchedStateU3Eb__28_0_m58C8CF4119E4785FE7A7BBC6BC297154F23A1238_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CTryGetPinchValueU3Eb__27_0_mA6A6FCB4A5190D0EA3D9DF493E8E85F73C37135A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CTryGetPokePoseU3Eb__29_0_m5FEE46D149285816FEC66C712060212124D9537F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRHandPlayback_OnBeginTryUpdateHands_m2E107016303FA973225FD0344E3FBA9ED00367C3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_0_0_0_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+struct XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783;
+
+struct IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921;
+struct IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE  : public RuntimeObject
+{
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tE22B6E306DDA01F674E59C9D38C70B3061C6638A  : public RuntimeObject
+{
+	XRHandCaptureFrameU5BU5D_t3EB556AB49AB0D0EF28F537695ECC47024C73EA7* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tAFE1F3EA76E0D329AD13CAE1E11B56B94E0AB746  : public RuntimeObject
+{
+	XRHandRecordingMetadataU5BU5D_t958DFAC78C4CEF4D21A9227D4D89D7A212DB7900* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U24BurstDirectCallInitializer_tDE8296A6269EB5906390734EAEFEA46B019D4D4A  : public RuntimeObject
+{
+};
+struct U3CPrivateImplementationDetailsU3E_tBF5663E9A4A0B6D6E1CDFF5C036B265B03455C16  : public RuntimeObject
+{
+};
+struct BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158  : public RuntimeObject
+{
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___m_stream;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___m_buffer;
+	Decoder_tE16E789E38B25DD304004FC630EA8B21000ECBBC* ___m_decoder;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___m_charBytes;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___m_singleChar;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___m_charBuffer;
+	int32_t ___m_maxCharsSize;
+	bool ___m_2BytesPerChar;
+	bool ___m_isMemoryStream;
+	bool ___m_leaveOpen;
+};
+struct BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E  : public RuntimeObject
+{
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___OutStream;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____buffer;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ____encoding;
+	Encoder_tAF9067231A76315584BDF4CD27990E2F485A78FA* ____encoder;
+	bool ____leaveOpen;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____largeByteBuffer;
+	int32_t ____maxChars;
+};
+struct BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8  : public RuntimeObject
+{
+};
+struct BurstCompilerOptions_t5F93118F305E1B0C950C6F9AF8BCA74033DA01C9  : public RuntimeObject
+{
+	bool ____enableBurstCompilation;
+	bool ____enableBurstCompileSynchronously;
+	bool ____enableBurstSafetyChecks;
+	bool ____enableBurstTimings;
+	bool ____enableBurstDebug;
+	bool ____forceEnableBurstSafetyChecks;
+	bool ___U3CIsGlobalU3Ek__BackingField;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___U3COptionsChangedU3Ek__BackingField;
+};
+struct FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6  : public RuntimeObject
+{
+	int32_t ___m_FrameIndex;
+	float ___m_ElapsedTime;
+};
+struct IsExternalInit_t23E16CF4B305E20F90AAA2597181B5D6E782E2B8  : public RuntimeObject
+{
+};
+struct MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE  : public RuntimeObject
+{
+	RuntimeObject* ____identity;
+};
+struct MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE_marshaled_pinvoke
+{
+	Il2CppIUnknown* ____identity;
+};
+struct MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE_marshaled_com
+{
+	Il2CppIUnknown* ____identity;
+};
+struct MemberInfo_t  : public RuntimeObject
+{
+};
+struct PlaybackInterpolator_t4242387D8869501F2AD3B81CC8CE9F96A1DE1639  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct SubsystemDescriptorWithProvider_t2A61A2C951A4A179E898CF207726BF6B5AF474D5  : public RuntimeObject
+{
+	String_t* ___U3CidU3Ek__BackingField;
+	Type_t* ___U3CproviderTypeU3Ek__BackingField;
+	Type_t* ___U3CsubsystemTypeOverrideU3Ek__BackingField;
+};
+struct SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455  : public RuntimeObject
+{
+	bool ___m_Running;
+};
+struct SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242  : public RuntimeObject
+{
+	bool ___U3CrunningU3Ek__BackingField;
+	SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455* ___U3CproviderBaseU3Ek__BackingField;
+};
+struct TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4  : public RuntimeObject
+{
+	int32_t ___m_FrameIndex;
+	float ___m_ElapsedTime;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct XRHandPlaybackExtensions_t90F0BB2B28BFA08F1F7EADB7A123C9706F50F33A  : public RuntimeObject
+{
+};
+struct XRHandRecordingBase_tC2A8DC0AD2C958FD506AF262FA632345C32C4E09  : public RuntimeObject
+{
+	String_t* ___m_AssetName;
+	float ___m_DurationInSeconds;
+	String_t* ___m_UniqueID;
+};
+struct XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE  : public RuntimeObject
+{
+};
+struct U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E  : public RuntimeObject
+{
+};
+struct Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct Nullable_1_t365991B3904FDA7642A788423B28692FDC7CDB17 
+{
+	bool ___hasValue;
+	int64_t ___value;
+};
+struct SubsystemDescriptorWithProvider_2_tD37C555A5B7A6CA2EE9994940AD4F333219EAABD  : public SubsystemDescriptorWithProvider_t2A61A2C951A4A179E898CF207726BF6B5AF474D5
+{
+};
+struct SubsystemProvider_1_tE92B070330A06745C300EB6C7651296BF8647284  : public SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455
+{
+};
+struct SubsystemWithProvider_3_t548D9C2A4778C7ADB62496A2A07F8B7563309893  : public SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242
+{
+	RuntimeObject* ___U3CsubsystemDescriptorU3Ek__BackingField;
+	RuntimeObject* ___U3CproviderU3Ek__BackingField;
+};
+struct SubsystemWithProvider_3_tE926FFDCD0BC2F75B118A7CCE6FBFA422A41E2B2  : public SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242
+{
+	XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* ___U3CsubsystemDescriptorU3Ek__BackingField;
+	XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* ___U3CproviderU3Ek__BackingField;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3 
+{
+	int64_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
+{
+	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask;
+	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore;
+};
+struct UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455 
+{
+	uint16_t ___m_value;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98  : public XRHandRecordingBase_tC2A8DC0AD2C958FD506AF262FA632345C32C4E09
+{
+};
+struct XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05 
+{
+	String_t* ___U3CrecordingNameU3Ek__BackingField;
+};
+struct XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_marshaled_pinvoke
+{
+	char* ___U3CrecordingNameU3Ek__BackingField;
+};
+struct XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_marshaled_com
+{
+	Il2CppChar* ___U3CrecordingNameU3Ek__BackingField;
+};
+struct XRHandSubsystemActions_t03691377110983C05157D075A90C3CCF259E7221 
+{
+	Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD* ___beginTryUpdateHands;
+};
+struct XRHandSubsystemActions_t03691377110983C05157D075A90C3CCF259E7221_marshaled_pinvoke
+{
+	Il2CppMethodPointer ___beginTryUpdateHands;
+};
+struct XRHandSubsystemActions_t03691377110983C05157D075A90C3CCF259E7221_marshaled_com
+{
+	Il2CppMethodPointer ___beginTryUpdateHands;
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D104_tA9CCFBE987A99799CD0564FD1C0427D218007108 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D104_tA9CCFBE987A99799CD0564FD1C0427D218007108__padding[104];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D20_t7DBA26E7271FACFA2B13809FF5790869018F56A5 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D20_t7DBA26E7271FACFA2B13809FF5790869018F56A5__padding[20];
+	};
+};
+#pragma pack(pop, tp)
+struct ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6 
+{
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* ___m_Stream;
+	BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* ___m_Reader;
+};
+struct ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_marshaled_pinvoke
+{
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* ___m_Stream;
+	BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* ___m_Reader;
+};
+struct ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_marshaled_com
+{
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* ___m_Stream;
+	BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* ___m_Reader;
+};
+struct WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74 
+{
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* ___m_Stream;
+	BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* ___m_Writer;
+};
+struct WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_marshaled_pinvoke
+{
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* ___m_Stream;
+	BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* ___m_Writer;
+};
+struct WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_marshaled_com
+{
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* ___m_Stream;
+	BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* ___m_Writer;
+};
+struct Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81 
+{
+	String_t* ___U3CidU3Ek__BackingField;
+	Type_t* ___U3CproviderTypeU3Ek__BackingField;
+	Type_t* ___U3CsubsystemTypeOverrideU3Ek__BackingField;
+	bool ___U3CsupportsAimPoseU3Ek__BackingField;
+	bool ___U3CsupportsAimActivateValueU3Ek__BackingField;
+	bool ___U3CsupportsGraspValueU3Ek__BackingField;
+	bool ___U3CsupportsGripPoseU3Ek__BackingField;
+	bool ___U3CsupportsPinchPoseU3Ek__BackingField;
+	bool ___U3CsupportsPinchValueU3Ek__BackingField;
+	bool ___U3CsupportsPokePoseU3Ek__BackingField;
+};
+struct Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81_marshaled_pinvoke
+{
+	char* ___U3CidU3Ek__BackingField;
+	Type_t* ___U3CproviderTypeU3Ek__BackingField;
+	Type_t* ___U3CsubsystemTypeOverrideU3Ek__BackingField;
+	int32_t ___U3CsupportsAimPoseU3Ek__BackingField;
+	int32_t ___U3CsupportsAimActivateValueU3Ek__BackingField;
+	int32_t ___U3CsupportsGraspValueU3Ek__BackingField;
+	int32_t ___U3CsupportsGripPoseU3Ek__BackingField;
+	int32_t ___U3CsupportsPinchPoseU3Ek__BackingField;
+	int32_t ___U3CsupportsPinchValueU3Ek__BackingField;
+	int32_t ___U3CsupportsPokePoseU3Ek__BackingField;
+};
+struct Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81_marshaled_com
+{
+	Il2CppChar* ___U3CidU3Ek__BackingField;
+	Type_t* ___U3CproviderTypeU3Ek__BackingField;
+	Type_t* ___U3CsubsystemTypeOverrideU3Ek__BackingField;
+	int32_t ___U3CsupportsAimPoseU3Ek__BackingField;
+	int32_t ___U3CsupportsAimActivateValueU3Ek__BackingField;
+	int32_t ___U3CsupportsGraspValueU3Ek__BackingField;
+	int32_t ___U3CsupportsGripPoseU3Ek__BackingField;
+	int32_t ___U3CsupportsPinchPoseU3Ek__BackingField;
+	int32_t ___U3CsupportsPinchValueU3Ek__BackingField;
+	int32_t ___U3CsupportsPokePoseU3Ek__BackingField;
+};
+struct AimStateFlags_tD153F209C7D4F17525456DBD69851A41795E5805 
+{
+	int32_t ___value__;
+};
+struct Allocator_t996642592271AAD9EE688F142741D512C07B5824 
+{
+	int32_t ___value__;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct FileAccess_t3992FF4CCC61971B804DD291F06F696C3CF33C30 
+{
+	int32_t ___value__;
+};
+struct FileMode_t111B48D5347628AEFCBF9A0EC2833827A302ECBA 
+{
+	int32_t ___value__;
+};
+struct FrameFlags_t6B4AE514667069EDA67CEDA9C780EC6FCF3FA16B 
+{
+	int32_t ___value__;
+};
+struct Handedness_tC87DA4E9D99745447BF40B631E8B479E32D8E37F 
+{
+	int32_t ___value__;
+};
+struct InputTrackingState_tCBE220E8A09D62DA1C6BD96F76943FE90F15778D 
+{
+	uint32_t ___value__;
+};
+struct MarkerFlags_t58228A99AC6567F565911ED792189DBBDFF83E30 
+{
+	uint16_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation;
+};
+struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD 
+{
+	intptr_t ___m_Ptr;
+};
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	intptr_t ___value;
+};
+struct SequenceFlags_t01B6B6991C81C73FE1A2427E06E9802D7C5396FC 
+{
+	int32_t ___value__;
+};
+struct SnapshotFlags_t53689F8CEC55B1E1F1C2EA3097521A8CD5574BAE 
+{
+	int32_t ___value__;
+};
+struct XRCommonHandGesturesFlags_tA908D1693832C9EFF38F9C1E2974A43F5A276CC1 
+{
+	int32_t ___value__;
+};
+struct XRDetectedHandMeshLayout_t818D2C6006D25B90EB6E96A3507777304E478EE0 
+{
+	int32_t ___value__;
+};
+struct XRHandDevicePoseSource_tCB7758BE960CEA74FCD0A36D4F07241F942942BC 
+{
+	int32_t ___value__;
+};
+struct XRHandExtrapolation_tF36CD73F5278EF7D2FEBF33BB791ADBABCA73373 
+{
+	int32_t ___value__;
+};
+struct XRHandJointID_tC0BE8E1AC7717425649709BB62AAD56304FCC081 
+{
+	int32_t ___value__;
+};
+struct XRHandJointTrackingState_tFAA84D8000155CA6945B5402532B00365379D6DA 
+{
+	int32_t ___value__;
+};
+struct XRHandPlaybackOnlySubsystemCreationOptions_t7AFDC797BDA0F9C14849AA8CAB5151994156408C 
+{
+	int32_t ___value__;
+};
+struct XRHandPlaybackOptions_tDD7FDB209262C24F872AC75E295EB5E75ACF9CCA 
+{
+	int32_t ___value__;
+};
+struct XRHandRecordingOptions_tD949A7D0F9663A5275F8AEFAAA7DF3B6B0D3EC55 
+{
+	int32_t ___value__;
+};
+struct XRHandRecordingStatus_tA6812AC42F1FD18CEE835B016C5182242BA739B5 
+{
+	int32_t ___value__;
+};
+struct XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73  : public SubsystemDescriptorWithProvider_2_tD37C555A5B7A6CA2EE9994940AD4F333219EAABD
+{
+	bool ___U3CsupportsAimPoseU3Ek__BackingField;
+	bool ___U3CsupportsAimActivateValueU3Ek__BackingField;
+	bool ___U3CsupportsGraspValueU3Ek__BackingField;
+	bool ___U3CsupportsGripPoseU3Ek__BackingField;
+	bool ___U3CsupportsPinchPoseU3Ek__BackingField;
+	bool ___U3CsupportsPinchValueU3Ek__BackingField;
+	bool ___U3CsupportsPokePoseU3Ek__BackingField;
+};
+struct XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996  : public SubsystemProvider_1_tE92B070330A06745C300EB6C7651296BF8647284
+{
+};
+struct AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 
+{
+	intptr_t ___m_Ptr;
+};
+struct LifetimeType_tC2D5A87378D53A2D5C75F8C6E1F62EEE793BB0B9 
+{
+	int32_t ___value__;
+};
+struct UpdateSuccessFlags_t7457DB6474B1997021A99D28BFE0299887980B18 
+{
+	int32_t ___value__;
+};
+struct UpdateType_tCE27D53789D385F92F217486B54E13EE349CC32D 
+{
+	int32_t ___value__;
+};
+struct NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_tF7F435FA6A09D11FB4254AAAE19227BCB3BA34B6 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t025A009837A0A24E9A329895993F4B6934EF1CDC 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t01C980E1DEA482BEB06FD9AE4CD545CEBF07F9DC 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_tBB4BCA1D35B24DA2F03F0CC9F3E7A8F1FDABA59C 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf;
+	String_t* ___name;
+	SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E* ___safeHandle;
+	bool ___isExposed;
+	int64_t ___append_startpos;
+	int32_t ___access;
+	bool ___owner;
+	bool ___async;
+	bool ___canseek;
+	bool ___anonymous;
+	bool ___buf_dirty;
+	int32_t ___buf_size;
+	int32_t ___buf_length;
+	int32_t ___buf_offset;
+	int64_t ___buf_start;
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E  : public RuntimeObject
+{
+	XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___m_Sequence;
+	int32_t ___m_Handedness;
+};
+struct PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F  : public XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996
+{
+	XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* ___m_Playbacks;
+};
+struct RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A  : public RuntimeObject
+{
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_OriginPose;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_RotateIntoInitialRootPoseSpace;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_InitialRootPosition;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct Type_t  : public MemberInfo_t
+{
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022  : public RuntimeObject
+{
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_OriginPose;
+};
+struct XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 
+{
+	int32_t ___m_Handedness;
+	int32_t ___m_CommonGesturesFlags;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_AimPose;
+	float ___m_AimActivateValue;
+	float ___m_GraspValue;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_GripPose;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_PinchPose;
+	float ___m_PinchValue;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_PokePose;
+	bool ___m_IsAimActivated;
+	bool ___m_IsGraspFirm;
+	bool ___m_IsPinchTouched;
+};
+struct XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858_marshaled_pinvoke
+{
+	int32_t ___m_Handedness;
+	int32_t ___m_CommonGesturesFlags;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_AimPose;
+	float ___m_AimActivateValue;
+	float ___m_GraspValue;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_GripPose;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_PinchPose;
+	float ___m_PinchValue;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_PokePose;
+	int32_t ___m_IsAimActivated;
+	int32_t ___m_IsGraspFirm;
+	int32_t ___m_IsPinchTouched;
+};
+struct XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858_marshaled_com
+{
+	int32_t ___m_Handedness;
+	int32_t ___m_CommonGesturesFlags;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_AimPose;
+	float ___m_AimActivateValue;
+	float ___m_GraspValue;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_GripPose;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_PinchPose;
+	float ___m_PinchValue;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_PokePose;
+	int32_t ___m_IsAimActivated;
+	int32_t ___m_IsGraspFirm;
+	int32_t ___m_IsPinchTouched;
+};
+struct XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3 
+{
+	int32_t ___m_Handedness;
+	int32_t ___m_AimFlags;
+	uint32_t ___m_TrackingState;
+	int32_t ___m_Reserved0;
+	int32_t ___m_Reserved1;
+	float ___m_PinchStrengthIndex;
+	float ___m_PinchStrengthMiddle;
+	float ___m_PinchStrengthRing;
+	float ___m_PinchStrengthLittle;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_AimPose;
+};
+struct XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 
+{
+	XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___m_ContainingAsset;
+	int32_t ___m_FrameFlags;
+	float ___m_Timestamp;
+	int32_t ___m_AlreadyFlatIndex;
+	int32_t ___m_HandSnapshotsIndex;
+	int32_t ___m_CommonGesturesIndex;
+	int32_t ___m_AimStatesIndex;
+	uint32_t ___m_HeadPoseTrackingState;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_HeadPose;
+	XRHandJointU5BU5D_t194C7684C33D3688873DB8DB9B2A941566857EA1* ___m_LeftHandJoints;
+	XRHandJointU5BU5D_t194C7684C33D3688873DB8DB9B2A941566857EA1* ___m_RightHandJoints;
+	bool ___m_IsLeftHandTracked;
+	bool ___m_IsRightHandTracked;
+	bool ___m_AreAllLeftJointsValid;
+	bool ___m_AreAllRightJointsValid;
+};
+struct XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073_marshaled_pinvoke
+{
+	XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___m_ContainingAsset;
+	int32_t ___m_FrameFlags;
+	float ___m_Timestamp;
+	int32_t ___m_AlreadyFlatIndex;
+	int32_t ___m_HandSnapshotsIndex;
+	int32_t ___m_CommonGesturesIndex;
+	int32_t ___m_AimStatesIndex;
+	uint32_t ___m_HeadPoseTrackingState;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_HeadPose;
+	XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783* ___m_LeftHandJoints;
+	XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783* ___m_RightHandJoints;
+	int32_t ___m_IsLeftHandTracked;
+	int32_t ___m_IsRightHandTracked;
+	int32_t ___m_AreAllLeftJointsValid;
+	int32_t ___m_AreAllRightJointsValid;
+};
+struct XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073_marshaled_com
+{
+	XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___m_ContainingAsset;
+	int32_t ___m_FrameFlags;
+	float ___m_Timestamp;
+	int32_t ___m_AlreadyFlatIndex;
+	int32_t ___m_HandSnapshotsIndex;
+	int32_t ___m_CommonGesturesIndex;
+	int32_t ___m_AimStatesIndex;
+	uint32_t ___m_HeadPoseTrackingState;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_HeadPose;
+	XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783* ___m_LeftHandJoints;
+	XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783* ___m_RightHandJoints;
+	int32_t ___m_IsLeftHandTracked;
+	int32_t ___m_IsRightHandTracked;
+	int32_t ___m_AreAllLeftJointsValid;
+	int32_t ___m_AreAllRightJointsValid;
+};
+struct XRHandCaptureSnapshot_t956439CF03BF6D3AAE255BB4851DE09108C05DFE 
+{
+	XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___m_ContainingAsset;
+	int32_t ___m_SnapshotFlags;
+	int32_t ___m_Handedness;
+	int32_t ___m_HandFlagsIndex;
+	int32_t ___m_HandJointsIndex;
+	int32_t ___m_RootPoseIndex;
+};
+struct XRHandCaptureSnapshot_t956439CF03BF6D3AAE255BB4851DE09108C05DFE_marshaled_pinvoke
+{
+	XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___m_ContainingAsset;
+	int32_t ___m_SnapshotFlags;
+	int32_t ___m_Handedness;
+	int32_t ___m_HandFlagsIndex;
+	int32_t ___m_HandJointsIndex;
+	int32_t ___m_RootPoseIndex;
+};
+struct XRHandCaptureSnapshot_t956439CF03BF6D3AAE255BB4851DE09108C05DFE_marshaled_com
+{
+	XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___m_ContainingAsset;
+	int32_t ___m_SnapshotFlags;
+	int32_t ___m_Handedness;
+	int32_t ___m_HandFlagsIndex;
+	int32_t ___m_HandJointsIndex;
+	int32_t ___m_RootPoseIndex;
+};
+struct XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 
+{
+	int32_t ___m_IdAndHandedness;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_Pose;
+	float ___m_Radius;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_LinearVelocity;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_AngularVelocity;
+	int32_t ___m_TrackingState;
+};
+struct XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623 
+{
+	float ___U3CelapsedTimeU3Ek__BackingField;
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___U3CsubsystemU3Ek__BackingField;
+	int32_t ___U3CupdateSuccessFlagsU3Ek__BackingField;
+	int32_t ___U3CupdateSuccessFlagsBeforeRenderU3Ek__BackingField;
+	int32_t ___U3CframeIndexU3Ek__BackingField;
+};
+struct XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_marshaled_pinvoke
+{
+	float ___U3CelapsedTimeU3Ek__BackingField;
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___U3CsubsystemU3Ek__BackingField;
+	int32_t ___U3CupdateSuccessFlagsU3Ek__BackingField;
+	int32_t ___U3CupdateSuccessFlagsBeforeRenderU3Ek__BackingField;
+	int32_t ___U3CframeIndexU3Ek__BackingField;
+};
+struct XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_marshaled_com
+{
+	float ___U3CelapsedTimeU3Ek__BackingField;
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___U3CsubsystemU3Ek__BackingField;
+	int32_t ___U3CupdateSuccessFlagsU3Ek__BackingField;
+	int32_t ___U3CupdateSuccessFlagsBeforeRenderU3Ek__BackingField;
+	int32_t ___U3CframeIndexU3Ek__BackingField;
+};
+struct XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C 
+{
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___U3CsubsystemU3Ek__BackingField;
+	int32_t ___U3CrecordingOptionsU3Ek__BackingField;
+};
+struct XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_marshaled_pinvoke
+{
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___U3CsubsystemU3Ek__BackingField;
+	int32_t ___U3CrecordingOptionsU3Ek__BackingField;
+};
+struct XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_marshaled_com
+{
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___U3CsubsystemU3Ek__BackingField;
+	int32_t ___U3CrecordingOptionsU3Ek__BackingField;
+};
+struct XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0 
+{
+	XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* ___U3CblobU3Ek__BackingField;
+	int32_t ___U3CstatusU3Ek__BackingField;
+	float ___U3CelapsedTimeU3Ek__BackingField;
+	String_t* ___U3CrecordingNameU3Ek__BackingField;
+	String_t* ___U3CerrorMessageU3Ek__BackingField;
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___U3CsubsystemU3Ek__BackingField;
+};
+struct XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_marshaled_pinvoke
+{
+	XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* ___U3CblobU3Ek__BackingField;
+	int32_t ___U3CstatusU3Ek__BackingField;
+	float ___U3CelapsedTimeU3Ek__BackingField;
+	char* ___U3CrecordingNameU3Ek__BackingField;
+	char* ___U3CerrorMessageU3Ek__BackingField;
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___U3CsubsystemU3Ek__BackingField;
+};
+struct XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_marshaled_com
+{
+	XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* ___U3CblobU3Ek__BackingField;
+	int32_t ___U3CstatusU3Ek__BackingField;
+	float ___U3CelapsedTimeU3Ek__BackingField;
+	Il2CppChar* ___U3CrecordingNameU3Ek__BackingField;
+	Il2CppChar* ___U3CerrorMessageU3Ek__BackingField;
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___U3CsubsystemU3Ek__BackingField;
+};
+struct XRHandSubsystemConfiguration_tD08889BA189D072767D33A6F95E36B6D5894B591 
+{
+	int32_t ___U3CxrHandDevicePoseSourceU3Ek__BackingField;
+};
+struct Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD  : public MulticastDelegate_t
+{
+};
+struct InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D  : public MulticastDelegate_t
+{
+};
+struct InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC  : public MulticastDelegate_t
+{
+};
+struct TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D  : public MulticastDelegate_t
+{
+};
+struct TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA  : public MulticastDelegate_t
+{
+};
+struct TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC  : public MulticastDelegate_t
+{
+};
+struct FrameBuffer_t206CFFB2D64F665A6D7379781923120065279DDF 
+{
+	int32_t ___m_FrameFlags;
+	float ___m_Timestamp;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_HeadPose;
+	uint32_t ___m_HeadPoseTrackingState;
+	NativeArray_1_tBB4BCA1D35B24DA2F03F0CC9F3E7A8F1FDABA59C ___m_UpdateSuccessFlags;
+	NativeArray_1_tF7F435FA6A09D11FB4254AAAE19227BCB3BA34B6 ___m_SnapshotBuffers;
+	NativeArray_1_t025A009837A0A24E9A329895993F4B6934EF1CDC ___m_CommonGestures;
+	NativeArray_1_t01C980E1DEA482BEB06FD9AE4CD545CEBF07F9DC ___m_AimStates;
+	int32_t ___m_RecordingOptions;
+	int32_t ___m_NumReadUpdateSuccessFlags;
+	int32_t ___m_NumReadSnapshotBuffers;
+	int32_t ___m_NumReadCommonGestures;
+	int32_t ___m_NumReadAimStates;
+	bool ___m_MarkedAsValid;
+};
+struct FrameBuffer_t206CFFB2D64F665A6D7379781923120065279DDF_marshaled_pinvoke
+{
+	int32_t ___m_FrameFlags;
+	float ___m_Timestamp;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_HeadPose;
+	uint32_t ___m_HeadPoseTrackingState;
+	NativeArray_1_tBB4BCA1D35B24DA2F03F0CC9F3E7A8F1FDABA59C ___m_UpdateSuccessFlags;
+	NativeArray_1_tF7F435FA6A09D11FB4254AAAE19227BCB3BA34B6 ___m_SnapshotBuffers;
+	NativeArray_1_t025A009837A0A24E9A329895993F4B6934EF1CDC ___m_CommonGestures;
+	NativeArray_1_t01C980E1DEA482BEB06FD9AE4CD545CEBF07F9DC ___m_AimStates;
+	int32_t ___m_RecordingOptions;
+	int32_t ___m_NumReadUpdateSuccessFlags;
+	int32_t ___m_NumReadSnapshotBuffers;
+	int32_t ___m_NumReadCommonGestures;
+	int32_t ___m_NumReadAimStates;
+	int32_t ___m_MarkedAsValid;
+};
+struct FrameBuffer_t206CFFB2D64F665A6D7379781923120065279DDF_marshaled_com
+{
+	int32_t ___m_FrameFlags;
+	float ___m_Timestamp;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_HeadPose;
+	uint32_t ___m_HeadPoseTrackingState;
+	NativeArray_1_tBB4BCA1D35B24DA2F03F0CC9F3E7A8F1FDABA59C ___m_UpdateSuccessFlags;
+	NativeArray_1_tF7F435FA6A09D11FB4254AAAE19227BCB3BA34B6 ___m_SnapshotBuffers;
+	NativeArray_1_t025A009837A0A24E9A329895993F4B6934EF1CDC ___m_CommonGestures;
+	NativeArray_1_t01C980E1DEA482BEB06FD9AE4CD545CEBF07F9DC ___m_AimStates;
+	int32_t ___m_RecordingOptions;
+	int32_t ___m_NumReadUpdateSuccessFlags;
+	int32_t ___m_NumReadSnapshotBuffers;
+	int32_t ___m_NumReadCommonGestures;
+	int32_t ___m_NumReadAimStates;
+	int32_t ___m_MarkedAsValid;
+};
+struct PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37  : public RuntimeObject
+{
+	int32_t ___m_Handedness;
+	RuntimeObject* ___m_CoordinateTransform;
+	RuntimeObject* ___m_TimeController;
+	XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 ___m_CurrentFrame;
+	XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 ___m_NextFrame;
+	bool ___m_IsCurrentFrameValid;
+	bool ___m_IsNextFrameValid;
+	InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D* ___m_InterpolatePose;
+	InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC* ___m_InterpolateValue;
+};
+struct XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 
+{
+	NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___m_Joints;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_RootPose;
+	Nullable_1_t365991B3904FDA7642A788423B28692FDC7CDB17 ___m_Timestamp;
+	int32_t ___m_ExtrapolationMode;
+	int32_t ___m_Handedness;
+	bool ___m_IsTracked;
+	int32_t ___m_LifetimeType;
+};
+struct XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471_marshaled_pinvoke
+{
+	NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___m_Joints;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_RootPose;
+	Nullable_1_t365991B3904FDA7642A788423B28692FDC7CDB17 ___m_Timestamp;
+	int32_t ___m_ExtrapolationMode;
+	int32_t ___m_Handedness;
+	int32_t ___m_IsTracked;
+	int32_t ___m_LifetimeType;
+};
+struct XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471_marshaled_com
+{
+	NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___m_Joints;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_RootPose;
+	Nullable_1_t365991B3904FDA7642A788423B28692FDC7CDB17 ___m_Timestamp;
+	int32_t ___m_ExtrapolationMode;
+	int32_t ___m_Handedness;
+	int32_t ___m_IsTracked;
+	int32_t ___m_LifetimeType;
+};
+struct XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	int32_t ___m_SequenceFlags;
+	float ___m_DurationInSeconds;
+	int32_t ___m_OptionsRecordedWith;
+	int32_t ___m_DetectedHandMeshLayout;
+	XRFingerShapeConfigurationStateU5BU5D_tC61C0DCE33319E678C385EF105F8753FE94709D6* ___m_FingerShapeConfigurationStates;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___m_JointsInLayoutPacked;
+	List_1_tE22B6E306DDA01F674E59C9D38C70B3061C6638A* ___m_Frames;
+	List_1_t6875C91F2673A583453F0303AE0CAA7F73FBA83D* ___m_FlattenedUpdateSuccessFlags;
+	List_1_t0C202F614DA60D242F6A9E32E8CA74646B8E2054* ___m_FlattenedHandSnapshots;
+	List_1_t12180ACD024006A923F942FF684852AA78532990* ___m_FlattenedHandFlags;
+	List_1_tE8C9F052852B8FBA7555E816A2DA7FF8FE4764D7* ___m_FlattenedHandJoints;
+	List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* ___m_FlattenedHandRootPoses;
+	List_1_t562223B28012C1C80EA081C8EA42A6A41505A84C* ___m_FlattenedCommonGestures;
+	List_1_t60D7990C09E02A6E8D131BA5D2723BD21A8C49BA* ___m_FlattenedAimStates;
+	int32_t ___m_InternalLayoutVersion;
+};
+struct XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC  : public RuntimeObject
+{
+	IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* ___m_CoordinateTransformers;
+	IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12* ___m_TimeControllers;
+	int32_t ___m_Handedness;
+	XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___m_SourceCaptureSequence;
+	int32_t ___m_Options;
+	bool ___m_IsRunning;
+	bool ___m_IsPlaying;
+	PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* ___m_FrameProvider;
+	int32_t ___m_MostRecentSuccessFlags;
+	XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 ___m_CurrentFrame;
+	XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 ___m_NextFrame;
+	bool ___m_IsCurrentFrameValid;
+	bool ___m_IsNextFrameValid;
+	RuntimeObject* ___m_CoordinateTransform;
+	RuntimeObject* ___m_TimeController;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* ___m_GestureHandler;
+};
+struct XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C  : public SubsystemWithProvider_3_tE926FFDCD0BC2F75B118A7CCE6FBFA422A41E2B2
+{
+	Action_1_tCFC7B8B521D00ABC92F334305388902DFB6AC890* ___configurationUpdated;
+	XRHandSubsystemConfiguration_tD08889BA189D072767D33A6F95E36B6D5894B591 ___m_XRHandSubsystemConfiguration;
+	Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997* ___updatedHands;
+	Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* ___trackingAcquired;
+	Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* ___trackingLost;
+	Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997* ___preprocessJoints;
+	StatePerHandU5BU5D_tBD75D18C0C0C613F8CFBB12A324E05D0C7863809* ___m_StatePerHand;
+	int32_t ___m_UpdateSuccessFlags;
+	NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB ___m_JointsInLayout;
+	List_1_t8463D6E8766F823573C7FF81CA9AC38D1F351FFF* ___m_Processors;
+	XRHandSubsystemActions_t03691377110983C05157D075A90C3CCF259E7221 ___m_Actions;
+	Dictionary_2_t3B493B7CC2517037FEFC2E8B8F7C2B473A42DF0D* ___m_ExtendedDataHandlers;
+	Dictionary_2_tB3A6FD4534611CB161EB80F94B112C862E8998C0* ___m_ConfigurationHandlers;
+	Action_2_tA93638A9D51C46813D719FA524415A74B9B2EADF* ___handsUpdated;
+};
+struct XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069  : public XRHandRecordingBase_tC2A8DC0AD2C958FD506AF262FA632345C32C4E09
+{
+	Action_1_t2DA0411EDF9E3FEFF697DDF6C863566921338C1F* ___statusChanged;
+	Action_1_t7B60C630D15CD21B86B3E04BCD8CD9D47183EF4A* ___frameCaptured;
+	float ___m_StartTime;
+	bool ___m_IsRecording;
+	List_1_tBFF9DD9FFA06F20E74F9D7AD36610BD754D353A4* ___m_Frames;
+	MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* ___m_FrameStream;
+	BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* ___m_FrameWriter;
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___m_Subsystem;
+	int32_t ___m_SequenceFlags;
+	int32_t ___m_RecordingOptions;
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0 ___m_CurrentStatusChangedEventArgs;
+	FrameBuffer_t206CFFB2D64F665A6D7379781923120065279DDF ___m_FrameBuffer;
+};
+struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___Value;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_tE22B6E306DDA01F674E59C9D38C70B3061C6638A_StaticFields
+{
+	XRHandCaptureFrameU5BU5D_t3EB556AB49AB0D0EF28F537695ECC47024C73EA7* ___s_emptyArray;
+};
+struct List_1_tAFE1F3EA76E0D329AD13CAE1E11B56B94E0AB746_StaticFields
+{
+	XRHandRecordingMetadataU5BU5D_t958DFAC78C4CEF4D21A9227D4D89D7A212DB7900* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_tBF5663E9A4A0B6D6E1CDFF5C036B265B03455C16_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D104_tA9CCFBE987A99799CD0564FD1C0427D218007108 ___C83DCDFEBA0D07BD12628C650D6C7E9CF7D8340A3A14CFA4A8EC47DE8DA4D400;
+	__StaticArrayInitTypeSizeU3D20_t7DBA26E7271FACFA2B13809FF5790869018F56A5 ___E528F4309E1413E6BC35AEA5D8DB8519384D2FCC33F9DD5D1126D73F104CF92A;
+};
+struct BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E_StaticFields
+{
+	BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* ___Null;
+};
+struct BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_StaticFields
+{
+	bool ____IsEnabled;
+	BurstCompilerOptions_t5F93118F305E1B0C950C6F9AF8BCA74033DA01C9* ___Options;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnCompileILPPMethod2;
+	MethodInfo_t* ___DummyMethodInfo;
+};
+struct BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_ThreadStaticFields
+{
+	CommandBuilder_tA2E5D7A513FE45173EA395D67B25DB94E42CCA84* ____cmdBuilder;
+};
+struct BurstCompilerOptions_t5F93118F305E1B0C950C6F9AF8BCA74033DA01C9_StaticFields
+{
+	bool ___ForceDisableBurstCompilation;
+	bool ___ForceBurstCompilationSynchronously;
+	bool ___IsSecondaryUnityProcess;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_StaticFields
+{
+	float ___U3CtimeLimitInSecondsU3Ek__BackingField;
+};
+struct U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields
+{
+	U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* ___U3CU3E9;
+	TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* ___U3CU3E9__20_0;
+	TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* ___U3CU3E9__21_0;
+	TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* ___U3CU3E9__22_0;
+	TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* ___U3CU3E9__23_0;
+	TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* ___U3CU3E9__24_0;
+	TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* ___U3CU3E9__25_0;
+	TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* ___U3CU3E9__26_0;
+	TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* ___U3CU3E9__27_0;
+	TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* ___U3CU3E9__28_0;
+	TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* ___U3CU3E9__29_0;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
+{
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___Null;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Exception_t_StaticFields
+{
+	RuntimeObject* ___s_EDILock;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_StaticFields
+{
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___k_Identity;
+};
+struct XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_StaticFields
+{
+	SubsystemUpdater_t59BCE7E7B38E867C0FBDBBA8579C37C08BF26548* ___s_SubsystemUpdater;
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___s_PlaybackOnlySubsystem;
+};
+struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_StaticFields
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_recycle;
+	RuntimeObject* ___buf_recycle_lock;
+};
+struct PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_StaticFields
+{
+	XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* ___s_RegisteredDescriptor;
+	bool ___s_SubsystemRegistered;
+};
+struct Type_t_StaticFields
+{
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder;
+	Il2CppChar ___Delimiter;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes;
+	RuntimeObject* ___Missing;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
+};
+struct PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_StaticFields
+{
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_TryGetAimPoseMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_TryGetTwoCommonGesturesMarker;
+};
+struct XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_StaticFields
+{
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_TryUpdateHandMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_TryUpdateHandImplMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_TryUpdateHandByFrameMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ShiftByOriginMarker;
+};
+struct XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_StaticFields
+{
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_TryUpdateHandsMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_RetrieveCommonPoseDataMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_UpdateUnextrapolatedHandsMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_TrackingEventsMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_ProviderTryUpdateHandsMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_PostUpdateMarker;
+};
+struct XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069_StaticFields
+{
+	List_1_tE4111BEC044D13259EFD4EC5907636C855887179* ___s_SubsystemReuse;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052  : public RuntimeArray
+{
+	ALIGN_FIELD (8) XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* m_Items[1];
+
+	inline XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_gshared (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_gshared_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterpolateFunc_1__ctor_m20A67BB068D1DF0ED1077A61FA7DCA87B0BA51C5_gshared (InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterpolateFunc_1__ctor_m5194806E56B6122A58776FE29240E0DF1BC1EB3F_gshared (InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetCommonGestureHelper_TisPose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_mAE200450128248FF211CCD297A64861E2A9D2CA4_gshared (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* ___0_getter, InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D* ___1_interpolator, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___2_result, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___3_defaultValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TryGetFromGestures_1__ctor_mA9304F35D96E0C430EE57BD9C9AB8F54FEF7842F_gshared (TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TryGetFromGestures_1__ctor_mBE214428A9D6D9B91CE3E0DF2BC94DB289D9ACB2_gshared (TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetCommonGestureHelper_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m396D0DEEEDDAE869FCFB105392D384FBDFF74D16_gshared (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* ___0_getter, InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC* ___1_interpolator, float* ___2_result, float ___3_defaultValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TryGetFromGestures_1__ctor_mD939A92A65D62CB1DACD122B76D4E658DE5CCC11_gshared (TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetCommonGestureHelper_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m313FAE6B7EE351294140F3B288EEDA51EF6E17E7_gshared (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* ___0_getter, bool* ___1_result, bool ___2_defaultValue, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_gshared_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m8EDF953DA7FF0E33AE19FB51BD7DBDB7C495CFE0_gshared (Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SubsystemExtensions_GetProvider_TisRuntimeObject_TisRuntimeObject_TisRuntimeObject_mB9F4B7F290E207CAAB828B7A01C92E1DF676308A_gshared (SubsystemWithProvider_3_t548D9C2A4778C7ADB62496A2A07F8B7563309893* ___0_subsystem, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* SubsystemWithProvider_3_get_subsystemDescriptor_mB4052808D703DF75CA2D74A5801B59172E3F80C7_gshared_inline (SubsystemWithProvider_3_t548D9C2A4778C7ADB62496A2A07F8B7563309893* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Stream_Dispose_mCDB42F32A17541CCA6D3A5906827A401570B07A8 (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryWriter_Dispose_m62A1213D09FA2598A6F7866DC60357D53393E5B2 (BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteRecordingContext_Dispose_m968B16F8575D8DBB3DFD9B63A135DF03AE5C5398 (WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* File_Open_m3C4C3B31523AC0687F60FFD1B0FD51F49161EB64 (String_t* ___0_path, int32_t ___1_mode, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryWriter__ctor_mF2F1235E378C3EC493A8C816597BCEB4205A9CA0 (BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* __this, Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___0_output, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteRecordingContext__ctor_m03E3A1FCE83FB5B83B656551FEB01169417E8290 (WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74* __this, String_t* ___0_savePath, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* WriteRecordingContext_get_writer_m80B39E5A3D99437828E7560223830F566B7432EE_inline (WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryReader_Dispose_mAFF1A9CE9A73D148270FFA1F896992EB52D36078 (BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadRecordingContext_Dispose_m4449E53697D16433BB3F3560743D9426941E7FBB (ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryReader__ctor_m898732FE0DBEDD480B24F6DE45A9AC696E44CC0F (BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* __this, Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___0_input, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadRecordingContext__ctor_mC0D705C592242DA243517EC4BB244423F5023288 (ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6* __this, String_t* ___0_filePath, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* ReadRecordingContext_get_reader_mD078155E179A2D5F01A5E537A6246C82D1AFC600_inline (ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRHandRecordingFrameCapturedEventArgs_get_elapsedTime_m8418278A637F97BA42A9FC4562C9EBC92ED443CB_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingFrameCapturedEventArgs_set_elapsedTime_m9C74741865DB757A34A99E7B9F9580F4F199DB8D_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* XRHandRecordingFrameCapturedEventArgs_get_subsystem_mF52ABF24F088139122DDAFA5B133A107C4FA1F49_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingFrameCapturedEventArgs_set_subsystem_mB93BEC8ADCE0DD7D7FA488C1BBBCF17ABEC1CE75_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandRecordingFrameCapturedEventArgs_get_updateSuccessFlags_m5B7D03EB98AEE16E0CB074521C1166F928E81789_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingFrameCapturedEventArgs_set_updateSuccessFlags_m86F19A2B1D274CAA443C74FD35AC4961260740F1_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandRecordingFrameCapturedEventArgs_get_updateSuccessFlagsBeforeRender_m3BA3E72A11138230CD04906188D2010C8CA98416_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingFrameCapturedEventArgs_set_updateSuccessFlagsBeforeRender_m1D67B420E81BD63AC6072713C44DA60027A6FF26_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandRecordingFrameCapturedEventArgs_get_frameIndex_mB1013A2EF060AA0CFEB101BEF309729983F9EB6F_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingFrameCapturedEventArgs_set_frameIndex_m2A1299C436CB64B501872C11DE20ABA37E57F331_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* XRHandRecordingInitializeArgs_get_subsystem_mDACD03F1B5DC7AFD327ADDA793AB9CB3F2AC7DBF_inline (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingInitializeArgs_set_subsystem_m97755BBA78C25B45DD9CD34F574FDE2CA851CB1A_inline (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandRecordingInitializeArgs_get_recordingOptions_m185DCA5301FCBF839040EB67B88E4E837DAE0145_inline (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingInitializeArgs_set_recordingOptions_mBB33DC3FF532154BBC421D53CAD0A099D2A6EA90_inline (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HashCodeUtil_ReferenceHash_mBF7BF61E28E8DE49DF48C95F91CBEF45477D1154 (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Int32_GetHashCode_m253D60FF7527A483E91004B7A2366F13E225E295 (int32_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HashCodeUtil_Combine_mA4239E42AB68A6E219C63A12364F5519B883F649 (int32_t ___0_hash1, int32_t ___1_hash2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandRecordingInitializeArgs_GetHashCode_m793A953E69CFEBC79E29DA370302EC6C1D512216 (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingInitializeArgs_Equals_m4B70762E9FC740ADC79C2AA408E9364C055B6941 (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C ___0_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingInitializeArgs_Equals_m98B771EF5F594138D2733D43F1B3182A199ED6D5 (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingBase__ctor_mCDC2C45ABD995BFAFCA55BB7CF3D08E0A2182F04 (XRHandRecordingBase_tC2A8DC0AD2C958FD506AF262FA632345C32C4E09* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XRHandRecordingBase_get_internalBinaryFileName_mE0EAF9535968691CF094638AAB48D943EDB58399 (XRHandRecordingBase_tC2A8DC0AD2C958FD506AF262FA632345C32C4E09* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingBase_DeleteFileFromDisk_m4FFE1D5CCDEC1F7C6B4210ED425947B6F7B42C2D (String_t* ___0_fileName, const RuntimeMethod* method) ;
+inline void List_1_Clear_m045A6296FCC367BCE659987653499042D7190930_inline (List_1_tAFE1F3EA76E0D329AD13CAE1E11B56B94E0AB746* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tAFE1F3EA76E0D329AD13CAE1E11B56B94E0AB746*, const RuntimeMethod*))List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XRHandRecordingBase_GetDeviceStoragePath_mC4831418B64E5F0B7E5E59BF14C81B03901CBC57 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Directory_Exists_m3D125E9E88C291CF11113444F961A64DD83AE1C7 (String_t* ___0_path, const RuntimeMethod* method) ;
+inline StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Array_Empty_TisString_t_m9832B70DF2B936246FE60F75D3D12CB946C39D16_inline (const RuntimeMethod* method)
+{
+	return ((  StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline)(method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Directory_GetFiles_m35ACD3D557D3B7EF4CF9A7908D2EDA61E6330090 (String_t* ___0_path, String_t* ___1_searchPattern, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingMetadata_TryGetSavedRecordingMetadata_mA022704103DF23B928934F1296426172463FB78A (String_t* ___0_filePath, XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98** ___1_recordingMetadata, const RuntimeMethod* method) ;
+inline void List_1_Add_m027CD032AC12C28A88485C001DA437F47C424563_inline (List_1_tAFE1F3EA76E0D329AD13CAE1E11B56B94E0AB746* __this, XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tAFE1F3EA76E0D329AD13CAE1E11B56B94E0AB746*, XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A (String_t* ___0_path, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetFileNameWithoutExtension_m2D14CCBAB9C60DC8D32C2443CCE3D34644822FAF (String_t* ___0_path, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingMetadata__ctor_mC477328ED90B335AB780FAFDCB34E060850D1CB0 (XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98* __this, String_t* ___0_uniqueID, String_t* ___1_assetName, float ___2_durationInSeconds, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SerializationExtensions_ReadRecordingOptions_m9F35289151E0D589E65F494ACB0223C7C2CE6140 (BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* ___0_reader, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, String_t* ___3_str3, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* XRHandRecordingSaveArgs_get_recordingName_m6FC20026ECE0F8738A49BFB086F68F059E7537AE_inline (XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingSaveArgs_set_recordingName_m92FAF58FDF28D5CFA64981DC58087F26216D8ECC_inline (XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandRecordingSaveArgs_GetHashCode_m186D7C3FEDC29DC54645BDBD95FA7C0D43D71B13 (XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_m3354EFE6393BED8DD6E18F69BEA131AAADCC622D (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingSaveArgs_Equals_m28116F456C8B18D73E6A87555F72B7180F9CC49D (XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* __this, XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05 ___0_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingSaveArgs_Equals_m2EB036538249ED73D8AB11487DAED33650CDBB04 (XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingSettings_set_timeLimitInSeconds_m4C1BEC6958B31CB675CB5717D74B69805394BA5E_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* XRHandRecordingStatusChangedEventArgs_get_blob_m77EC3C6DFD4138EDB97C9FA9BBD0F229FEC10F92_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_blob_m9A08F3171E1ABCA9ECD498982B2ECCAF6EEA90A9_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandRecordingStatusChangedEventArgs_get_status_mD97C9AAAC26DE3515678696C312C49AAFD2F0AEC_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_status_mA52842D8D75A40E6602E3C744085250395E6418D_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRHandRecordingStatusChangedEventArgs_get_elapsedTime_m5D0EBE6D10F9DAA16DF1E119715BA3107F461B77_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_elapsedTime_m1D76562BF0B659234A590698C628A79584EE26B6_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* XRHandRecordingStatusChangedEventArgs_get_recordingName_m41BC76D9DAA2AFEC4A8308F6709FBEC21D3F7714_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_recordingName_m5F42C44C0AF9CF88A5B1D8A4C19E085446BC380C_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* XRHandRecordingStatusChangedEventArgs_get_errorMessage_m51FA64EB72CCDA834CA6F84F67F52BEF15233C6C_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_errorMessage_mC24DFFA83534E92AC78620FE51D3F9865959E953_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingStatusChangedEventArgs_TryGetErrorMessage_mF9FF359EFCA3F9E4CFEEAAE30E71B1B9C51734D7 (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, String_t** ___0_errorMessage, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* XRHandRecordingStatusChangedEventArgs_get_subsystem_mC577E41E73734FEA09482DE6B3453DF0CF35A892_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_subsystem_m39E889424DAC3FA4B69712712111F7B228BE11EF_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Single_GetHashCode_mC3F1E099D1CF165C2D71FBCC5EF6A6792F9021D2 (float* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HashCodeUtil_Combine_mC6764B89547E1C16FD90964EB80A9DF9AB8EA050 (int32_t ___0_hash1, int32_t ___1_hash2, int32_t ___2_hash3, int32_t ___3_hash4, int32_t ___4_hash5, int32_t ___5_hash6, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandRecordingStatusChangedEventArgs_GetHashCode_m3999D4185F1EB5510BF9F573CF17DB2904AE0879 (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingStatusChangedEventArgs_Equals_m2AECC6F947F13862C7B64796FC9C987D8E35A0C2 (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0 ___0_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingStatusChangedEventArgs_Equals_m87106BAA2D84EF1E77B897FD82C3D93B9B1B3676 (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback__ctor_m9BD90A936BE4F002C04930DB3E32AC299A0DB280 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, XRHandSubsystemActions_t03691377110983C05157D075A90C3CCF259E7221* ___0_actions, int32_t ___1_handedness, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36 (int32_t ___0_handedness, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_TryUpdateHand_mD0AD748CC25484DB0FD8DB6B8F00515B4CCC7713 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_updateType, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_handRootPose, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___2_handJoints, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetCommonGesturesState_mF0F5DD5703566714F05B947F90FA0B81C9B1868B (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* ___0_commonGestures, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetAimPose_m36A7ABBD73FBEAC21E684DFD0275128CBDB49C83 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_aimPose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetAimActivateValue_mEF2F7A5533C8FB6C1B8DB648839066CD0C44FB89 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, float* ___0_aimActivateValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetAimActivatedState_mB7FC1075ED3233A3C7B25809B6C0584FF2B93764 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, bool* ___0_isAimActivated, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetGraspValue_mAF80839E2640489025D9BC772FF5BEBD8C1FD964 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, float* ___0_graspValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetGraspFirmState_m9ADE4AA9EE5079DA3E09F4428F78E96A1B42D222 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, bool* ___0_isGraspFirm, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetGripPose_mF4D73B109369E6F749F84B0813685FA258C04B23 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_gripPose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetPinchPose_m61158EAA8FEB4956757F7DF849823C7A948B185D (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_pinchPose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetPinchValue_m639C36CF00448F32ADE88071887659E5ED154520 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, float* ___0_pinchValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetPinchTouchedState_mE27E2CD755ADAFCD6834E232CE27F587C16B347D (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, bool* ___0_isPinched, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetPokePose_m8951B9F8BA583F02F57FF16E2D73DA5681547E38 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_pokePose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_get_detectedHandMeshLayout_mCDEC43641AA597FB15EEC96CB806196BCE1404C0 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetAimState_m3FB7067907947917233C7A4A9EF50D0D81C661A4 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* ___0_aimState, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_id_m06346C96717EB03644F6A1D07F922AED52B4E312_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_providerType_m17C35A2C89EBCAD9286D73F9A3AF610B7FF64A4C_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, Type_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_supportsAimPose_mC314F230EB6C48F3E5775B3474A3F8B9A97BE5E9_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_supportsAimActivateValue_mD77110D7907FD99803B94715730724FFA4709183_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_supportsGraspValue_m439CD492B5E89B5BAE3CD363C3EB06A67738C8B2_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_supportsGripPose_m327401F6F52488C82B52329B9BCBEF92D16DEA35_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_supportsPinchPose_m0FEE07367A7FB667D2CD22FAA3BBE610558D1704_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_supportsPinchValue_m41733B2254E95F28BC438482DEAB73A1858662FF_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_supportsPokePose_m5D5ACA80C06EB2043FF3F6070C9EB6BD6977121A_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* XRHandSubsystemDescriptor_RegisterInternal_mA7085557AFB4C7FA9F00AFF7192D0B7984DD9CD8 (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81 ___0_cinfo, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandSubsystemProvider__ctor_m404D9375A7F7A0C10412F8E63AA11453C0A6EFDD (XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline (XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* __this, const RuntimeMethod* method) ;
+inline void Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703 (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, int32_t ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28*, int32_t, const RuntimeMethod*))Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_gshared)(__this, ___0_value, method);
+}
+inline int32_t Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28*, const RuntimeMethod*))Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlaybackFrameProvider_get_frameCount_mBDE19C0D9F3B39E5B325C685E46C4A3804CC1E0B (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackFrameProvider_TryGetCurrentFrame_mB22ECC97728696D2F45CFC7886E8A4F0E89D8005 (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, int32_t ___0_frameIndex, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___1_frame, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackFrameProvider_TryGetNextFrame_m9E570F828E2435F812F28FD678258BC258009328 (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, int32_t ___0_frameIndex, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___1_frame, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandCaptureFrame_TryGetHandSnapshot_m9EEF50448E1788FA048C91552D4D9E8EDF1D9B5B (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* __this, int32_t ___0_handedness, XRHandCaptureSnapshot_t956439CF03BF6D3AAE255BB4851DE09108C05DFE* ___1_snapshot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandCaptureSnapshot_TryGetHand_m050C4C2E43BFDD9EF43EC685251EDA4717218968 (XRHandCaptureSnapshot_t956439CF03BF6D3AAE255BB4851DE09108C05DFE* __this, int32_t ___0_updateType, int32_t ___1_allocator, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* ___2_hand, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackFrameProvider_IsFrameIndexValid_m893125A8DE0DA36AD0B9AB890B6E0058F8EBA31A (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, int32_t ___0_frameIndex, const RuntimeMethod* method) ;
+inline void InterpolateFunc_1__ctor_m20A67BB068D1DF0ED1077A61FA7DCA87B0BA51C5 (InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D*, RuntimeObject*, intptr_t, const RuntimeMethod*))InterpolateFunc_1__ctor_m20A67BB068D1DF0ED1077A61FA7DCA87B0BA51C5_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void InterpolateFunc_1__ctor_m5194806E56B6122A58776FE29240E0DF1BC1EB3F (InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC*, RuntimeObject*, intptr_t, const RuntimeMethod*))InterpolateFunc_1__ctor_m5194806E56B6122A58776FE29240E0DF1BC1EB3F_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline bool PlaybackGestureHandler_TryGetCommonGestureHelper_TisPose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_mAE200450128248FF211CCD297A64861E2A9D2CA4 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* ___0_getter, InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D* ___1_interpolator, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___2_result, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___3_defaultValue, const RuntimeMethod* method)
+{
+	return ((  bool (*) (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37*, TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA*, InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D*, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, const RuntimeMethod*))PlaybackGestureHandler_TryGetCommonGestureHelper_TisPose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_mAE200450128248FF211CCD297A64861E2A9D2CA4_gshared)(__this, ___0_getter, ___1_interpolator, ___2_result, ___3_defaultValue, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 ProfilerMarker_Auto_m133FA724EB95D16187B37D2C8A501D7E989B1F8D_inline (ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AutoScope_Dispose_mED763F3F51261EF8FB79DB32CD06E0A3F6C40481_inline (AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139* __this, const RuntimeMethod* method) ;
+inline void TryGetFromGestures_1__ctor_mA9304F35D96E0C430EE57BD9C9AB8F54FEF7842F (TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA*, RuntimeObject*, intptr_t, const RuntimeMethod*))TryGetFromGestures_1__ctor_mA9304F35D96E0C430EE57BD9C9AB8F54FEF7842F_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetCommonGestureHelper_m12238B96C958D07670A837719800EBDE2999ECA2 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* ___0_getter, InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D* ___1_interpolator, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___2_result, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___3_defaultValue, bool ___4_applyCoordinateTransform, const RuntimeMethod* method) ;
+inline void TryGetFromGestures_1__ctor_mBE214428A9D6D9B91CE3E0DF2BC94DB289D9ACB2 (TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC*, RuntimeObject*, intptr_t, const RuntimeMethod*))TryGetFromGestures_1__ctor_mBE214428A9D6D9B91CE3E0DF2BC94DB289D9ACB2_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline bool PlaybackGestureHandler_TryGetCommonGestureHelper_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m396D0DEEEDDAE869FCFB105392D384FBDFF74D16 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* ___0_getter, InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC* ___1_interpolator, float* ___2_result, float ___3_defaultValue, const RuntimeMethod* method)
+{
+	return ((  bool (*) (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37*, TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC*, InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC*, float*, float, const RuntimeMethod*))PlaybackGestureHandler_TryGetCommonGestureHelper_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m396D0DEEEDDAE869FCFB105392D384FBDFF74D16_gshared)(__this, ___0_getter, ___1_interpolator, ___2_result, ___3_defaultValue, method);
+}
+inline void TryGetFromGestures_1__ctor_mD939A92A65D62CB1DACD122B76D4E658DE5CCC11 (TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D*, RuntimeObject*, intptr_t, const RuntimeMethod*))TryGetFromGestures_1__ctor_mD939A92A65D62CB1DACD122B76D4E658DE5CCC11_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline bool PlaybackGestureHandler_TryGetCommonGestureHelper_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m313FAE6B7EE351294140F3B288EEDA51EF6E17E7 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* ___0_getter, bool* ___1_result, bool ___2_defaultValue, const RuntimeMethod* method)
+{
+	return ((  bool (*) (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37*, TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D*, bool*, bool, const RuntimeMethod*))PlaybackGestureHandler_TryGetCommonGestureHelper_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m313FAE6B7EE351294140F3B288EEDA51EF6E17E7_gshared)(__this, ___0_getter, ___1_result, ___2_defaultValue, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandCaptureFrame_TryGetAimState_m9620620B803C1FA6D8A06622D3DF77DD8E42BEDB (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* __this, int32_t ___0_handedness, XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* ___1_aimState, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlaybackGestureHandler_get_currentElapsedTime_m19432D4260689528D372504592F0964C68D476C7 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlaybackInterpolator_CalculateBlendScalar_m59E94B0702C60793659E5ECA6DA0A0731B5E00CE (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 ___0_currentFrame, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 ___1_nextFrame, float ___2_elapsedTime, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3 PlaybackInterpolator_InterpolateAimState_m1812C3AD7C70B05C64AA21911F8E2876B4B5340D (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* ___0_current, XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* ___1_next, float ___2_blendScalar, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRHandAimState_get_aimPoseInternal_m6E2D473AA6B68B56C3667CA95F69B21FCA7C0005_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandAimState_set_aimPoseInternal_mC1DF3050FF09083FF19C531F56DEE78669C76530_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandCaptureFrame_TryGetCommonGestures_m16F64E4B5739A4ED756C8E07647ABEBD52E166C6 (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* __this, int32_t ___0_handedness, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* ___1_commonGestures, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 PlaybackInterpolator_InterpolateCommonGesturesState_m318E828BAA8E67F3B02A34A91D45527F7471D485 (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* ___0_current, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* ___1_next, float ___2_blendScalar, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRCommonHandGesturesState_get_aimPoseInternal_mCAB98BA67ED6383E6E77E63EBBD361EB06B1D464_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRCommonHandGesturesState_set_aimPoseInternal_m8DC7AE7EBE975D3D41CF9E223549B9FFA0D03128_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRCommonHandGesturesState_get_gripPoseInternal_mD1FC6ECFB2943B232C76DF66763E4BE959D1E911_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRCommonHandGesturesState_set_gripPoseInternal_m174803A0C7491484B6D67B7B89FD9173A650C923_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRCommonHandGesturesState_get_pinchPoseInternal_m088ACD3C2728BF29FC8D0450E1FF4A54A58490C6_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRCommonHandGesturesState_set_pinchPoseInternal_mC96EF78C1166FCFD7FA20A1CCB9F9D019415A473_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRCommonHandGesturesState_get_pokePoseInternal_m21283D3CC3DE71F445A3DF960DAA55B9D8E834F8_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRCommonHandGesturesState_set_pokePoseInternal_m456B15F0D061B9BF23C05915627F23F728EB7288_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline (ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m63FFAF2E50C32B48345CFA801B2F29F9E6841E65 (U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCommonHandGesturesState_TryGetAimPose_m0A6EDA7CD957DEABFB82E12DACDD894BE8B71433 (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_aimPose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCommonHandGesturesState_TryGetAimActivateValue_mF677E6403769D707018A5EA22C560A6B89A9DB2F (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, float* ___0_aimActivateValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCommonHandGesturesState_TryGetAimActivatedState_mD093B0DD7F15FD55408053DCFE29312487691D41 (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, bool* ___0_isAimActivated, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCommonHandGesturesState_TryGetGraspValue_mE6FD1F8550A8A6367BE448154F5D12E9225FB784 (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, float* ___0_graspValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCommonHandGesturesState_TryGetGraspFirmState_mAD57D622E4788091986B2703831EED0F574EEE76 (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, bool* ___0_isGraspFirm, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCommonHandGesturesState_TryGetGripPose_m13E977B6195240886A36151754A4F66E36296FE4 (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_gripPose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCommonHandGesturesState_TryGetPinchPose_m2A4EA1A1E95062672967BCC2CAAEDC9B5FB61183 (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_pinchPose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCommonHandGesturesState_TryGetPinchValue_m21460743DFFF74631DF1E68D6B4B71D5688CA0EA (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, float* ___0_pinchValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCommonHandGesturesState_TryGetPinchTouchedState_m9B094E218B96D7E493CE36FEB3173B3E54FA6CB1 (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, bool* ___0_isPinchTouched, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCommonHandGesturesState_TryGetPokePose_mF66AFB288D432FDC8E7C6FF88CEEDC533B67B3BA (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_pokePose, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlaybackInterpolator_CalculateBlendScalar_m75576D47F819FD596C39187A70ECFD8EA11D737D (float ___0_currentTime, float ___1_nextTime, float ___2_elapsedTime, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051 (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rotation, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandJointIDUtility_FromIndex_m3A7C3DE3C3C5F89090C7B3B01B2E93ADC526BA2E (int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* __this, int32_t ___0_id, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandJoint_TryGetPose_m1AA1E69E7753E1CC4E64F8649751BF7D30CE113E (XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_pose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 XRHandProviderUtility_CreateJoint_m821C313C0A76868D0E5BB50368DD0EF240237B75 (int32_t ___0_handedness, int32_t ___1_trackingState, int32_t ___2_id, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___3_pose, float ___4_radius, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___5_linearVelocity, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___6_angularVelocity, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 PlaybackInterpolator_InterpolatePose_mA7075DA7A9E4D028BB4CB18207D1A8D4047A23EF (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_start, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_end, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandJoint_TryGetRadius_m992C3DC67D51BCF5F949503D98178BE191D2526D (XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783* __this, float* ___0_radius, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlaybackInterpolator_InterpolateValue_m35FF537F0491FF97A31EAB9A58FE97F67F7A5CD2 (float* ___0_start, float* ___1_end, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandJoint_TryGetLinearVelocity_m3BC24DBDEB210B51568D21317B1B3574A6B57F6B (XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_linearVelocity, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandJoint_TryGetAngularVelocity_mA486ED68AE5883EC4EE22A4403457E5F3F64CF63 (XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_angularVelocity, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandJoint_get_trackingState_mD1202D64E796D92C38FA87BD02DFBD58AF5E4696_inline (XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02 (int32_t ___0_jointId, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRCommonHandGesturesState_get_flags_m28DE88859CFE4D4A802B05CD88BE07F3182AA28E_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCommonHandGesturesFlagsExtensions_HasGesturesFlag_m7CC72D31438983A263956B8968F1533B04CBA53D (int32_t ___0_gesturesFlags, int32_t ___1_gestureFlag, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRCommonHandGesturesState_get_aimActivateValueInternal_m422381BD69FA2E999C62B7B0DEB30C1A8940014C_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRCommonHandGesturesState_set_aimActivateValueInternal_m301D65AB8C8185B990CA8E2D5E021F3D09302D22_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRCommonHandGesturesState_get_graspValueInternal_m5C26004B9D0AEB0D2A186DB29AAA839EB00A3070_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRCommonHandGesturesState_set_graspValueInternal_mE6D3C6E2FDD17A42AD25F326C269D1F9C5583FEE_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRCommonHandGesturesState_get_pinchValueInternal_m3C5CA2EEF328C9A3D1B6CFF90C33BD9616275F4D_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRCommonHandGesturesState_set_pinchValueInternal_m2525479ED68D25A3D32C388FBB08A8BABADC37CF_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRHandAimState_get_pinchStrengthIndex_mFC510D1D7622BC7C20C2308D328CB4006A46D377_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandAimState_set_pinchStrengthIndex_m13121AB7F41745CD7B8037BA7357F84E0B95997C_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRHandAimState_get_pinchStrengthMiddle_m7358E799FBA827B309E200EB2F89620660AB80BF_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandAimState_set_pinchStrengthMiddle_m5CFDE93F0C7DC460B0675C9725F870E085755DE1_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRHandAimState_get_pinchStrengthRing_m3FC8D078B4119EB357512C2D242A90852E32E28F_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandAimState_set_pinchStrengthRing_mABE1E6CCD847674103368961F1CB939DC4C9E51D_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRHandAimState_get_pinchStrengthLittle_mF58CB4E7D291C1F1AFDE73B0F46CD89A5CE696DB_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandAimState_set_pinchStrengthLittle_m960F5BF3B8F0C4DB8E16287BE4CD4BCEC38A6E32_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandAimState_TryGetAimPose_mCC636BEC3D90552D0EB6FC209E2F706DEFEBC254 (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_aimPose, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandCaptureSequence_GetClosestFrameIndex_m0E9692C2124B5DB229931164169C8A25218289FB (XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* __this, float ___0_elapsedTime, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RelativeToInitialRootTransform_TryGetHandFromFrame_m5BA7393FFE6702158804B6106341E94D4938F572 (RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A* __this, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___0_frame, int32_t ___1_handedness, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* ___2_hand, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRHand_get_rootPose_m4F34E7F55AEBFD2FF7491364ADB00B27BF86F1A5_inline (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_get_eulerAngles_m2DB5158B5C3A71FD60FC8A6EE43D3AAA1CFED122_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_rotation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHand_Dispose_mCDBEBDCC8FF815323680F5C3F7595F2BCE6D23B5 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_point, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 RelativeToInitialRootTransform_TransformPose_m4013E1E8819383B88525BBB794DF1D18B228A504 (RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_capturedPose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 Pose_GetTransformedBy_m8B18A1ED205791F95CDC1D1F2A08A42D6DA02CBF (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_lhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 WorldSpaceCoordinateTransform_TransformPose_m240B3B36F23A1685575DD23BD56CB722A11AC3B3 (WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_capturedPose, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlaybackFrameProvider_UpdateSequence_mC65A2E64698652B1C27B8698AD78ED89124672E4_inline (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___0_newSequence, const RuntimeMethod* method) ;
+inline bool Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28*, const RuntimeMethod*))Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_SyncIsPlaying_m7C557B51A29C553F55B562D4DB4E3B13F87D9EEA (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRHandPlayback_get_isPlaying_mCFEE681F6C675E0A75F2CC0464B6FADE7ABF5F9B_inline (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandPlayback_get_elapsedTime_mDEAD91746A424DDA6388813EAE71B1803AA65788 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_get_frameIndex_m752AB5F0C0F23A72BB610AB84BCB9DB429798FD2 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_ReflectOptionsToHandlers_m9049A0F882321BB315EB43C7E5ADD27D903C0121 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WorldSpaceCoordinateTransform__ctor_mF69FC116871F8C0CD3B4A43D697EFAA9765A2EEC (WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RelativeToInitialRootTransform__ctor_m18D45841EEC33E8E432FF10023D4ED86E1646A07 (RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeBasedTimeController__ctor_m82A65326307630CFEFEEC3F1417118CA6364927B (TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameBasedTimeController__ctor_m8F61818B239F7CB1838B12CB1A21D833F87EB0B8 (FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XRHandPlayback_CreateCoordinateTransform_m7561EEF8686977B1DF7C11B1E7F3009C455319CF (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_playbackOptions, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XRHandPlayback_CreateTimeController_m1D678176969A6563E8CCBC027476E7CAFC92D204 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_playbackOptions, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackFrameProvider__ctor_mEA6B6C708974B1EF6F002AB22A9E45C2B25E507B (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___0_sequence, int32_t ___1_handedness, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackGestureHandler__ctor_mD8F07CD3B75340AF67D05FB99D7ADBF94CF3B4B7 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, int32_t ___0_handedness, RuntimeObject* ___1_coordinateTransform, RuntimeObject* ___2_timeController, const RuntimeMethod* method) ;
+inline void Action_1__ctor_mC06DD44B8C9E022AA3AA06898FA15D2136ED18D7 (Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m8EDF953DA7FF0E33AE19FB51BD7DBDB7C495CFE0_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandCaptureSequence_get_flags_mE0DD2B34F2525D4562CAECAD9E67BAFAD5D8F2C7_inline (XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_TryUpdateHandImpl_mCA850EF8330E365356099D7A1837ADE71B8B9C60 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_updateType, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_handRootPose, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___2_handJoints, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_HasAnyFrames_m80021290A35711B34A38768D520B18BE376CDD2D (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_UpdateOriginPose_mB8EC1C5800970C12BEAC5EB241190032E028C203 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HandsUtility_ToRootPoseUpdateSuccessFlag_m2CD549A59C6D8C45E0B0C218B51F780206308D64 (int32_t ___0_handedness, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetActiveFrame_m4A5938F9A40C5E033FEFBE8F08FFC1EACE962C57 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___0_frame, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetNextActiveFrame_mE1327659F70E166195CE27DB4F50822E29424384 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___0_frame, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackGestureHandler_UpdateFrameState_mEF1E9B5B1361CBCE78A6226FF798FEF202CFE7D0 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 ___0_currentFrame, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 ___1_nextFrame, bool ___2_isCurrentFrameValid, bool ___3_isNextFrameValid, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_HandleTimeBasedHandsUpdate_m7CC73E04702929EF262CB538F44FC0B00ED25D83 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_updateType, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_handRootPose, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___2_handJoints, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_TryUpdateHandFromOneFrame_m477470B3DD338106FADD9D6D96F268B378EDC19F (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_updateType, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_handRootPose, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___2_handJoints, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetEitherHand_mBFD82CFD7D04E6CCD90C53F1BBBCFEA92492D43A (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___0_frame, int32_t ___1_preferredUpdateType, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* ___2_hand, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_GetFrameCount_m50D3E11441EA9F7F28C93A395D898D26CD5DC55E (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryFindHandBackward_m26E5829CC88CFF5BA665F8B318082A04857E2D21 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_startFrameIndex, int32_t ___1_updateType, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* ___2_hand, float* ___3_timestamp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryFindHandForward_mA03008773EC19A8903A2C8BAFC29E5708694B70C (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_startFrameIndex, int32_t ___1_updateType, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* ___2_hand, float* ___3_timestamp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackInterpolator_TryInterpolateJoints_m7EEC1685A4FBF7BF8E9740B02BF633AC737279F7 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* ___0_handBefore, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* ___1_handAfter, float ___2_blendScalar, int32_t ___3_handedness, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___4_outputJoints, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_TransformJointsInPlaceHelper_mD9E86B54400C6C73F91EDD0099F8A502B86192C3 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___0_handJoints, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HandsUtility_ToJointsUpdateSuccessFlag_m23FBE21AE0A45F483BD9196C21E6ABF465DE9C0F (int32_t ___0_handedness, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_TransformJointsInPlaceHelper_m365A4009DE205488A0F8FD665641D8CBBD6FAD18 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___0_handJoints, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___1_hand, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRHandPlayback_ShiftByOrigin_m786BAA24DB2F3BDC82FE6901C37C857B1D257F81 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_pose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_UpdateHandFromFrame_m3D4E98BFAEB3290FF9E4D1E570BD44DD90BB298D (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___0_frame, int32_t ___1_updateType, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___2_handRootPose, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___3_handJoints, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HandsUtility_GetOtherUpdateType_mF58D3CF67DDA897DCDED2D4270CFC0044EB3B581 (int32_t ___0_updateType, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetCommonGesturesState_m6A39C46CCF34F66B4DE1FA03E5AED9ED6AE7BC4B (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* ___0_commonGestures, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetAimPose_mB4FD81C9B601C653C78295C25A5393DACDB4B29D (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_aimPose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetAimActivateValue_m6CEC6D12ABAE7C147D0840F2F39137E69ED70677 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, float* ___0_aimActivateValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetAimActivatedState_mEAF2EA8FC1A51CB84735EC894DBA3403D2B30113 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, bool* ___0_isAimActivated, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetGraspValue_m2F73C7536A04866327EB2099A0BAA45AC3EDA877 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, float* ___0_graspValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetGraspFirmState_mC980FCDFB5A9BDE5ED01F928E9331AD8BD00ED8A (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, bool* ___0_isGraspFirm, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetGripPose_m809AEA675DCD0B510247433CB359BEB0F80169A1 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_gripPose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetPinchPose_mD1B049E7489EB80641F272122065B3577359E7FE (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_pinchPose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetPinchValue_m6A39C65B6F192CDD3B92A3A939F12735DD13EAF7 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, float* ___0_pinchValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetPinchTouchedState_m2633839A2395360570637BC296AD7C42AC826E47 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, bool* ___0_isPinched, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetPokePose_m049B688FA9F23BABDAC4AFF1DB721528C29D8AAF (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_pokePose, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandCaptureSequence_get_detectedHandMeshLayout_m7B5B383D0119DEE2C57441DEE488B233490D3FE5_inline (XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetAimState_mFB4A34501B440D9F45AFA8356DA899DEC2FA5F3F (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* ___0_aimState, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlaybackGestureHandler_SetCoordinateTransform_m4921438617B1489053B98374302511423C16C6C4_inline (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, RuntimeObject* ___0_coordinateTransform, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlaybackGestureHandler_SetTimeController_mBBB7E260AA2D4A7AA81D6479F53A16A759AD7E18_inline (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, RuntimeObject* ___0_timeController, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_LoopToStartIfNeeded_mFA62921CF821757D272AA305FD09B21A7F6392D2 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackFrameProvider_get_hasFrames_mE63E539C086C89B72CB41E6FB32852C3BF6E2AB5 (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HandsUtility_IsAnyFlagEnabled_m3C9B0A45739493C45B977E80EC41D2C3D6D0AAEA (int32_t ___0_flagsBeingQueried, int32_t ___1_flagsToCheck, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_SeekToStart_m5CB6680DB4F6825A94D7B0EA9EA3187656D743D8 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRHandCaptureSequence_get_durationInSeconds_mBA819931E78008CF5A3BEE2D43F04BE1A0FCE63D_inline (XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* __this, const RuntimeMethod* method) ;
+inline XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55 (SubsystemWithProvider_3_tE926FFDCD0BC2F75B118A7CCE6FBFA422A41E2B2* ___0_subsystem, const RuntimeMethod* method)
+{
+	return ((  XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* (*) (SubsystemWithProvider_3_tE926FFDCD0BC2F75B118A7CCE6FBFA422A41E2B2*, const RuntimeMethod*))SubsystemExtensions_GetProvider_TisRuntimeObject_TisRuntimeObject_TisRuntimeObject_mB9F4B7F290E207CAAB828B7A01C92E1DF676308A_gshared)(___0_subsystem, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* PlaybackProvider_GetUserFacingPlayback_mC871346724E8E19CCC914756DB06DA8F80852D67 (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, int32_t ___0_handedness, const RuntimeMethod* method) ;
+inline XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* SubsystemWithProvider_3_get_subsystemDescriptor_m95ABAFCF2F776A54F6CBD73A8F1117D47B9F40B0_inline (SubsystemWithProvider_3_tE926FFDCD0BC2F75B118A7CCE6FBFA422A41E2B2* __this, const RuntimeMethod* method)
+{
+	return ((  XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* (*) (SubsystemWithProvider_3_tE926FFDCD0BC2F75B118A7CCE6FBFA422A41E2B2*, const RuntimeMethod*))SubsystemWithProvider_3_get_subsystemDescriptor_mB4052808D703DF75CA2D74A5801B59172E3F80C7_gshared_inline)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* PlaybackProvider_GetRegisteredDescriptor_m122BC73C6D99AFC64AAA89C9FB794B67DF679E8F_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AutoScope__ctor_m7F63A273E382CB6328736B6E7F321DDFA40EA9E3_inline (AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139* __this, intptr_t ___0_markerPtr, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerUnsafeUtility_EndSample_mFDB4EFB160A9CB817D2F8ED21B88693616B27409 (intptr_t ___0_markerPtr, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ProfilerUnsafeUtility_CreateMarker_mC5E1AAB8CC1F0342065DF85BA3334445ED754E64 (String_t* ___0_name, uint16_t ___1_categoryId, uint16_t ___2_flags, int32_t ___3_metadataCount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_Slerp_mDD63B8384FB0F0AAD4B59635B1D66D6ECB49E763 (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_Internal_ToEulerRad_mC5BD020889B5A4FB6894CFB69A5D4C07B321B919 (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___0_rotation, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_Internal_MakePositive_m73E2D01920CB0DFE661A55022C129E8617F0C9A8 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_FromEulerRad_mD0C4C0EFE1D70EC0EA4A92B11F1A4D5B0A134E49 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_euler, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_Inverse_m0ABC2C5E4F26053F9F6B8260065D08E264F62566 (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___0_rotation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___0_array, int32_t ___1_index, int32_t ___2_length, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerUnsafeUtility_BeginSample_mB5106F4E7ECEF54906545665ED23928D14F5FCA7 (intptr_t ___0_markerPtr, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_marshal_pinvoke(const WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74& unmarshaled, WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_marshaled_pinvoke& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74____m_Stream_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_StreamException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74____m_Stream_FieldInfo_var, WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_StreamException, NULL);
+}
+IL2CPP_EXTERN_C void WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_marshal_pinvoke_back(const WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_marshaled_pinvoke& marshaled, WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74____m_Stream_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_StreamException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74____m_Stream_FieldInfo_var, WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_StreamException, NULL);
+}
+IL2CPP_EXTERN_C void WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_marshal_pinvoke_cleanup(WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_marshaled_pinvoke& marshaled)
+{
+}
+IL2CPP_EXTERN_C void WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_marshal_com(const WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74& unmarshaled, WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_marshaled_com& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74____m_Stream_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_StreamException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74____m_Stream_FieldInfo_var, WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_StreamException, NULL);
+}
+IL2CPP_EXTERN_C void WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_marshal_com_back(const WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_marshaled_com& marshaled, WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74____m_Stream_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_StreamException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74____m_Stream_FieldInfo_var, WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_StreamException, NULL);
+}
+IL2CPP_EXTERN_C void WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_marshal_com_cleanup(WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74_marshaled_com& marshaled)
+{
+}
+// Method Definition Index: 75238
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteRecordingContext_Dispose_m968B16F8575D8DBB3DFD9B63A135DF03AE5C5398 (WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74* __this, const RuntimeMethod* method) 
+{
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* G_B2_0 = NULL;
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* G_B1_0 = NULL;
+	BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* G_B5_0 = NULL;
+	BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* G_B4_0 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingBlob.cs:441>
+		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_0 = __this->___m_Stream;
+		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000c;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		goto IL_0011;
+	}
+
+IL_000c:
+	{
+		NullCheck(G_B2_0);
+		Stream_Dispose_mCDB42F32A17541CCA6D3A5906827A401570B07A8(G_B2_0, NULL);
+	}
+
+IL_0011:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingBlob.cs:442>
+		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_2 = __this->___m_Writer;
+		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_3 = L_2;
+		if (L_3)
+		{
+			G_B5_0 = L_3;
+			goto IL_001c;
+		}
+		G_B4_0 = L_3;
+	}
+	{
+		return;
+	}
+
+IL_001c:
+	{
+		NullCheck(G_B5_0);
+		BinaryWriter_Dispose_m62A1213D09FA2598A6F7866DC60357D53393E5B2(G_B5_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingBlob.cs:443>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void WriteRecordingContext_Dispose_m968B16F8575D8DBB3DFD9B63A135DF03AE5C5398_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74*>(__this + _offset);
+	WriteRecordingContext_Dispose_m968B16F8575D8DBB3DFD9B63A135DF03AE5C5398(_thisAdjusted, method);
+}
+// Method Definition Index: 75239
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteRecordingContext__ctor_m03E3A1FCE83FB5B83B656551FEB01169417E8290 (WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74* __this, String_t* ___0_savePath, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingBlob.cs:447>
+		String_t* L_0 = ___0_savePath;
+		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_1;
+		L_1 = File_Open_m3C4C3B31523AC0687F60FFD1B0FD51F49161EB64(L_0, 2, NULL);
+		__this->___m_Stream = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Stream), (void*)L_1);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingBlob.cs:448>
+		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_2 = __this->___m_Stream;
+		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_3 = (BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E*)il2cpp_codegen_object_new(BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E_il2cpp_TypeInfo_var);
+		BinaryWriter__ctor_mF2F1235E378C3EC493A8C816597BCEB4205A9CA0(L_3, L_2, NULL);
+		__this->___m_Writer = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Writer), (void*)L_3);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingBlob.cs:449>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void WriteRecordingContext__ctor_m03E3A1FCE83FB5B83B656551FEB01169417E8290_AdjustorThunk (RuntimeObject* __this, String_t* ___0_savePath, const RuntimeMethod* method)
+{
+	WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74*>(__this + _offset);
+	WriteRecordingContext__ctor_m03E3A1FCE83FB5B83B656551FEB01169417E8290(_thisAdjusted, ___0_savePath, method);
+}
+// Method Definition Index: 75240
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* WriteRecordingContext_get_writer_m80B39E5A3D99437828E7560223830F566B7432EE (WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingBlob.cs:451>
+		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_0 = __this->___m_Writer;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* WriteRecordingContext_get_writer_m80B39E5A3D99437828E7560223830F566B7432EE_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74*>(__this + _offset);
+	BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* _returnValue;
+	_returnValue = WriteRecordingContext_get_writer_m80B39E5A3D99437828E7560223830F566B7432EE_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_marshal_pinvoke(const ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6& unmarshaled, ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_marshaled_pinvoke& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6____m_Stream_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_StreamException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6____m_Stream_FieldInfo_var, ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_StreamException, NULL);
+}
+IL2CPP_EXTERN_C void ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_marshal_pinvoke_back(const ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_marshaled_pinvoke& marshaled, ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6____m_Stream_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_StreamException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6____m_Stream_FieldInfo_var, ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_StreamException, NULL);
+}
+IL2CPP_EXTERN_C void ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_marshal_pinvoke_cleanup(ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_marshaled_pinvoke& marshaled)
+{
+}
+IL2CPP_EXTERN_C void ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_marshal_com(const ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6& unmarshaled, ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_marshaled_com& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6____m_Stream_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_StreamException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6____m_Stream_FieldInfo_var, ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_StreamException, NULL);
+}
+IL2CPP_EXTERN_C void ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_marshal_com_back(const ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_marshaled_com& marshaled, ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6____m_Stream_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_StreamException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6____m_Stream_FieldInfo_var, ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_StreamException, NULL);
+}
+IL2CPP_EXTERN_C void ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_marshal_com_cleanup(ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6_marshaled_com& marshaled)
+{
+}
+// Method Definition Index: 75241
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadRecordingContext_Dispose_m4449E53697D16433BB3F3560743D9426941E7FBB (ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6* __this, const RuntimeMethod* method) 
+{
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* G_B2_0 = NULL;
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* G_B1_0 = NULL;
+	BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* G_B5_0 = NULL;
+	BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* G_B4_0 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingBlob.cs:514>
+		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_0 = __this->___m_Stream;
+		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000c;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		goto IL_0011;
+	}
+
+IL_000c:
+	{
+		NullCheck(G_B2_0);
+		Stream_Dispose_mCDB42F32A17541CCA6D3A5906827A401570B07A8(G_B2_0, NULL);
+	}
+
+IL_0011:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingBlob.cs:515>
+		BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* L_2 = __this->___m_Reader;
+		BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* L_3 = L_2;
+		if (L_3)
+		{
+			G_B5_0 = L_3;
+			goto IL_001c;
+		}
+		G_B4_0 = L_3;
+	}
+	{
+		return;
+	}
+
+IL_001c:
+	{
+		NullCheck(G_B5_0);
+		BinaryReader_Dispose_mAFF1A9CE9A73D148270FFA1F896992EB52D36078(G_B5_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingBlob.cs:516>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ReadRecordingContext_Dispose_m4449E53697D16433BB3F3560743D9426941E7FBB_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6*>(__this + _offset);
+	ReadRecordingContext_Dispose_m4449E53697D16433BB3F3560743D9426941E7FBB(_thisAdjusted, method);
+}
+// Method Definition Index: 75242
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadRecordingContext__ctor_mC0D705C592242DA243517EC4BB244423F5023288 (ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6* __this, String_t* ___0_filePath, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingBlob.cs:520>
+		String_t* L_0 = ___0_filePath;
+		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_1;
+		L_1 = File_Open_m3C4C3B31523AC0687F60FFD1B0FD51F49161EB64(L_0, 3, NULL);
+		__this->___m_Stream = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Stream), (void*)L_1);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingBlob.cs:521>
+		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_2 = __this->___m_Stream;
+		BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* L_3 = (BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158*)il2cpp_codegen_object_new(BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158_il2cpp_TypeInfo_var);
+		BinaryReader__ctor_m898732FE0DBEDD480B24F6DE45A9AC696E44CC0F(L_3, L_2, NULL);
+		__this->___m_Reader = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Reader), (void*)L_3);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingBlob.cs:522>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ReadRecordingContext__ctor_mC0D705C592242DA243517EC4BB244423F5023288_AdjustorThunk (RuntimeObject* __this, String_t* ___0_filePath, const RuntimeMethod* method)
+{
+	ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6*>(__this + _offset);
+	ReadRecordingContext__ctor_mC0D705C592242DA243517EC4BB244423F5023288(_thisAdjusted, ___0_filePath, method);
+}
+// Method Definition Index: 75243
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* ReadRecordingContext_get_reader_mD078155E179A2D5F01A5E537A6246C82D1AFC600 (ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingBlob.cs:524>
+		BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* L_0 = __this->___m_Reader;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* ReadRecordingContext_get_reader_mD078155E179A2D5F01A5E537A6246C82D1AFC600_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6*>(__this + _offset);
+	BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* _returnValue;
+	_returnValue = ReadRecordingContext_get_reader_mD078155E179A2D5F01A5E537A6246C82D1AFC600_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_marshal_pinvoke(const XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623& unmarshaled, XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_marshaled_pinvoke& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623____U3CsubsystemU3Ek__BackingField_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CsubsystemU3Ek__BackingFieldException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623____U3CsubsystemU3Ek__BackingField_FieldInfo_var, XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CsubsystemU3Ek__BackingFieldException, NULL);
+}
+IL2CPP_EXTERN_C void XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_marshal_pinvoke_back(const XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_marshaled_pinvoke& marshaled, XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623____U3CsubsystemU3Ek__BackingField_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CsubsystemU3Ek__BackingFieldException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623____U3CsubsystemU3Ek__BackingField_FieldInfo_var, XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CsubsystemU3Ek__BackingFieldException, NULL);
+}
+IL2CPP_EXTERN_C void XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_marshal_pinvoke_cleanup(XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_marshaled_pinvoke& marshaled)
+{
+}
+IL2CPP_EXTERN_C void XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_marshal_com(const XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623& unmarshaled, XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_marshaled_com& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623____U3CsubsystemU3Ek__BackingField_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CsubsystemU3Ek__BackingFieldException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623____U3CsubsystemU3Ek__BackingField_FieldInfo_var, XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CsubsystemU3Ek__BackingFieldException, NULL);
+}
+IL2CPP_EXTERN_C void XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_marshal_com_back(const XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_marshaled_com& marshaled, XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623____U3CsubsystemU3Ek__BackingField_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CsubsystemU3Ek__BackingFieldException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623____U3CsubsystemU3Ek__BackingField_FieldInfo_var, XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CsubsystemU3Ek__BackingFieldException, NULL);
+}
+IL2CPP_EXTERN_C void XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_marshal_com_cleanup(XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623_marshaled_com& marshaled)
+{
+}
+// Method Definition Index: 75244
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandRecordingFrameCapturedEventArgs_get_elapsedTime_m8418278A637F97BA42A9FC4562C9EBC92ED443CB (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:11>
+		float L_0 = __this->___U3CelapsedTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  float XRHandRecordingFrameCapturedEventArgs_get_elapsedTime_m8418278A637F97BA42A9FC4562C9EBC92ED443CB_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623*>(__this + _offset);
+	float _returnValue;
+	_returnValue = XRHandRecordingFrameCapturedEventArgs_get_elapsedTime_m8418278A637F97BA42A9FC4562C9EBC92ED443CB_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75245
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingFrameCapturedEventArgs_set_elapsedTime_m9C74741865DB757A34A99E7B9F9580F4F199DB8D (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:11>
+		float L_0 = ___0_value;
+		__this->___U3CelapsedTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void XRHandRecordingFrameCapturedEventArgs_set_elapsedTime_m9C74741865DB757A34A99E7B9F9580F4F199DB8D_AdjustorThunk (RuntimeObject* __this, float ___0_value, const RuntimeMethod* method)
+{
+	XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623*>(__this + _offset);
+	XRHandRecordingFrameCapturedEventArgs_set_elapsedTime_m9C74741865DB757A34A99E7B9F9580F4F199DB8D_inline(_thisAdjusted, ___0_value, method);
+}
+// Method Definition Index: 75246
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* XRHandRecordingFrameCapturedEventArgs_get_subsystem_mF52ABF24F088139122DDAFA5B133A107C4FA1F49 (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:17>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___U3CsubsystemU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* XRHandRecordingFrameCapturedEventArgs_get_subsystem_mF52ABF24F088139122DDAFA5B133A107C4FA1F49_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623*>(__this + _offset);
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* _returnValue;
+	_returnValue = XRHandRecordingFrameCapturedEventArgs_get_subsystem_mF52ABF24F088139122DDAFA5B133A107C4FA1F49_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75247
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingFrameCapturedEventArgs_set_subsystem_mB93BEC8ADCE0DD7D7FA488C1BBBCF17ABEC1CE75 (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:17>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = ___0_value;
+		__this->___U3CsubsystemU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsubsystemU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void XRHandRecordingFrameCapturedEventArgs_set_subsystem_mB93BEC8ADCE0DD7D7FA488C1BBBCF17ABEC1CE75_AdjustorThunk (RuntimeObject* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_value, const RuntimeMethod* method)
+{
+	XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623*>(__this + _offset);
+	XRHandRecordingFrameCapturedEventArgs_set_subsystem_mB93BEC8ADCE0DD7D7FA488C1BBBCF17ABEC1CE75_inline(_thisAdjusted, ___0_value, method);
+}
+// Method Definition Index: 75248
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandRecordingFrameCapturedEventArgs_get_updateSuccessFlags_m5B7D03EB98AEE16E0CB074521C1166F928E81789 (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:24>
+		int32_t L_0 = __this->___U3CupdateSuccessFlagsU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t XRHandRecordingFrameCapturedEventArgs_get_updateSuccessFlags_m5B7D03EB98AEE16E0CB074521C1166F928E81789_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = XRHandRecordingFrameCapturedEventArgs_get_updateSuccessFlags_m5B7D03EB98AEE16E0CB074521C1166F928E81789_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75249
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingFrameCapturedEventArgs_set_updateSuccessFlags_m86F19A2B1D274CAA443C74FD35AC4961260740F1 (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:24>
+		int32_t L_0 = ___0_value;
+		__this->___U3CupdateSuccessFlagsU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void XRHandRecordingFrameCapturedEventArgs_set_updateSuccessFlags_m86F19A2B1D274CAA443C74FD35AC4961260740F1_AdjustorThunk (RuntimeObject* __this, int32_t ___0_value, const RuntimeMethod* method)
+{
+	XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623*>(__this + _offset);
+	XRHandRecordingFrameCapturedEventArgs_set_updateSuccessFlags_m86F19A2B1D274CAA443C74FD35AC4961260740F1_inline(_thisAdjusted, ___0_value, method);
+}
+// Method Definition Index: 75250
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandRecordingFrameCapturedEventArgs_get_updateSuccessFlagsBeforeRender_m3BA3E72A11138230CD04906188D2010C8CA98416 (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:38>
+		int32_t L_0 = __this->___U3CupdateSuccessFlagsBeforeRenderU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t XRHandRecordingFrameCapturedEventArgs_get_updateSuccessFlagsBeforeRender_m3BA3E72A11138230CD04906188D2010C8CA98416_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = XRHandRecordingFrameCapturedEventArgs_get_updateSuccessFlagsBeforeRender_m3BA3E72A11138230CD04906188D2010C8CA98416_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75251
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingFrameCapturedEventArgs_set_updateSuccessFlagsBeforeRender_m1D67B420E81BD63AC6072713C44DA60027A6FF26 (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:38>
+		int32_t L_0 = ___0_value;
+		__this->___U3CupdateSuccessFlagsBeforeRenderU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void XRHandRecordingFrameCapturedEventArgs_set_updateSuccessFlagsBeforeRender_m1D67B420E81BD63AC6072713C44DA60027A6FF26_AdjustorThunk (RuntimeObject* __this, int32_t ___0_value, const RuntimeMethod* method)
+{
+	XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623*>(__this + _offset);
+	XRHandRecordingFrameCapturedEventArgs_set_updateSuccessFlagsBeforeRender_m1D67B420E81BD63AC6072713C44DA60027A6FF26_inline(_thisAdjusted, ___0_value, method);
+}
+// Method Definition Index: 75252
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandRecordingFrameCapturedEventArgs_get_frameIndex_mB1013A2EF060AA0CFEB101BEF309729983F9EB6F (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:44>
+		int32_t L_0 = __this->___U3CframeIndexU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t XRHandRecordingFrameCapturedEventArgs_get_frameIndex_mB1013A2EF060AA0CFEB101BEF309729983F9EB6F_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = XRHandRecordingFrameCapturedEventArgs_get_frameIndex_mB1013A2EF060AA0CFEB101BEF309729983F9EB6F_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75253
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingFrameCapturedEventArgs_set_frameIndex_m2A1299C436CB64B501872C11DE20ABA37E57F331 (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:44>
+		int32_t L_0 = ___0_value;
+		__this->___U3CframeIndexU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void XRHandRecordingFrameCapturedEventArgs_set_frameIndex_m2A1299C436CB64B501872C11DE20ABA37E57F331_AdjustorThunk (RuntimeObject* __this, int32_t ___0_value, const RuntimeMethod* method)
+{
+	XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623*>(__this + _offset);
+	XRHandRecordingFrameCapturedEventArgs_set_frameIndex_m2A1299C436CB64B501872C11DE20ABA37E57F331_inline(_thisAdjusted, ___0_value, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_marshal_pinvoke(const XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C& unmarshaled, XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_marshaled_pinvoke& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C____U3CsubsystemU3Ek__BackingField_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CsubsystemU3Ek__BackingFieldException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C____U3CsubsystemU3Ek__BackingField_FieldInfo_var, XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CsubsystemU3Ek__BackingFieldException, NULL);
+}
+IL2CPP_EXTERN_C void XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_marshal_pinvoke_back(const XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_marshaled_pinvoke& marshaled, XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C____U3CsubsystemU3Ek__BackingField_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CsubsystemU3Ek__BackingFieldException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C____U3CsubsystemU3Ek__BackingField_FieldInfo_var, XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CsubsystemU3Ek__BackingFieldException, NULL);
+}
+IL2CPP_EXTERN_C void XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_marshal_pinvoke_cleanup(XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_marshaled_pinvoke& marshaled)
+{
+}
+IL2CPP_EXTERN_C void XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_marshal_com(const XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C& unmarshaled, XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_marshaled_com& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C____U3CsubsystemU3Ek__BackingField_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CsubsystemU3Ek__BackingFieldException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C____U3CsubsystemU3Ek__BackingField_FieldInfo_var, XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CsubsystemU3Ek__BackingFieldException, NULL);
+}
+IL2CPP_EXTERN_C void XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_marshal_com_back(const XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_marshaled_com& marshaled, XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C____U3CsubsystemU3Ek__BackingField_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CsubsystemU3Ek__BackingFieldException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C____U3CsubsystemU3Ek__BackingField_FieldInfo_var, XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CsubsystemU3Ek__BackingFieldException, NULL);
+}
+IL2CPP_EXTERN_C void XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_marshal_com_cleanup(XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_marshaled_com& marshaled)
+{
+}
+// Method Definition Index: 75254
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* XRHandRecordingInitializeArgs_get_subsystem_mDACD03F1B5DC7AFD327ADDA793AB9CB3F2AC7DBF (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingInitializeArgs.cs:16>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___U3CsubsystemU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* XRHandRecordingInitializeArgs_get_subsystem_mDACD03F1B5DC7AFD327ADDA793AB9CB3F2AC7DBF_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C*>(__this + _offset);
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* _returnValue;
+	_returnValue = XRHandRecordingInitializeArgs_get_subsystem_mDACD03F1B5DC7AFD327ADDA793AB9CB3F2AC7DBF_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75255
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingInitializeArgs_set_subsystem_m97755BBA78C25B45DD9CD34F574FDE2CA851CB1A (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingInitializeArgs.cs:16>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = ___0_value;
+		__this->___U3CsubsystemU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsubsystemU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void XRHandRecordingInitializeArgs_set_subsystem_m97755BBA78C25B45DD9CD34F574FDE2CA851CB1A_AdjustorThunk (RuntimeObject* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_value, const RuntimeMethod* method)
+{
+	XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C*>(__this + _offset);
+	XRHandRecordingInitializeArgs_set_subsystem_m97755BBA78C25B45DD9CD34F574FDE2CA851CB1A_inline(_thisAdjusted, ___0_value, method);
+}
+// Method Definition Index: 75256
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandRecordingInitializeArgs_get_recordingOptions_m185DCA5301FCBF839040EB67B88E4E837DAE0145 (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingInitializeArgs.cs:26>
+		int32_t L_0 = __this->___U3CrecordingOptionsU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t XRHandRecordingInitializeArgs_get_recordingOptions_m185DCA5301FCBF839040EB67B88E4E837DAE0145_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = XRHandRecordingInitializeArgs_get_recordingOptions_m185DCA5301FCBF839040EB67B88E4E837DAE0145_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75257
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingInitializeArgs_set_recordingOptions_mBB33DC3FF532154BBC421D53CAD0A099D2A6EA90 (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingInitializeArgs.cs:26>
+		int32_t L_0 = ___0_value;
+		__this->___U3CrecordingOptionsU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void XRHandRecordingInitializeArgs_set_recordingOptions_mBB33DC3FF532154BBC421D53CAD0A099D2A6EA90_AdjustorThunk (RuntimeObject* __this, int32_t ___0_value, const RuntimeMethod* method)
+{
+	XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C*>(__this + _offset);
+	XRHandRecordingInitializeArgs_set_recordingOptions_mBB33DC3FF532154BBC421D53CAD0A099D2A6EA90_inline(_thisAdjusted, ___0_value, method);
+}
+// Method Definition Index: 75258
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandRecordingInitializeArgs_GetHashCode_m793A953E69CFEBC79E29DA370302EC6C1D512216 (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingInitializeArgs.cs:33>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0;
+		L_0 = XRHandRecordingInitializeArgs_get_subsystem_mDACD03F1B5DC7AFD327ADDA793AB9CB3F2AC7DBF_inline(__this, NULL);
+		int32_t L_1;
+		L_1 = HashCodeUtil_ReferenceHash_mBF7BF61E28E8DE49DF48C95F91CBEF45477D1154(L_0, NULL);
+		int32_t L_2;
+		L_2 = XRHandRecordingInitializeArgs_get_recordingOptions_m185DCA5301FCBF839040EB67B88E4E837DAE0145_inline(__this, NULL);
+		V_0 = L_2;
+		int32_t L_3;
+		L_3 = Int32_GetHashCode_m253D60FF7527A483E91004B7A2366F13E225E295((&V_0), NULL);
+		int32_t L_4;
+		L_4 = HashCodeUtil_Combine_mA4239E42AB68A6E219C63A12364F5519B883F649(L_1, L_3, NULL);
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  int32_t XRHandRecordingInitializeArgs_GetHashCode_m793A953E69CFEBC79E29DA370302EC6C1D512216_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = XRHandRecordingInitializeArgs_GetHashCode_m793A953E69CFEBC79E29DA370302EC6C1D512216(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75259
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingInitializeArgs_Equals_m4B70762E9FC740ADC79C2AA408E9364C055B6941 (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C ___0_other, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingInitializeArgs.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingInitializeArgs.cs:46>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0;
+		L_0 = XRHandRecordingInitializeArgs_get_subsystem_mDACD03F1B5DC7AFD327ADDA793AB9CB3F2AC7DBF_inline(__this, NULL);
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_1;
+		L_1 = XRHandRecordingInitializeArgs_get_subsystem_mDACD03F1B5DC7AFD327ADDA793AB9CB3F2AC7DBF_inline((&___0_other), NULL);
+		if ((!(((RuntimeObject*)(XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)L_0) == ((RuntimeObject*)(XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)L_1))))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		int32_t L_2;
+		L_2 = XRHandRecordingInitializeArgs_get_recordingOptions_m185DCA5301FCBF839040EB67B88E4E837DAE0145_inline(__this, NULL);
+		int32_t L_3;
+		L_3 = XRHandRecordingInitializeArgs_get_recordingOptions_m185DCA5301FCBF839040EB67B88E4E837DAE0145_inline((&___0_other), NULL);
+		return (bool)((((int32_t)L_2) == ((int32_t)L_3))? 1 : 0);
+	}
+
+IL_001f:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C  bool XRHandRecordingInitializeArgs_Equals_m4B70762E9FC740ADC79C2AA408E9364C055B6941_AdjustorThunk (RuntimeObject* __this, XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C ___0_other, const RuntimeMethod* method)
+{
+	XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = XRHandRecordingInitializeArgs_Equals_m4B70762E9FC740ADC79C2AA408E9364C055B6941(_thisAdjusted, ___0_other, method);
+	return _returnValue;
+}
+// Method Definition Index: 75260
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingInitializeArgs_Equals_m98B771EF5F594138D2733D43F1B3182A199ED6D5 (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingInitializeArgs.cs:58>
+		RuntimeObject* L_0 = ___0_obj;
+		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		RuntimeObject* L_1 = ___0_obj;
+		V_0 = ((*(XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C*)UnBox(L_1, XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C_il2cpp_TypeInfo_var)));
+		XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C L_2 = V_0;
+		bool L_3;
+		L_3 = XRHandRecordingInitializeArgs_Equals_m4B70762E9FC740ADC79C2AA408E9364C055B6941(__this, L_2, NULL);
+		return L_3;
+	}
+
+IL_0017:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C  bool XRHandRecordingInitializeArgs_Equals_m98B771EF5F594138D2733D43F1B3182A199ED6D5_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method)
+{
+	XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = XRHandRecordingInitializeArgs_Equals_m98B771EF5F594138D2733D43F1B3182A199ED6D5(_thisAdjusted, ___0_obj, method);
+	return _returnValue;
+}
+// Method Definition Index: 75261
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingInitializeArgs_op_Equality_m7FF5749174532786215A14A7998F51042DEE282D (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C ___0_lhs, XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingInitializeArgs.cs:69>
+		XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C L_0 = ___1_rhs;
+		bool L_1;
+		L_1 = XRHandRecordingInitializeArgs_Equals_m4B70762E9FC740ADC79C2AA408E9364C055B6941((&___0_lhs), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 75262
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingInitializeArgs_op_Inequality_m8771F27E2DBC2F590EFB0856BDC6C9BE8D7AF065 (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C ___0_lhs, XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingInitializeArgs.cs:80>
+		XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C L_0 = ___1_rhs;
+		bool L_1;
+		L_1 = XRHandRecordingInitializeArgs_Equals_m4B70762E9FC740ADC79C2AA408E9364C055B6941((&___0_lhs), L_0, NULL);
+		return (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 75263
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingMetadata__ctor_mC477328ED90B335AB780FAFDCB34E060850D1CB0 (XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98* __this, String_t* ___0_uniqueID, String_t* ___1_assetName, float ___2_durationInSeconds, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:23>
+		XRHandRecordingBase__ctor_mCDC2C45ABD995BFAFCA55BB7CF3D08E0A2182F04(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:25>
+		String_t* L_0 = ___0_uniqueID;
+		((XRHandRecordingBase_tC2A8DC0AD2C958FD506AF262FA632345C32C4E09*)__this)->___m_UniqueID = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((XRHandRecordingBase_tC2A8DC0AD2C958FD506AF262FA632345C32C4E09*)__this)->___m_UniqueID), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:26>
+		String_t* L_1 = ___1_assetName;
+		((XRHandRecordingBase_tC2A8DC0AD2C958FD506AF262FA632345C32C4E09*)__this)->___m_AssetName = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((XRHandRecordingBase_tC2A8DC0AD2C958FD506AF262FA632345C32C4E09*)__this)->___m_AssetName), (void*)L_1);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:27>
+		float L_2 = ___2_durationInSeconds;
+		((XRHandRecordingBase_tC2A8DC0AD2C958FD506AF262FA632345C32C4E09*)__this)->___m_DurationInSeconds = L_2;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:28>
+		return;
+	}
+}
+// Method Definition Index: 75264
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingMetadata_Delete_mAF7A29FE889E501A0C32B0CD18E1B01CFEB4E3F8 (XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:39>
+		String_t* L_0;
+		L_0 = XRHandRecordingBase_get_internalBinaryFileName_mE0EAF9535968691CF094638AAB48D943EDB58399(__this, NULL);
+		XRHandRecordingBase_DeleteFileFromDisk_m4FFE1D5CCDEC1F7C6B4210ED425947B6F7B42C2D(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:40>
+		return;
+	}
+}
+// Method Definition Index: 75265
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingMetadata_GetSavedRecordingMetadata_mD0D43B4F2F385F994622BD090719BFC659EDB30D (List_1_tAFE1F3EA76E0D329AD13CAE1E11B56B94E0AB746* ___0_existingRecordings, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisString_t_m9832B70DF2B936246FE60F75D3D12CB946C39D16_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m027CD032AC12C28A88485C001DA437F47C424563_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m045A6296FCC367BCE659987653499042D7190930_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCDE1E994E1A957B279DD9AEB208BAC188AFBF411);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_1 = NULL;
+	int32_t V_2 = 0;
+	XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98* V_3 = NULL;
+	Exception_t* V_4 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B3_0 = NULL;
+	try
+	{
+		{
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:57>
+			List_1_tAFE1F3EA76E0D329AD13CAE1E11B56B94E0AB746* L_0 = ___0_existingRecordings;
+			NullCheck(L_0);
+			List_1_Clear_m045A6296FCC367BCE659987653499042D7190930_inline(L_0, List_1_Clear_m045A6296FCC367BCE659987653499042D7190930_RuntimeMethod_var);
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:60>
+			String_t* L_1;
+			L_1 = XRHandRecordingBase_GetDeviceStoragePath_mC4831418B64E5F0B7E5E59BF14C81B03901CBC57(NULL);
+			V_0 = L_1;
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:61>
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:62>
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:63>
+			String_t* L_2 = V_0;
+			bool L_3;
+			L_3 = Directory_Exists_m3D125E9E88C291CF11113444F961A64DD83AE1C7(L_2, NULL);
+			if (L_3)
+			{
+				goto IL_001b_1;
+			}
+		}
+		{
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4;
+			L_4 = Array_Empty_TisString_t_m9832B70DF2B936246FE60F75D3D12CB946C39D16_inline(Array_Empty_TisString_t_m9832B70DF2B936246FE60F75D3D12CB946C39D16_RuntimeMethod_var);
+			G_B3_0 = L_4;
+			goto IL_0026_1;
+		}
+
+IL_001b_1:
+		{
+			String_t* L_5 = V_0;
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6;
+			L_6 = Directory_GetFiles_m35ACD3D557D3B7EF4CF9A7908D2EDA61E6330090(L_5, _stringLiteralCDE1E994E1A957B279DD9AEB208BAC188AFBF411, NULL);
+			G_B3_0 = L_6;
+		}
+
+IL_0026_1:
+		{
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:65>
+			V_1 = G_B3_0;
+			V_2 = 0;
+			goto IL_0042_1;
+		}
+
+IL_002b_1:
+		{
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:65>
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = V_1;
+			int32_t L_8 = V_2;
+			NullCheck(L_7);
+			int32_t L_9 = L_8;
+			String_t* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:67>
+			bool L_11;
+			L_11 = XRHandRecordingMetadata_TryGetSavedRecordingMetadata_mA022704103DF23B928934F1296426172463FB78A(L_10, (&V_3), NULL);
+			if (!L_11)
+			{
+				goto IL_003e_1;
+			}
+		}
+		{
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:69>
+			List_1_tAFE1F3EA76E0D329AD13CAE1E11B56B94E0AB746* L_12 = ___0_existingRecordings;
+			XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98* L_13 = V_3;
+			NullCheck(L_12);
+			List_1_Add_m027CD032AC12C28A88485C001DA437F47C424563_inline(L_12, L_13, List_1_Add_m027CD032AC12C28A88485C001DA437F47C424563_RuntimeMethod_var);
+		}
+
+IL_003e_1:
+		{
+			int32_t L_14 = V_2;
+			V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+		}
+
+IL_0042_1:
+		{
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:65>
+			int32_t L_15 = V_2;
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = V_1;
+			NullCheck(L_16);
+			if ((((int32_t)L_15) < ((int32_t)((int32_t)(((RuntimeArray*)L_16)->max_length)))))
+			{
+				goto IL_002b_1;
+			}
+		}
+		{
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:72>
+			goto IL_0064;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_004a;
+		}
+		throw e;
+	}
+
+CATCH_004a:
+	{
+		Exception_t* L_17 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:73>
+		V_4 = L_17;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:75>
+		Exception_t* L_18 = V_4;
+		NullCheck(L_18);
+		String_t* L_19;
+		L_19 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_18);
+		String_t* L_20;
+		L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE0A6B053A95A75A30479A695E80F51CF43F7263C)), L_19, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_20, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:76>
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:77>
+		return;
+	}
+}
+// Method Definition Index: 75266
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingMetadata_TryGetSavedRecordingMetadata_mA022704103DF23B928934F1296426172463FB78A (String_t* ___0_filePath, XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98** ___1_recordingMetadata, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral456F3D35E0CE4EA382B24CCF659B84A049C3758E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral99F9CDE948F716A4DDFA6FB68F1304E44204098B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB6EB371D499F59F5EE96A0D82BA3C47D4C27B2FF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC3CB87FD6B2C61C22472077798A17DEA09DB0A7A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCB5D4466E425294B22178F4106C485DBBB92B0F4);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	float V_2 = 0.0f;
+	bool V_3 = false;
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* V_4 = NULL;
+	BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* V_5 = NULL;
+	int32_t V_6 = 0;
+	Exception_t* V_7 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:85>
+		XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98** L_0 = ___1_recordingMetadata;
+		*((XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98**)L_0) = (XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98**)L_0, (void*)(XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98*)NULL);
+	}
+	try
+	{
+		{
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:88>
+			String_t* L_1 = ___0_filePath;
+			bool L_2;
+			L_2 = File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A(L_1, NULL);
+			if (L_2)
+			{
+				goto IL_0022_1;
+			}
+		}
+		{
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:90>
+			String_t* L_3 = ___0_filePath;
+			String_t* L_4;
+			L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral99F9CDE948F716A4DDFA6FB68F1304E44204098B, L_3, NULL);
+			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_4, NULL);
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:91>
+			V_3 = (bool)0;
+			goto IL_0104;
+		}
+
+IL_0022_1:
+		{
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:94>
+			String_t* L_5 = ___0_filePath;
+			il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+			String_t* L_6;
+			L_6 = Path_GetFileNameWithoutExtension_m2D14CCBAB9C60DC8D32C2443CCE3D34644822FAF(L_5, NULL);
+			V_0 = L_6;
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:98>
+			String_t* L_7 = ___0_filePath;
+			FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_8;
+			L_8 = File_Open_m3C4C3B31523AC0687F60FFD1B0FD51F49161EB64(L_7, 3, NULL);
+			V_4 = L_8;
+		}
+		{
+			auto __finallyBlock = il2cpp::utils::Finally([&]
+			{
+
+FINALLY_00c8_1:
+				{
+					{
+						FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_9 = V_4;
+						if (!L_9)
+						{
+							goto IL_00d3_1;
+						}
+					}
+					{
+						FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_10 = V_4;
+						NullCheck(L_10);
+						InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_10);
+					}
+
+IL_00d3_1:
+					{
+						return;
+					}
+				}
+			});
+			try
+			{
+				{
+					//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:100>
+					FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_11 = V_4;
+					NullCheck(L_11);
+					VirtualActionInvoker1< int64_t >::Invoke(12, L_11, ((int64_t)0));
+					//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:101>
+					FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_12 = V_4;
+					BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* L_13 = (BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158*)il2cpp_codegen_object_new(BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158_il2cpp_TypeInfo_var);
+					BinaryReader__ctor_m898732FE0DBEDD480B24F6DE45A9AC696E44CC0F(L_13, L_12, NULL);
+					V_5 = L_13;
+				}
+				{
+					auto __finallyBlock = il2cpp::utils::Finally([&]
+					{
+
+FINALLY_00ba_2:
+						{
+							{
+								BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* L_14 = V_5;
+								if (!L_14)
+								{
+									goto IL_00c5_2;
+								}
+							}
+							{
+								BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* L_15 = V_5;
+								NullCheck(L_15);
+								InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_15);
+							}
+
+IL_00c5_2:
+							{
+								return;
+							}
+						}
+					});
+					try
+					{
+						{
+							//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:104>
+							BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* L_16 = V_5;
+							NullCheck(L_16);
+							int32_t L_17;
+							L_17 = VirtualFuncInvoker0< int32_t >::Invoke(15, L_16);
+							V_6 = L_17;
+							//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:105>
+							int32_t L_18 = V_6;
+							if ((((int32_t)L_18) == ((int32_t)2)))
+							{
+								goto IL_0098_3;
+							}
+						}
+						{
+							//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:107>
+							//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:108>
+							//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:109>
+							int32_t L_19 = V_6;
+							int32_t L_20 = L_19;
+							RuntimeObject* L_21 = Box(il2cpp_defaults.int32_class, &L_20);
+							String_t* L_22;
+							L_22 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral456F3D35E0CE4EA382B24CCF659B84A049C3758E, L_21, NULL);
+							int32_t L_23 = 2;
+							RuntimeObject* L_24 = Box(il2cpp_defaults.int32_class, &L_23);
+							String_t* L_25;
+							L_25 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralCB5D4466E425294B22178F4106C485DBBB92B0F4, L_24, NULL);
+							String_t* L_26;
+							L_26 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralC3CB87FD6B2C61C22472077798A17DEA09DB0A7A, L_22, L_25, NULL);
+							il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+							Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_26, NULL);
+							//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:110>
+							XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98** L_27 = ___1_recordingMetadata;
+							String_t* L_28 = V_0;
+							XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98* L_29 = (XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98*)il2cpp_codegen_object_new(XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98_il2cpp_TypeInfo_var);
+							XRHandRecordingMetadata__ctor_mC477328ED90B335AB780FAFDCB34E060850D1CB0(L_29, L_28, _stringLiteralB6EB371D499F59F5EE96A0D82BA3C47D4C27B2FF, (0.0f), NULL);
+							*((XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98**)L_27) = (XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98*)L_29;
+							Il2CppCodeGenWriteBarrier((void**)(XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98**)L_27, (void*)(XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98*)L_29);
+							//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:111>
+							V_3 = (bool)1;
+							goto IL_0104;
+						}
+
+IL_0098_3:
+						{
+							//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:115>
+							BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* L_30 = V_5;
+							NullCheck(L_30);
+							int32_t L_31;
+							L_31 = VirtualFuncInvoker0< int32_t >::Invoke(15, L_30);
+							//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:118>
+							BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* L_32 = V_5;
+							int32_t L_33;
+							L_33 = SerializationExtensions_ReadRecordingOptions_m9F35289151E0D589E65F494ACB0223C7C2CE6140(L_32, NULL);
+							//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:121>
+							BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* L_34 = V_5;
+							NullCheck(L_34);
+							String_t* L_35;
+							L_35 = VirtualFuncInvoker0< String_t* >::Invoke(22, L_34);
+							V_1 = L_35;
+							//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:124>
+							BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* L_36 = V_5;
+							NullCheck(L_36);
+							float L_37;
+							L_37 = VirtualFuncInvoker0< float >::Invoke(19, L_36);
+							V_2 = L_37;
+							//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:125>
+							goto IL_00c6_2;
+						}
+					}
+					catch(Il2CppExceptionWrapper& e)
+					{
+						__finallyBlock.StoreException(e.ex);
+					}
+				}
+
+IL_00c6_2:
+				{
+					//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:126>
+					goto IL_00d4_1;
+				}
+			}
+			catch(Il2CppExceptionWrapper& e)
+			{
+				__finallyBlock.StoreException(e.ex);
+			}
+		}
+
+IL_00d4_1:
+		{
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:127>
+			XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98** L_38 = ___1_recordingMetadata;
+			String_t* L_39 = V_0;
+			String_t* L_40 = V_1;
+			float L_41 = V_2;
+			XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98* L_42 = (XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98*)il2cpp_codegen_object_new(XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98_il2cpp_TypeInfo_var);
+			XRHandRecordingMetadata__ctor_mC477328ED90B335AB780FAFDCB34E060850D1CB0(L_42, L_39, L_40, L_41, NULL);
+			*((XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98**)L_38) = (XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98*)L_42;
+			Il2CppCodeGenWriteBarrier((void**)(XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98**)L_38, (void*)(XRHandRecordingMetadata_t0E92A5348799F83DD28A5EACF335C48679D71A98*)L_42);
+			//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:128>
+			V_3 = (bool)1;
+			goto IL_0104;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00e2;
+		}
+		throw e;
+	}
+
+CATCH_00e2:
+	{
+		Exception_t* L_43 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:130>
+		V_7 = L_43;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:132>
+		String_t* L_44 = ___0_filePath;
+		Exception_t* L_45 = V_7;
+		NullCheck(L_45);
+		String_t* L_46;
+		L_46 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_45);
+		String_t* L_47;
+		L_47 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral56BB44F0ADC5C83FB050927DD57CE286DC1D9E85)), L_44, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1168E92C164109D6220480DEDA987085B2A21155)), L_46, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_47, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:133>
+		V_3 = (bool)0;
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0104;
+	}
+
+IL_0104:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingMetadata.cs:135>
+		bool L_48 = V_3;
+		return L_48;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_marshal_pinvoke(const XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05& unmarshaled, XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_marshaled_pinvoke& marshaled)
+{
+	marshaled.___U3CrecordingNameU3Ek__BackingField = il2cpp_codegen_marshal_string(unmarshaled.___U3CrecordingNameU3Ek__BackingField);
+}
+IL2CPP_EXTERN_C void XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_marshal_pinvoke_back(const XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_marshaled_pinvoke& marshaled, XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05& unmarshaled)
+{
+	unmarshaled.___U3CrecordingNameU3Ek__BackingField = il2cpp_codegen_marshal_string_result(marshaled.___U3CrecordingNameU3Ek__BackingField);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___U3CrecordingNameU3Ek__BackingField), (void*)il2cpp_codegen_marshal_string_result(marshaled.___U3CrecordingNameU3Ek__BackingField));
+}
+IL2CPP_EXTERN_C void XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_marshal_pinvoke_cleanup(XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___U3CrecordingNameU3Ek__BackingField);
+	marshaled.___U3CrecordingNameU3Ek__BackingField = NULL;
+}
+IL2CPP_EXTERN_C void XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_marshal_com(const XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05& unmarshaled, XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_marshaled_com& marshaled)
+{
+	marshaled.___U3CrecordingNameU3Ek__BackingField = il2cpp_codegen_marshal_bstring(unmarshaled.___U3CrecordingNameU3Ek__BackingField);
+}
+IL2CPP_EXTERN_C void XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_marshal_com_back(const XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_marshaled_com& marshaled, XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05& unmarshaled)
+{
+	unmarshaled.___U3CrecordingNameU3Ek__BackingField = il2cpp_codegen_marshal_bstring_result(marshaled.___U3CrecordingNameU3Ek__BackingField);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___U3CrecordingNameU3Ek__BackingField), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___U3CrecordingNameU3Ek__BackingField));
+}
+IL2CPP_EXTERN_C void XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_marshal_com_cleanup(XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___U3CrecordingNameU3Ek__BackingField);
+	marshaled.___U3CrecordingNameU3Ek__BackingField = NULL;
+}
+// Method Definition Index: 75267
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XRHandRecordingSaveArgs_get_recordingName_m6FC20026ECE0F8738A49BFB086F68F059E7537AE (XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingSaveArgs.cs:17>
+		String_t* L_0 = __this->___U3CrecordingNameU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  String_t* XRHandRecordingSaveArgs_get_recordingName_m6FC20026ECE0F8738A49BFB086F68F059E7537AE_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = XRHandRecordingSaveArgs_get_recordingName_m6FC20026ECE0F8738A49BFB086F68F059E7537AE_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75268
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingSaveArgs_set_recordingName_m92FAF58FDF28D5CFA64981DC58087F26216D8ECC (XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingSaveArgs.cs:17>
+		String_t* L_0 = ___0_value;
+		__this->___U3CrecordingNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CrecordingNameU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void XRHandRecordingSaveArgs_set_recordingName_m92FAF58FDF28D5CFA64981DC58087F26216D8ECC_AdjustorThunk (RuntimeObject* __this, String_t* ___0_value, const RuntimeMethod* method)
+{
+	XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05*>(__this + _offset);
+	XRHandRecordingSaveArgs_set_recordingName_m92FAF58FDF28D5CFA64981DC58087F26216D8ECC_inline(_thisAdjusted, ___0_value, method);
+}
+// Method Definition Index: 75269
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandRecordingSaveArgs_GetHashCode_m186D7C3FEDC29DC54645BDBD95FA7C0D43D71B13 (XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingSaveArgs.cs:27>
+		String_t* L_0;
+		L_0 = XRHandRecordingSaveArgs_get_recordingName_m6FC20026ECE0F8738A49BFB086F68F059E7537AE_inline(__this, NULL);
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(2, L_0);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingSaveArgs.cs:28>
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  int32_t XRHandRecordingSaveArgs_GetHashCode_m186D7C3FEDC29DC54645BDBD95FA7C0D43D71B13_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = XRHandRecordingSaveArgs_GetHashCode_m186D7C3FEDC29DC54645BDBD95FA7C0D43D71B13(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75270
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingSaveArgs_Equals_m28116F456C8B18D73E6A87555F72B7180F9CC49D (XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* __this, XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05 ___0_other, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingSaveArgs.cs:43>
+		String_t* L_0;
+		L_0 = XRHandRecordingSaveArgs_get_recordingName_m6FC20026ECE0F8738A49BFB086F68F059E7537AE_inline(__this, NULL);
+		String_t* L_1;
+		L_1 = XRHandRecordingSaveArgs_get_recordingName_m6FC20026ECE0F8738A49BFB086F68F059E7537AE_inline((&___0_other), NULL);
+		bool L_2;
+		L_2 = String_Equals_m3354EFE6393BED8DD6E18F69BEA131AAADCC622D(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C  bool XRHandRecordingSaveArgs_Equals_m28116F456C8B18D73E6A87555F72B7180F9CC49D_AdjustorThunk (RuntimeObject* __this, XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05 ___0_other, const RuntimeMethod* method)
+{
+	XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = XRHandRecordingSaveArgs_Equals_m28116F456C8B18D73E6A87555F72B7180F9CC49D(_thisAdjusted, ___0_other, method);
+	return _returnValue;
+}
+// Method Definition Index: 75271
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingSaveArgs_Equals_m2EB036538249ED73D8AB11487DAED33650CDBB04 (XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingSaveArgs.cs:56>
+		RuntimeObject* L_0 = ___0_obj;
+		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		RuntimeObject* L_1 = ___0_obj;
+		bool L_2;
+		L_2 = XRHandRecordingSaveArgs_Equals_m28116F456C8B18D73E6A87555F72B7180F9CC49D(__this, ((*(XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05*)UnBox(L_1, XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05_il2cpp_TypeInfo_var))), NULL);
+		return L_2;
+	}
+
+IL_0015:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C  bool XRHandRecordingSaveArgs_Equals_m2EB036538249ED73D8AB11487DAED33650CDBB04_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method)
+{
+	XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = XRHandRecordingSaveArgs_Equals_m2EB036538249ED73D8AB11487DAED33650CDBB04(_thisAdjusted, ___0_obj, method);
+	return _returnValue;
+}
+// Method Definition Index: 75272
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingSaveArgs_op_Equality_m549415FE99505353F9A36577643B9B4230FB43E2 (XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05 ___0_lhs, XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05 ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingSaveArgs.cs:67>
+		XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05 L_0 = ___1_rhs;
+		bool L_1;
+		L_1 = XRHandRecordingSaveArgs_Equals_m28116F456C8B18D73E6A87555F72B7180F9CC49D((&___0_lhs), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 75273
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingSaveArgs_op_Inequality_mA733D92DF195435F40A648C8219A4F94BBBA64A8 (XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05 ___0_lhs, XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05 ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingSaveArgs.cs:78>
+		XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05 L_0 = ___1_rhs;
+		bool L_1;
+		L_1 = XRHandRecordingSaveArgs_Equals_m28116F456C8B18D73E6A87555F72B7180F9CC49D((&___0_lhs), L_0, NULL);
+		return (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 75274
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandRecordingSettings_get_timeLimitInSeconds_m07693E3F24D19AF6BB323714B3B0300592FCC9F0 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingSettings.cs:21>
+		il2cpp_codegen_runtime_class_init_inline(XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_il2cpp_TypeInfo_var);
+		float L_0 = ((XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_StaticFields*)il2cpp_codegen_static_fields_for(XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_il2cpp_TypeInfo_var))->___U3CtimeLimitInSecondsU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 75275
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingSettings_set_timeLimitInSeconds_m4C1BEC6958B31CB675CB5717D74B69805394BA5E (float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingSettings.cs:21>
+		float L_0 = ___0_value;
+		il2cpp_codegen_runtime_class_init_inline(XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_il2cpp_TypeInfo_var);
+		((XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_StaticFields*)il2cpp_codegen_static_fields_for(XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_il2cpp_TypeInfo_var))->___U3CtimeLimitInSecondsU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 75276
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingSettings_ResetStaticsOnLoad_mAF6E563F3E8F8AB5C64680D142098EFA391263A3 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingSettings.cs:26>
+		il2cpp_codegen_runtime_class_init_inline(XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_il2cpp_TypeInfo_var);
+		XRHandRecordingSettings_set_timeLimitInSeconds_m4C1BEC6958B31CB675CB5717D74B69805394BA5E_inline((60.0f), NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingSettings.cs:27>
+		return;
+	}
+}
+// Method Definition Index: 75277
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingSettings__cctor_m8B58D68ACDC6B87108CAAA4A822923FD784AE629 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingSettings.cs:21>
+		((XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_StaticFields*)il2cpp_codegen_static_fields_for(XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_il2cpp_TypeInfo_var))->___U3CtimeLimitInSecondsU3Ek__BackingField = (60.0f);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_marshal_pinvoke(const XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0& unmarshaled, XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_marshaled_pinvoke& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0____U3CblobU3Ek__BackingField_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CblobU3Ek__BackingFieldException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0____U3CblobU3Ek__BackingField_FieldInfo_var, XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CblobU3Ek__BackingFieldException, NULL);
+}
+IL2CPP_EXTERN_C void XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_marshal_pinvoke_back(const XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_marshaled_pinvoke& marshaled, XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0____U3CblobU3Ek__BackingField_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CblobU3Ek__BackingFieldException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0____U3CblobU3Ek__BackingField_FieldInfo_var, XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CblobU3Ek__BackingFieldException, NULL);
+}
+IL2CPP_EXTERN_C void XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_marshal_pinvoke_cleanup(XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_marshaled_pinvoke& marshaled)
+{
+}
+IL2CPP_EXTERN_C void XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_marshal_com(const XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0& unmarshaled, XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_marshaled_com& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0____U3CblobU3Ek__BackingField_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CblobU3Ek__BackingFieldException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0____U3CblobU3Ek__BackingField_FieldInfo_var, XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CblobU3Ek__BackingFieldException, NULL);
+}
+IL2CPP_EXTERN_C void XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_marshal_com_back(const XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_marshaled_com& marshaled, XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0____U3CblobU3Ek__BackingField_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CblobU3Ek__BackingFieldException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0____U3CblobU3Ek__BackingField_FieldInfo_var, XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CblobU3Ek__BackingFieldException, NULL);
+}
+IL2CPP_EXTERN_C void XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_marshal_com_cleanup(XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_marshaled_com& marshaled)
+{
+}
+// Method Definition Index: 75278
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* XRHandRecordingStatusChangedEventArgs_get_blob_m77EC3C6DFD4138EDB97C9FA9BBD0F229FEC10F92 (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:60>
+		XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* L_0 = __this->___U3CblobU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* XRHandRecordingStatusChangedEventArgs_get_blob_m77EC3C6DFD4138EDB97C9FA9BBD0F229FEC10F92_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*>(__this + _offset);
+	XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* _returnValue;
+	_returnValue = XRHandRecordingStatusChangedEventArgs_get_blob_m77EC3C6DFD4138EDB97C9FA9BBD0F229FEC10F92_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75279
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_blob_m9A08F3171E1ABCA9ECD498982B2ECCAF6EEA90A9 (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:60>
+		XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* L_0 = ___0_value;
+		__this->___U3CblobU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CblobU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void XRHandRecordingStatusChangedEventArgs_set_blob_m9A08F3171E1ABCA9ECD498982B2ECCAF6EEA90A9_AdjustorThunk (RuntimeObject* __this, XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* ___0_value, const RuntimeMethod* method)
+{
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*>(__this + _offset);
+	XRHandRecordingStatusChangedEventArgs_set_blob_m9A08F3171E1ABCA9ECD498982B2ECCAF6EEA90A9_inline(_thisAdjusted, ___0_value, method);
+}
+// Method Definition Index: 75280
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandRecordingStatusChangedEventArgs_get_status_mD97C9AAAC26DE3515678696C312C49AAFD2F0AEC (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:65>
+		int32_t L_0 = __this->___U3CstatusU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t XRHandRecordingStatusChangedEventArgs_get_status_mD97C9AAAC26DE3515678696C312C49AAFD2F0AEC_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = XRHandRecordingStatusChangedEventArgs_get_status_mD97C9AAAC26DE3515678696C312C49AAFD2F0AEC_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75281
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_status_mA52842D8D75A40E6602E3C744085250395E6418D (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:65>
+		int32_t L_0 = ___0_value;
+		__this->___U3CstatusU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void XRHandRecordingStatusChangedEventArgs_set_status_mA52842D8D75A40E6602E3C744085250395E6418D_AdjustorThunk (RuntimeObject* __this, int32_t ___0_value, const RuntimeMethod* method)
+{
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*>(__this + _offset);
+	XRHandRecordingStatusChangedEventArgs_set_status_mA52842D8D75A40E6602E3C744085250395E6418D_inline(_thisAdjusted, ___0_value, method);
+}
+// Method Definition Index: 75282
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandRecordingStatusChangedEventArgs_get_elapsedTime_m5D0EBE6D10F9DAA16DF1E119715BA3107F461B77 (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:70>
+		float L_0 = __this->___U3CelapsedTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  float XRHandRecordingStatusChangedEventArgs_get_elapsedTime_m5D0EBE6D10F9DAA16DF1E119715BA3107F461B77_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*>(__this + _offset);
+	float _returnValue;
+	_returnValue = XRHandRecordingStatusChangedEventArgs_get_elapsedTime_m5D0EBE6D10F9DAA16DF1E119715BA3107F461B77_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75283
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_elapsedTime_m1D76562BF0B659234A590698C628A79584EE26B6 (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:70>
+		float L_0 = ___0_value;
+		__this->___U3CelapsedTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void XRHandRecordingStatusChangedEventArgs_set_elapsedTime_m1D76562BF0B659234A590698C628A79584EE26B6_AdjustorThunk (RuntimeObject* __this, float ___0_value, const RuntimeMethod* method)
+{
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*>(__this + _offset);
+	XRHandRecordingStatusChangedEventArgs_set_elapsedTime_m1D76562BF0B659234A590698C628A79584EE26B6_inline(_thisAdjusted, ___0_value, method);
+}
+// Method Definition Index: 75284
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XRHandRecordingStatusChangedEventArgs_get_recordingName_m41BC76D9DAA2AFEC4A8308F6709FBEC21D3F7714 (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:75>
+		String_t* L_0 = __this->___U3CrecordingNameU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  String_t* XRHandRecordingStatusChangedEventArgs_get_recordingName_m41BC76D9DAA2AFEC4A8308F6709FBEC21D3F7714_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = XRHandRecordingStatusChangedEventArgs_get_recordingName_m41BC76D9DAA2AFEC4A8308F6709FBEC21D3F7714_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75285
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_recordingName_m5F42C44C0AF9CF88A5B1D8A4C19E085446BC380C (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:75>
+		String_t* L_0 = ___0_value;
+		__this->___U3CrecordingNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CrecordingNameU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void XRHandRecordingStatusChangedEventArgs_set_recordingName_m5F42C44C0AF9CF88A5B1D8A4C19E085446BC380C_AdjustorThunk (RuntimeObject* __this, String_t* ___0_value, const RuntimeMethod* method)
+{
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*>(__this + _offset);
+	XRHandRecordingStatusChangedEventArgs_set_recordingName_m5F42C44C0AF9CF88A5B1D8A4C19E085446BC380C_inline(_thisAdjusted, ___0_value, method);
+}
+// Method Definition Index: 75286
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XRHandRecordingStatusChangedEventArgs_get_errorMessage_m51FA64EB72CCDA834CA6F84F67F52BEF15233C6C (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:77>
+		String_t* L_0 = __this->___U3CerrorMessageU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  String_t* XRHandRecordingStatusChangedEventArgs_get_errorMessage_m51FA64EB72CCDA834CA6F84F67F52BEF15233C6C_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = XRHandRecordingStatusChangedEventArgs_get_errorMessage_m51FA64EB72CCDA834CA6F84F67F52BEF15233C6C_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75287
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_errorMessage_mC24DFFA83534E92AC78620FE51D3F9865959E953 (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:77>
+		String_t* L_0 = ___0_value;
+		__this->___U3CerrorMessageU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CerrorMessageU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void XRHandRecordingStatusChangedEventArgs_set_errorMessage_mC24DFFA83534E92AC78620FE51D3F9865959E953_AdjustorThunk (RuntimeObject* __this, String_t* ___0_value, const RuntimeMethod* method)
+{
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*>(__this + _offset);
+	XRHandRecordingStatusChangedEventArgs_set_errorMessage_mC24DFFA83534E92AC78620FE51D3F9865959E953_inline(_thisAdjusted, ___0_value, method);
+}
+// Method Definition Index: 75288
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingStatusChangedEventArgs_TryGetErrorMessage_mF9FF359EFCA3F9E4CFEEAAE30E71B1B9C51734D7 (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, String_t** ___0_errorMessage, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:89>
+		String_t* L_0;
+		L_0 = XRHandRecordingStatusChangedEventArgs_get_errorMessage_m51FA64EB72CCDA834CA6F84F67F52BEF15233C6C_inline(__this, NULL);
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:91>
+		String_t** L_2 = ___0_errorMessage;
+		*((String_t**)L_2) = (String_t*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(String_t**)L_2, (void*)(String_t*)NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:92>
+		return (bool)0;
+	}
+
+IL_0012:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:95>
+		String_t** L_3 = ___0_errorMessage;
+		String_t* L_4;
+		L_4 = XRHandRecordingStatusChangedEventArgs_get_errorMessage_m51FA64EB72CCDA834CA6F84F67F52BEF15233C6C_inline(__this, NULL);
+		*((String_t**)L_3) = (String_t*)L_4;
+		Il2CppCodeGenWriteBarrier((void**)(String_t**)L_3, (void*)(String_t*)L_4);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:96>
+		return (bool)1;
+	}
+}
+IL2CPP_EXTERN_C  bool XRHandRecordingStatusChangedEventArgs_TryGetErrorMessage_mF9FF359EFCA3F9E4CFEEAAE30E71B1B9C51734D7_AdjustorThunk (RuntimeObject* __this, String_t** ___0_errorMessage, const RuntimeMethod* method)
+{
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = XRHandRecordingStatusChangedEventArgs_TryGetErrorMessage_mF9FF359EFCA3F9E4CFEEAAE30E71B1B9C51734D7(_thisAdjusted, ___0_errorMessage, method);
+	return _returnValue;
+}
+// Method Definition Index: 75289
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* XRHandRecordingStatusChangedEventArgs_get_subsystem_mC577E41E73734FEA09482DE6B3453DF0CF35A892 (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:102>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___U3CsubsystemU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* XRHandRecordingStatusChangedEventArgs_get_subsystem_mC577E41E73734FEA09482DE6B3453DF0CF35A892_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*>(__this + _offset);
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* _returnValue;
+	_returnValue = XRHandRecordingStatusChangedEventArgs_get_subsystem_mC577E41E73734FEA09482DE6B3453DF0CF35A892_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75290
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_subsystem_m39E889424DAC3FA4B69712712111F7B228BE11EF (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:102>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = ___0_value;
+		__this->___U3CsubsystemU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsubsystemU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void XRHandRecordingStatusChangedEventArgs_set_subsystem_m39E889424DAC3FA4B69712712111F7B228BE11EF_AdjustorThunk (RuntimeObject* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_value, const RuntimeMethod* method)
+{
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*>(__this + _offset);
+	XRHandRecordingStatusChangedEventArgs_set_subsystem_m39E889424DAC3FA4B69712712111F7B228BE11EF_inline(_thisAdjusted, ___0_value, method);
+}
+// Method Definition Index: 75291
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandRecordingStatusChangedEventArgs_GetHashCode_m3999D4185F1EB5510BF9F573CF17DB2904AE0879 (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	float V_1 = 0.0f;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:110>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:111>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:112>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:113>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:115>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:116>
+		XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* L_0;
+		L_0 = XRHandRecordingStatusChangedEventArgs_get_blob_m77EC3C6DFD4138EDB97C9FA9BBD0F229FEC10F92_inline(__this, NULL);
+		int32_t L_1;
+		L_1 = HashCodeUtil_ReferenceHash_mBF7BF61E28E8DE49DF48C95F91CBEF45477D1154(L_0, NULL);
+		int32_t L_2;
+		L_2 = XRHandRecordingStatusChangedEventArgs_get_status_mD97C9AAAC26DE3515678696C312C49AAFD2F0AEC_inline(__this, NULL);
+		V_0 = L_2;
+		int32_t L_3;
+		L_3 = Int32_GetHashCode_m253D60FF7527A483E91004B7A2366F13E225E295((&V_0), NULL);
+		float L_4;
+		L_4 = XRHandRecordingStatusChangedEventArgs_get_elapsedTime_m5D0EBE6D10F9DAA16DF1E119715BA3107F461B77_inline(__this, NULL);
+		V_1 = L_4;
+		int32_t L_5;
+		L_5 = Single_GetHashCode_mC3F1E099D1CF165C2D71FBCC5EF6A6792F9021D2((&V_1), NULL);
+		String_t* L_6;
+		L_6 = XRHandRecordingStatusChangedEventArgs_get_recordingName_m41BC76D9DAA2AFEC4A8308F6709FBEC21D3F7714_inline(__this, NULL);
+		int32_t L_7;
+		L_7 = HashCodeUtil_ReferenceHash_mBF7BF61E28E8DE49DF48C95F91CBEF45477D1154(L_6, NULL);
+		String_t* L_8;
+		L_8 = XRHandRecordingStatusChangedEventArgs_get_errorMessage_m51FA64EB72CCDA834CA6F84F67F52BEF15233C6C_inline(__this, NULL);
+		int32_t L_9;
+		L_9 = HashCodeUtil_ReferenceHash_mBF7BF61E28E8DE49DF48C95F91CBEF45477D1154(L_8, NULL);
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_10;
+		L_10 = XRHandRecordingStatusChangedEventArgs_get_subsystem_mC577E41E73734FEA09482DE6B3453DF0CF35A892_inline(__this, NULL);
+		int32_t L_11;
+		L_11 = HashCodeUtil_ReferenceHash_mBF7BF61E28E8DE49DF48C95F91CBEF45477D1154(L_10, NULL);
+		int32_t L_12;
+		L_12 = HashCodeUtil_Combine_mC6764B89547E1C16FD90964EB80A9DF9AB8EA050(L_1, L_3, L_5, L_7, L_9, L_11, NULL);
+		return L_12;
+	}
+}
+IL2CPP_EXTERN_C  int32_t XRHandRecordingStatusChangedEventArgs_GetHashCode_m3999D4185F1EB5510BF9F573CF17DB2904AE0879_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = XRHandRecordingStatusChangedEventArgs_GetHashCode_m3999D4185F1EB5510BF9F573CF17DB2904AE0879(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75292
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingStatusChangedEventArgs_Equals_m2AECC6F947F13862C7B64796FC9C987D8E35A0C2 (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0 ___0_other, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:130>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:131>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:132>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:133>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:134>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:135>
+		XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* L_0;
+		L_0 = XRHandRecordingStatusChangedEventArgs_get_blob_m77EC3C6DFD4138EDB97C9FA9BBD0F229FEC10F92_inline(__this, NULL);
+		XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* L_1;
+		L_1 = XRHandRecordingStatusChangedEventArgs_get_blob_m77EC3C6DFD4138EDB97C9FA9BBD0F229FEC10F92_inline((&___0_other), NULL);
+		if ((!(((RuntimeObject*)(XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069*)L_0) == ((RuntimeObject*)(XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069*)L_1))))
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		int32_t L_2;
+		L_2 = XRHandRecordingStatusChangedEventArgs_get_status_mD97C9AAAC26DE3515678696C312C49AAFD2F0AEC_inline(__this, NULL);
+		int32_t L_3;
+		L_3 = XRHandRecordingStatusChangedEventArgs_get_status_mD97C9AAAC26DE3515678696C312C49AAFD2F0AEC_inline((&___0_other), NULL);
+		if ((!(((uint32_t)L_2) == ((uint32_t)L_3))))
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		float L_4;
+		L_4 = XRHandRecordingStatusChangedEventArgs_get_elapsedTime_m5D0EBE6D10F9DAA16DF1E119715BA3107F461B77_inline(__this, NULL);
+		float L_5;
+		L_5 = XRHandRecordingStatusChangedEventArgs_get_elapsedTime_m5D0EBE6D10F9DAA16DF1E119715BA3107F461B77_inline((&___0_other), NULL);
+		if ((!(((float)L_4) == ((float)L_5))))
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		String_t* L_6;
+		L_6 = XRHandRecordingStatusChangedEventArgs_get_recordingName_m41BC76D9DAA2AFEC4A8308F6709FBEC21D3F7714_inline(__this, NULL);
+		String_t* L_7;
+		L_7 = XRHandRecordingStatusChangedEventArgs_get_recordingName_m41BC76D9DAA2AFEC4A8308F6709FBEC21D3F7714_inline((&___0_other), NULL);
+		bool L_8;
+		L_8 = String_Equals_m3354EFE6393BED8DD6E18F69BEA131AAADCC622D(L_6, L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		String_t* L_9;
+		L_9 = XRHandRecordingStatusChangedEventArgs_get_errorMessage_m51FA64EB72CCDA834CA6F84F67F52BEF15233C6C_inline(__this, NULL);
+		String_t* L_10;
+		L_10 = XRHandRecordingStatusChangedEventArgs_get_errorMessage_m51FA64EB72CCDA834CA6F84F67F52BEF15233C6C_inline((&___0_other), NULL);
+		bool L_11;
+		L_11 = String_Equals_m3354EFE6393BED8DD6E18F69BEA131AAADCC622D(L_9, L_10, NULL);
+		if (!L_11)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_12;
+		L_12 = XRHandRecordingStatusChangedEventArgs_get_subsystem_mC577E41E73734FEA09482DE6B3453DF0CF35A892_inline(__this, NULL);
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_13;
+		L_13 = XRHandRecordingStatusChangedEventArgs_get_subsystem_mC577E41E73734FEA09482DE6B3453DF0CF35A892_inline((&___0_other), NULL);
+		return (bool)((((RuntimeObject*)(XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)L_12) == ((RuntimeObject*)(XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)L_13))? 1 : 0);
+	}
+
+IL_0065:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C  bool XRHandRecordingStatusChangedEventArgs_Equals_m2AECC6F947F13862C7B64796FC9C987D8E35A0C2_AdjustorThunk (RuntimeObject* __this, XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0 ___0_other, const RuntimeMethod* method)
+{
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = XRHandRecordingStatusChangedEventArgs_Equals_m2AECC6F947F13862C7B64796FC9C987D8E35A0C2(_thisAdjusted, ___0_other, method);
+	return _returnValue;
+}
+// Method Definition Index: 75293
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingStatusChangedEventArgs_Equals_m87106BAA2D84EF1E77B897FD82C3D93B9B1B3676 (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:149>
+		RuntimeObject* L_0 = ___0_obj;
+		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		RuntimeObject* L_1 = ___0_obj;
+		V_0 = ((*(XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*)UnBox(L_1, XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0_il2cpp_TypeInfo_var)));
+		XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0 L_2 = V_0;
+		bool L_3;
+		L_3 = XRHandRecordingStatusChangedEventArgs_Equals_m2AECC6F947F13862C7B64796FC9C987D8E35A0C2(__this, L_2, NULL);
+		return L_3;
+	}
+
+IL_0017:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C  bool XRHandRecordingStatusChangedEventArgs_Equals_m87106BAA2D84EF1E77B897FD82C3D93B9B1B3676_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method)
+{
+	XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = XRHandRecordingStatusChangedEventArgs_Equals_m87106BAA2D84EF1E77B897FD82C3D93B9B1B3676(_thisAdjusted, ___0_obj, method);
+	return _returnValue;
+}
+// Method Definition Index: 75294
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingStatusChangedEventArgs_op_Equality_m45AB9EA43056C17D1C3622AE218C8303DCD9A9B2 (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0 ___0_lhs, XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0 ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:162>
+		XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0 L_0 = ___1_rhs;
+		bool L_1;
+		L_1 = XRHandRecordingStatusChangedEventArgs_Equals_m2AECC6F947F13862C7B64796FC9C987D8E35A0C2((&___0_lhs), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 75295
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandRecordingStatusChangedEventArgs_op_Inequality_m05AE5814A71BF83601DF5259CCCA8D3E438C616D (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0 ___0_lhs, XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0 ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:175>
+		XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0 L_0 = ___1_rhs;
+		bool L_1;
+		L_1 = XRHandRecordingStatusChangedEventArgs_Equals_m2AECC6F947F13862C7B64796FC9C987D8E35A0C2((&___0_lhs), L_0, NULL);
+		return (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 75296
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackProvider_SubscribeToSubsystemActions_m0D383FD1CFE098737EF71052D32E61635F258DF2 (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, XRHandSubsystemActions_t03691377110983C05157D075A90C3CCF259E7221* ___0_actions, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:28>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_0 = (XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052*)(XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052*)SZArrayNew(XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052_il2cpp_TypeInfo_var, (uint32_t)2);
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_1 = L_0;
+		XRHandSubsystemActions_t03691377110983C05157D075A90C3CCF259E7221* L_2 = ___0_actions;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_3 = (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC*)il2cpp_codegen_object_new(XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var);
+		XRHandPlayback__ctor_m9BD90A936BE4F002C04930DB3E32AC299A0DB280(L_3, L_2, 1, NULL);
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, L_3);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC*)L_3);
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_4 = L_1;
+		XRHandSubsystemActions_t03691377110983C05157D075A90C3CCF259E7221* L_5 = ___0_actions;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_6 = (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC*)il2cpp_codegen_object_new(XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var);
+		XRHandPlayback__ctor_m9BD90A936BE4F002C04930DB3E32AC299A0DB280(L_6, L_5, 2, NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_6);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC*)L_6);
+		__this->___m_Playbacks = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Playbacks), (void*)L_4);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:29>
+		return;
+	}
+}
+// Method Definition Index: 75297
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackProvider_GetHandLayout_m204B8E9BD93EA3597EB653D8E75224099E1FB503 (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB ___0_handJointsInLayout, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:33>
+		V_0 = 0;
+		goto IL_0011;
+	}
+
+IL_0004:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:34>
+		int32_t L_0 = V_0;
+		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_0, ((bool)1));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:33>
+		int32_t L_1 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_1, 1));
+	}
+
+IL_0011:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:33>
+		int32_t L_2 = V_0;
+		int32_t L_3;
+		L_3 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_handJointsInLayout))->___m_Length);
+		if ((((int32_t)L_2) < ((int32_t)L_3)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:35>
+		return;
+	}
+}
+// Method Definition Index: 75298
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackProvider_AllowJointProcessing_m3179ED0EB6FB71682B69CB1FF6A80D90C41D9FA0 (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:37>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 75299
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlaybackProvider_TryUpdateHands_m38DA63FCEA17D0B3D7F235E566ADE9C30E36276E (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, int32_t ___0_updateType, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_leftHandRootPose, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___2_leftHandJoints, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___3_rightHandRootPose, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___4_rightHandJoints, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:45>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_0 = __this->___m_Playbacks;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_1;
+		L_1 = HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36(1, NULL);
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		int32_t L_4 = ___0_updateType;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_5 = ___1_leftHandRootPose;
+		NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 L_6 = ___2_leftHandJoints;
+		NullCheck(L_3);
+		int32_t L_7;
+		L_7 = XRHandPlayback_TryUpdateHand_mD0AD748CC25484DB0FD8DB6B8F00515B4CCC7713(L_3, L_4, L_5, L_6, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:46>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_8 = __this->___m_Playbacks;
+		int32_t L_9;
+		L_9 = HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36(2, NULL);
+		NullCheck(L_8);
+		int32_t L_10 = L_9;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		int32_t L_12 = ___0_updateType;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_13 = ___3_rightHandRootPose;
+		NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 L_14 = ___4_rightHandJoints;
+		NullCheck(L_11);
+		int32_t L_15;
+		L_15 = XRHandPlayback_TryUpdateHand_mD0AD748CC25484DB0FD8DB6B8F00515B4CCC7713(L_11, L_12, L_13, L_14, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:48>
+		return (int32_t)(((int32_t)(((int32_t)(0|(int32_t)L_7))|(int32_t)L_15)));
+	}
+}
+// Method Definition Index: 75300
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackProvider_get_canSurfaceCommonPoseData_mCBB7B61BBD495849E25107473C43703794EA7D8B (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:51>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 75301
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackProvider_TryGetCommonGesturesState_mB98FA8E18218FC603F3B237C8DFBDC353A5D4B15 (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, int32_t ___0_handedness, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* ___1_commonGestures, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:54>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_0 = __this->___m_Playbacks;
+		int32_t L_1 = ___0_handedness;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36(L_1, NULL);
+		NullCheck(L_0);
+		int32_t L_3 = L_2;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_5 = ___1_commonGestures;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = XRHandPlayback_TryGetCommonGesturesState_mF0F5DD5703566714F05B947F90FA0B81C9B1868B(L_4, L_5, NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 75302
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackProvider_TryGetAimPose_m54648C09803FDC0D3C32A80AD2ECEC1119C2066F (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, int32_t ___0_handedness, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_aimPose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:57>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_0 = __this->___m_Playbacks;
+		int32_t L_1 = ___0_handedness;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36(L_1, NULL);
+		NullCheck(L_0);
+		int32_t L_3 = L_2;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_5 = ___1_aimPose;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = XRHandPlayback_TryGetAimPose_m36A7ABBD73FBEAC21E684DFD0275128CBDB49C83(L_4, L_5, NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 75303
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackProvider_TryGetAimActivateValue_m3383FC1F24AC13AA3572DC83F1A7B6F90B64B0BF (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, int32_t ___0_handedness, float* ___1_aimActivateValue, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:60>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_0 = __this->___m_Playbacks;
+		int32_t L_1 = ___0_handedness;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36(L_1, NULL);
+		NullCheck(L_0);
+		int32_t L_3 = L_2;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		float* L_5 = ___1_aimActivateValue;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = XRHandPlayback_TryGetAimActivateValue_mEF2F7A5533C8FB6C1B8DB648839066CD0C44FB89(L_4, L_5, NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 75304
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackProvider_TryGetAimActivatedState_m1017968F794DB43B878D06EDA98B233541E6C9A8 (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, int32_t ___0_handedness, bool* ___1_isAimActivated, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:63>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_0 = __this->___m_Playbacks;
+		int32_t L_1 = ___0_handedness;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36(L_1, NULL);
+		NullCheck(L_0);
+		int32_t L_3 = L_2;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		bool* L_5 = ___1_isAimActivated;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = XRHandPlayback_TryGetAimActivatedState_mB7FC1075ED3233A3C7B25809B6C0584FF2B93764(L_4, L_5, NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 75305
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackProvider_TryGetGraspValue_m13B89F491712C461134F42F89C56D0C1B3704337 (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, int32_t ___0_handedness, float* ___1_graspValue, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:66>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_0 = __this->___m_Playbacks;
+		int32_t L_1 = ___0_handedness;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36(L_1, NULL);
+		NullCheck(L_0);
+		int32_t L_3 = L_2;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		float* L_5 = ___1_graspValue;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = XRHandPlayback_TryGetGraspValue_mAF80839E2640489025D9BC772FF5BEBD8C1FD964(L_4, L_5, NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 75306
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackProvider_TryGetGraspFirmState_mC4D4823D22E71CCC6091E50AF6FEA7328B8DBB5E (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, int32_t ___0_handedness, bool* ___1_isGraspFirm, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:69>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_0 = __this->___m_Playbacks;
+		int32_t L_1 = ___0_handedness;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36(L_1, NULL);
+		NullCheck(L_0);
+		int32_t L_3 = L_2;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		bool* L_5 = ___1_isGraspFirm;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = XRHandPlayback_TryGetGraspFirmState_m9ADE4AA9EE5079DA3E09F4428F78E96A1B42D222(L_4, L_5, NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 75307
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackProvider_TryGetGripPose_m72E0534FC05FD37F543580F53A2E2A4E79B602FF (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, int32_t ___0_handedness, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_gripPose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:72>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_0 = __this->___m_Playbacks;
+		int32_t L_1 = ___0_handedness;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36(L_1, NULL);
+		NullCheck(L_0);
+		int32_t L_3 = L_2;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_5 = ___1_gripPose;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = XRHandPlayback_TryGetGripPose_mF4D73B109369E6F749F84B0813685FA258C04B23(L_4, L_5, NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 75308
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackProvider_TryGetPinchPose_mDD407FE957C820B447653E1A29A323A64C60B324 (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, int32_t ___0_handedness, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_pinchPose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:75>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_0 = __this->___m_Playbacks;
+		int32_t L_1 = ___0_handedness;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36(L_1, NULL);
+		NullCheck(L_0);
+		int32_t L_3 = L_2;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_5 = ___1_pinchPose;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = XRHandPlayback_TryGetPinchPose_m61158EAA8FEB4956757F7DF849823C7A948B185D(L_4, L_5, NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 75309
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackProvider_TryGetPinchValue_mE8E7ABA9611A298FA449A07741BEE71A995F3F99 (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, int32_t ___0_handedness, float* ___1_pinchValue, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:78>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_0 = __this->___m_Playbacks;
+		int32_t L_1 = ___0_handedness;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36(L_1, NULL);
+		NullCheck(L_0);
+		int32_t L_3 = L_2;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		float* L_5 = ___1_pinchValue;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = XRHandPlayback_TryGetPinchValue_m639C36CF00448F32ADE88071887659E5ED154520(L_4, L_5, NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 75310
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackProvider_TryGetPinchTouchedState_mBCD276CA9FBFE3CBD6742B14778D450C89E9BCBD (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, int32_t ___0_handedness, bool* ___1_isPinched, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:81>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_0 = __this->___m_Playbacks;
+		int32_t L_1 = ___0_handedness;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36(L_1, NULL);
+		NullCheck(L_0);
+		int32_t L_3 = L_2;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		bool* L_5 = ___1_isPinched;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = XRHandPlayback_TryGetPinchTouchedState_mE27E2CD755ADAFCD6834E232CE27F587C16B347D(L_4, L_5, NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 75311
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackProvider_TryGetPokePose_m83C57C0A628ED6E638EB2F89DE036F24E6D5269E (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, int32_t ___0_handedness, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_pokePose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:84>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_0 = __this->___m_Playbacks;
+		int32_t L_1 = ___0_handedness;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36(L_1, NULL);
+		NullCheck(L_0);
+		int32_t L_3 = L_2;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_5 = ___1_pokePose;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = XRHandPlayback_TryGetPokePose_m8951B9F8BA583F02F57FF16E2D73DA5681547E38(L_4, L_5, NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 75312
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackProvider_Start_m6E95C653CD0863480221ADE6ECDAD1B8A66D7BB9 (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:87>
+		return;
+	}
+}
+// Method Definition Index: 75313
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackProvider_Stop_m681A5BEBAB7001BCC691AF86BD14C6DF79EFF223 (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:90>
+		return;
+	}
+}
+// Method Definition Index: 75314
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackProvider_Destroy_m894C30A50D07AA5553607FCBD4F33A25CF6EE3AF (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:93>
+		return;
+	}
+}
+// Method Definition Index: 75315
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlaybackProvider_get_detectedHandMeshLayout_m92BD37AF27854505F020C69025D1DC43F8CFCCEB (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:96>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_0 = __this->___m_Playbacks;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_1;
+		L_1 = HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36(2, NULL);
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = XRHandPlayback_get_detectedHandMeshLayout_mCDEC43641AA597FB15EEC96CB806196BCE1404C0(L_3, NULL);
+		return L_4;
+	}
+}
+// Method Definition Index: 75316
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackProvider_TryGetAimState_m5F1872C3CD3715DBCC0EBE394B6C84E8155B1C48 (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, int32_t ___0_handedness, XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* ___1_aimState, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:100>
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_0 = ___1_aimState;
+		il2cpp_codegen_initobj(L_0, sizeof(XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:101>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_1 = __this->___m_Playbacks;
+		int32_t L_2 = ___0_handedness;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_3;
+		L_3 = HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36(L_2, NULL);
+		NullCheck(L_1);
+		int32_t L_4 = L_3;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_5 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_6 = ___1_aimState;
+		NullCheck(L_5);
+		bool L_7;
+		L_7 = XRHandPlayback_TryGetAimState_m3FB7067907947917233C7A4A9EF50D0D81C661A4(L_5, L_6, NULL);
+		return L_7;
+	}
+}
+// Method Definition Index: 75317
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackProvider_Initialize_m6979E02B1FD9A276A353BA5B439EAFC3A020BF91 (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* ___0_leftPlayback, XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* ___1_rightPlayback, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:106>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:107>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:108>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:109>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:110>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_0 = (XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052*)(XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052*)SZArrayNew(XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052_il2cpp_TypeInfo_var, (uint32_t)2);
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_1 = L_0;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_2 = ___0_leftPlayback;
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, L_2);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC*)L_2);
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_3 = L_1;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_4 = ___1_rightPlayback;
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, L_4);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC*)L_4);
+		__this->___m_Playbacks = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Playbacks), (void*)L_3);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:111>
+		return;
+	}
+}
+// Method Definition Index: 75318
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* PlaybackProvider_GetUserFacingPlayback_mC871346724E8E19CCC914756DB06DA8F80852D67 (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, int32_t ___0_handedness, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:115>
+		XRHandPlaybackU5BU5D_tD61623BC062C2615208472F703519D332BEE6052* L_0 = __this->___m_Playbacks;
+		int32_t L_1 = ___0_handedness;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = HandsUtility_ToIndex_m619C2184132314A90D134C8BA0E756ECCB2DBC36(L_1, NULL);
+		NullCheck(L_0);
+		int32_t L_3 = L_2;
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		return L_4;
+	}
+}
+// Method Definition Index: 75319
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* PlaybackProvider_GetRegisteredDescriptor_m122BC73C6D99AFC64AAA89C9FB794B67DF679E8F (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:118>
+		XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* L_0 = ((PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_StaticFields*)il2cpp_codegen_static_fields_for(PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_il2cpp_TypeInfo_var))->___s_RegisteredDescriptor;
+		return L_0;
+	}
+}
+// Method Definition Index: 75320
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackProvider_RegisterDescriptor_m67F03CC71FE121D7CD3CCD41220145B03782CD84 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8D56F338E331237F2F8BDFC41696919956FA1D59);
+		s_Il2CppMethodInitialized = true;
+	}
+	Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:126>
+		bool L_0 = ((PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_StaticFields*)il2cpp_codegen_static_fields_for(PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_il2cpp_TypeInfo_var))->___s_SubsystemRegistered;
+		if (L_0)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:128>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:129>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:130>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:131>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:132>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:133>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:134>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:135>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:136>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:137>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:138>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:139>
+		il2cpp_codegen_initobj((&V_0), sizeof(Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81));
+		Cinfo_set_id_m06346C96717EB03644F6A1D07F922AED52B4E312_inline((&V_0), _stringLiteral8D56F338E331237F2F8BDFC41696919956FA1D59, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_2;
+		L_2 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_1, NULL);
+		Cinfo_set_providerType_m17C35A2C89EBCAD9286D73F9A3AF610B7FF64A4C_inline((&V_0), L_2, NULL);
+		Cinfo_set_supportsAimPose_mC314F230EB6C48F3E5775B3474A3F8B9A97BE5E9_inline((&V_0), (bool)1, NULL);
+		Cinfo_set_supportsAimActivateValue_mD77110D7907FD99803B94715730724FFA4709183_inline((&V_0), (bool)1, NULL);
+		Cinfo_set_supportsGraspValue_m439CD492B5E89B5BAE3CD363C3EB06A67738C8B2_inline((&V_0), (bool)1, NULL);
+		Cinfo_set_supportsGripPose_m327401F6F52488C82B52329B9BCBEF92D16DEA35_inline((&V_0), (bool)1, NULL);
+		Cinfo_set_supportsPinchPose_m0FEE07367A7FB667D2CD22FAA3BBE610558D1704_inline((&V_0), (bool)1, NULL);
+		Cinfo_set_supportsPinchValue_m41733B2254E95F28BC438482DEAB73A1858662FF_inline((&V_0), (bool)1, NULL);
+		Cinfo_set_supportsPokePose_m5D5ACA80C06EB2043FF3F6070C9EB6BD6977121A_inline((&V_0), (bool)1, NULL);
+		Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81 L_3 = V_0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:140>
+		XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* L_4;
+		L_4 = XRHandSubsystemDescriptor_RegisterInternal_mA7085557AFB4C7FA9F00AFF7192D0B7984DD9CD8(L_3, NULL);
+		((PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_StaticFields*)il2cpp_codegen_static_fields_for(PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_il2cpp_TypeInfo_var))->___s_RegisteredDescriptor = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_StaticFields*)il2cpp_codegen_static_fields_for(PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_il2cpp_TypeInfo_var))->___s_RegisteredDescriptor), (void*)L_4);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:141>
+		((PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_StaticFields*)il2cpp_codegen_static_fields_for(PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_il2cpp_TypeInfo_var))->___s_SubsystemRegistered = (bool)1;
+	}
+
+IL_0075:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:143>
+		return;
+	}
+}
+// Method Definition Index: 75321
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackProvider__ctor_mB8C932AB621998F57956C5BFD57246A38FF58C0A (PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		XRHandSubsystemProvider__ctor_m404D9375A7F7A0C10412F8E63AA11453C0A6EFDD(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 75322
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlaybackFrameProvider_get_frameCount_mBDE19C0D9F3B39E5B325C685E46C4A3804CC1E0B (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* G_B2_0 = NULL;
+	XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* G_B1_0 = NULL;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	RuntimeObject* G_B4_0 = NULL;
+	RuntimeObject* G_B3_0 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:24>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_0 = __this->___m_Sequence;
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0015;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28));
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_2 = V_0;
+		G_B5_0 = L_2;
+		goto IL_0033;
+	}
+
+IL_0015:
+	{
+		NullCheck(G_B2_0);
+		RuntimeObject* L_3;
+		L_3 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(G_B2_0, NULL);
+		RuntimeObject* L_4 = L_3;
+		if (L_4)
+		{
+			G_B4_0 = L_4;
+			goto IL_0029;
+		}
+		G_B3_0 = L_4;
+	}
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28));
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_5 = V_0;
+		G_B5_0 = L_5;
+		goto IL_0033;
+	}
+
+IL_0029:
+	{
+		NullCheck(G_B4_0);
+		int32_t L_6;
+		L_6 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var, G_B4_0);
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_7;
+		memset((&L_7), 0, sizeof(L_7));
+		Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_7), L_6, Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
+		G_B5_0 = L_7;
+	}
+
+IL_0033:
+	{
+		V_0 = G_B5_0;
+		int32_t L_8;
+		L_8 = Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_inline((&V_0), Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_RuntimeMethod_var);
+		return L_8;
+	}
+}
+// Method Definition Index: 75323
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackFrameProvider_get_hasFrames_mE63E539C086C89B72CB41E6FB32852C3BF6E2AB5 (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:29>
+		int32_t L_0;
+		L_0 = PlaybackFrameProvider_get_frameCount_mBDE19C0D9F3B39E5B325C685E46C4A3804CC1E0B(__this, NULL);
+		return (bool)((((int32_t)L_0) > ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 75324
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackFrameProvider_get_isSequenceValid_m86420288493EE07FE1A16190FF72C9D80F2B9DF9 (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:34>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_0 = __this->___m_Sequence;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_2 = __this->___m_Sequence;
+		NullCheck(L_2);
+		RuntimeObject* L_3;
+		L_3 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_2, NULL);
+		return (bool)((!(((RuntimeObject*)(RuntimeObject*)L_3) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// Method Definition Index: 75325
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackFrameProvider__ctor_mEA6B6C708974B1EF6F002AB22A9E45C2B25E507B (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___0_sequence, int32_t ___1_handedness, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:41>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:43>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_0 = ___0_sequence;
+		__this->___m_Sequence = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Sequence), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:44>
+		int32_t L_1 = ___1_handedness;
+		__this->___m_Handedness = L_1;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:45>
+		return;
+	}
+}
+// Method Definition Index: 75326
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackFrameProvider_UpdateSequence_mC65A2E64698652B1C27B8698AD78ED89124672E4 (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___0_newSequence, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:57>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_0 = ___0_newSequence;
+		__this->___m_Sequence = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Sequence), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:58>
+		return;
+	}
+}
+// Method Definition Index: 75327
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackFrameProvider_TryGetCurrentFrame_mB22ECC97728696D2F45CFC7886E8A4F0E89D8005 (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, int32_t ___0_frameIndex, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___1_frame, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyList_1_t1785B1942CAB824DA803DFC6ADD04233B2CB32D4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:74>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_0 = ___1_frame;
+		il2cpp_codegen_initobj(L_0, sizeof(XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:76>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_1 = __this->___m_Sequence;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_3 = __this->___m_Sequence;
+		NullCheck(L_3);
+		RuntimeObject* L_4;
+		L_4 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_3, NULL);
+		if (L_4)
+		{
+			goto IL_0024;
+		}
+	}
+
+IL_0022:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:77>
+		return (bool)0;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:79>
+		int32_t L_5 = ___0_frameIndex;
+		if ((((int32_t)L_5) < ((int32_t)0)))
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		int32_t L_6 = ___0_frameIndex;
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_7 = __this->___m_Sequence;
+		NullCheck(L_7);
+		RuntimeObject* L_8;
+		L_8 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_7, NULL);
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var, L_8);
+		if ((((int32_t)L_6) < ((int32_t)L_9)))
+		{
+			goto IL_003d;
+		}
+	}
+
+IL_003b:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:80>
+		return (bool)0;
+	}
+
+IL_003d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:82>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_10 = ___1_frame;
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_11 = __this->___m_Sequence;
+		NullCheck(L_11);
+		RuntimeObject* L_12;
+		L_12 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_11, NULL);
+		int32_t L_13 = ___0_frameIndex;
+		NullCheck(L_12);
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_14;
+		L_14 = InterfaceFuncInvoker1< XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073, int32_t >::Invoke(0, IReadOnlyList_1_t1785B1942CAB824DA803DFC6ADD04233B2CB32D4_il2cpp_TypeInfo_var, L_12, L_13);
+		*(XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)L_10 = L_14;
+		Il2CppCodeGenWriteBarrier((void**)&(((XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)L_10)->___m_ContainingAsset), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)L_10)->___m_LeftHandJoints), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)L_10)->___m_RightHandJoints), (void*)NULL);
+		#endif
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:83>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 75328
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackFrameProvider_TryGetNextFrame_m9E570F828E2435F812F28FD678258BC258009328 (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, int32_t ___0_frameIndex, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___1_frame, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:94>
+		int32_t L_0 = ___0_frameIndex;
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_1 = ___1_frame;
+		bool L_2;
+		L_2 = PlaybackFrameProvider_TryGetCurrentFrame_mB22ECC97728696D2F45CFC7886E8A4F0E89D8005(__this, ((int32_t)il2cpp_codegen_add(L_0, 1)), L_1, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 75329
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackFrameProvider_TryGetInterpolationFrames_mB6870BE96DDDEDC6EC2A2A7A474913582D14B5F0 (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, int32_t ___0_frameIndex, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___1_current, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___2_next, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:113>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_0 = ___1_current;
+		il2cpp_codegen_initobj(L_0, sizeof(XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:114>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_1 = ___2_next;
+		il2cpp_codegen_initobj(L_1, sizeof(XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:116>
+		int32_t L_2 = ___0_frameIndex;
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_3 = ___1_current;
+		bool L_4;
+		L_4 = PlaybackFrameProvider_TryGetCurrentFrame_mB22ECC97728696D2F45CFC7886E8A4F0E89D8005(__this, L_2, L_3, NULL);
+		if (L_4)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:117>
+		return (bool)0;
+	}
+
+IL_001a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:119>
+		int32_t L_5 = ___0_frameIndex;
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_6 = ___2_next;
+		bool L_7;
+		L_7 = PlaybackFrameProvider_TryGetNextFrame_m9E570F828E2435F812F28FD678258BC258009328(__this, L_5, L_6, NULL);
+		if (L_7)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:120>
+		return (bool)0;
+	}
+
+IL_0026:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:122>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 75330
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackFrameProvider_TryGetHandFromFrame_mBC639FF56901ECFB71D232C10F5ECD5E056DD36A (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___0_frame, int32_t ___1_updateType, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* ___2_hand, const RuntimeMethod* method) 
+{
+	XRHandCaptureSnapshot_t956439CF03BF6D3AAE255BB4851DE09108C05DFE V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:142>
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_0 = ___2_hand;
+		il2cpp_codegen_initobj(L_0, sizeof(XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:144>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_1 = ___0_frame;
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_2 = (*(XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)L_1);
+		V_1 = L_2;
+		int32_t L_3 = __this->___m_Handedness;
+		bool L_4;
+		L_4 = XRHandCaptureFrame_TryGetHandSnapshot_m9EEF50448E1788FA048C91552D4D9E8EDF1D9B5B((&V_1), L_3, (&V_0), NULL);
+		if (L_4)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:145>
+		return (bool)0;
+	}
+
+IL_0021:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:147>
+		int32_t L_5 = ___1_updateType;
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_6 = ___2_hand;
+		bool L_7;
+		L_7 = XRHandCaptureSnapshot_TryGetHand_m050C4C2E43BFDD9EF43EC685251EDA4717218968((&V_0), L_5, 2, L_6, NULL);
+		if (L_7)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:148>
+		return (bool)0;
+	}
+
+IL_002f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:150>
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_8 = ___2_hand;
+		bool L_9;
+		L_9 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline(L_8, NULL);
+		return L_9;
+	}
+}
+// Method Definition Index: 75331
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackFrameProvider_IsFrameIndexValid_m893125A8DE0DA36AD0B9AB890B6E0058F8EBA31A (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, int32_t ___0_frameIndex, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:160>
+		int32_t L_0 = ___0_frameIndex;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		int32_t L_1 = ___0_frameIndex;
+		int32_t L_2;
+		L_2 = PlaybackFrameProvider_get_frameCount_mBDE19C0D9F3B39E5B325C685E46C4A3804CC1E0B(__this, NULL);
+		return (bool)((((int32_t)L_1) < ((int32_t)L_2))? 1 : 0);
+	}
+
+IL_000e:
+	{
+		return (bool)0;
+	}
+}
+// Method Definition Index: 75332
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackFrameProvider_CanInterpolate_m383AA724C3074ED2888001453E6C14DFE269FE89 (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, int32_t ___0_frameIndex, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:174>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:175>
+		int32_t L_0 = ___0_frameIndex;
+		bool L_1;
+		L_1 = PlaybackFrameProvider_IsFrameIndexValid_m893125A8DE0DA36AD0B9AB890B6E0058F8EBA31A(__this, L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		int32_t L_2 = ___0_frameIndex;
+		bool L_3;
+		L_3 = PlaybackFrameProvider_IsFrameIndexValid_m893125A8DE0DA36AD0B9AB890B6E0058F8EBA31A(__this, ((int32_t)il2cpp_codegen_add(L_2, 1)), NULL);
+		return L_3;
+	}
+
+IL_0013:
+	{
+		return (bool)0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 75333
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlaybackGestureHandler_get_currentElapsedTime_m19432D4260689528D372504592F0964C68D476C7 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* G_B2_0 = NULL;
+	RuntimeObject* G_B1_0 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:19>
+		RuntimeObject* L_0 = __this->___m_TimeController;
+		RuntimeObject* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0010;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		return (0.0f);
+	}
+
+IL_0010:
+	{
+		NullCheck(G_B2_0);
+		float L_2;
+		L_2 = InterfaceFuncInvoker0< float >::Invoke(0, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, G_B2_0);
+		return L_2;
+	}
+}
+// Method Definition Index: 75334
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackGestureHandler__ctor_mD8F07CD3B75340AF67D05FB99D7ADBF94CF3B4B7 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, int32_t ___0_handedness, RuntimeObject* ___1_coordinateTransform, RuntimeObject* ___2_timeController, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackInterpolator_InterpolatePose_mA7075DA7A9E4D028BB4CB18207D1A8D4047A23EF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackInterpolator_InterpolateValue_m35FF537F0491FF97A31EAB9A58FE97F67F7A5CD2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:57>
+		InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D* L_0 = (InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D*)il2cpp_codegen_object_new(InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D_il2cpp_TypeInfo_var);
+		InterpolateFunc_1__ctor_m20A67BB068D1DF0ED1077A61FA7DCA87B0BA51C5(L_0, NULL, (intptr_t)((void*)PlaybackInterpolator_InterpolatePose_mA7075DA7A9E4D028BB4CB18207D1A8D4047A23EF_RuntimeMethod_var), NULL);
+		__this->___m_InterpolatePose = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_InterpolatePose), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:58>
+		InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC* L_1 = (InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC*)il2cpp_codegen_object_new(InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC_il2cpp_TypeInfo_var);
+		InterpolateFunc_1__ctor_m5194806E56B6122A58776FE29240E0DF1BC1EB3F(L_1, NULL, (intptr_t)((void*)PlaybackInterpolator_InterpolateValue_m35FF537F0491FF97A31EAB9A58FE97F67F7A5CD2_RuntimeMethod_var), NULL);
+		__this->___m_InterpolateValue = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_InterpolateValue), (void*)L_1);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:27>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:29>
+		int32_t L_2 = ___0_handedness;
+		__this->___m_Handedness = L_2;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:30>
+		RuntimeObject* L_3 = ___1_coordinateTransform;
+		__this->___m_CoordinateTransform = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CoordinateTransform), (void*)L_3);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:31>
+		RuntimeObject* L_4 = ___2_timeController;
+		__this->___m_TimeController = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TimeController), (void*)L_4);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:32>
+		return;
+	}
+}
+// Method Definition Index: 75335
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackGestureHandler_UpdateFrameState_mEF1E9B5B1361CBCE78A6226FF798FEF202CFE7D0 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 ___0_currentFrame, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 ___1_nextFrame, bool ___2_isCurrentFrameValid, bool ___3_isNextFrameValid, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:44>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_0 = ___0_currentFrame;
+		__this->___m_CurrentFrame = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_CurrentFrame))->___m_ContainingAsset), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_CurrentFrame))->___m_LeftHandJoints), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_CurrentFrame))->___m_RightHandJoints), (void*)NULL);
+		#endif
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:45>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_1 = ___1_nextFrame;
+		__this->___m_NextFrame = L_1;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_NextFrame))->___m_ContainingAsset), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_NextFrame))->___m_LeftHandJoints), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_NextFrame))->___m_RightHandJoints), (void*)NULL);
+		#endif
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:46>
+		bool L_2 = ___2_isCurrentFrameValid;
+		__this->___m_IsCurrentFrameValid = L_2;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:47>
+		bool L_3 = ___3_isNextFrameValid;
+		__this->___m_IsNextFrameValid = L_3;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:48>
+		return;
+	}
+}
+// Method Definition Index: 75338
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetCommonGestureHelper_m12238B96C958D07670A837719800EBDE2999ECA2 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* ___0_getter, InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D* ___1_interpolator, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___2_result, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___3_defaultValue, bool ___4_applyCoordinateTransform, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackGestureHandler_TryGetCommonGestureHelper_TisPose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_mAE200450128248FF211CCD297A64861E2A9D2CA4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:137>
+		TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_0 = ___0_getter;
+		InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D* L_1 = ___1_interpolator;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_2 = ___2_result;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_3 = ___3_defaultValue;
+		bool L_4;
+		L_4 = PlaybackGestureHandler_TryGetCommonGestureHelper_TisPose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_mAE200450128248FF211CCD297A64861E2A9D2CA4(__this, L_0, L_1, L_2, L_3, PlaybackGestureHandler_TryGetCommonGestureHelper_TisPose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_mAE200450128248FF211CCD297A64861E2A9D2CA4_RuntimeMethod_var);
+		if (L_4)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:138>
+		return (bool)0;
+	}
+
+IL_000f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:140>
+		bool L_5 = ___4_applyCoordinateTransform;
+		if (!L_5)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:141>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_6 = ___2_result;
+		RuntimeObject* L_7 = __this->___m_CoordinateTransform;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_8 = ___2_result;
+		NullCheck(L_7);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_9;
+		L_9 = InterfaceFuncInvoker1< Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* >::Invoke(2, IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var, L_7, L_8);
+		*(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)L_6 = L_9;
+	}
+
+IL_0025:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:143>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 75339
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetAimPose_mB4FD81C9B601C653C78295C25A5393DACDB4B29D (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_aimPose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CTryGetAimPoseU3Eb__20_0_mDEAE4565A1423753DD41BA68121CB68A9F14856F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* G_B3_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B3_1 = NULL;
+	TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* G_B2_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B2_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:148>
+		il2cpp_codegen_runtime_class_init_inline(PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_il2cpp_TypeInfo_var);
+		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_StaticFields*)il2cpp_codegen_static_fields_for(PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_il2cpp_TypeInfo_var))->___k_TryGetAimPoseMarker;
+		V_1 = L_0;
+		AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 L_1;
+		L_1 = ProfilerMarker_Auto_m133FA724EB95D16187B37D2C8A501D7E989B1F8D_inline((&V_1), NULL);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0043:
+			{
+				AutoScope_Dispose_mED763F3F51261EF8FB79DB32CD06E0A3F6C40481_inline((&V_0), NULL);
+				return;
+			}
+		});
+		try
+		{
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:150>
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:151>
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:152>
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:153>
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:154>
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:155>
+				il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+				TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_2 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__20_0;
+				TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_3 = L_2;
+				if (L_3)
+				{
+					G_B3_0 = L_3;
+					G_B3_1 = __this;
+					goto IL_002e_1;
+				}
+				G_B2_0 = L_3;
+				G_B2_1 = __this;
+			}
+			{
+				il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+				U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* L_4 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9;
+				TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_5 = (TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA*)il2cpp_codegen_object_new(TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA_il2cpp_TypeInfo_var);
+				TryGetFromGestures_1__ctor_mA9304F35D96E0C430EE57BD9C9AB8F54FEF7842F(L_5, L_4, (intptr_t)((void*)U3CU3Ec_U3CTryGetAimPoseU3Eb__20_0_mDEAE4565A1423753DD41BA68121CB68A9F14856F_RuntimeMethod_var), NULL);
+				TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_6 = L_5;
+				((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__20_0 = L_6;
+				Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__20_0), (void*)L_6);
+				G_B3_0 = L_6;
+				G_B3_1 = G_B2_1;
+			}
+
+IL_002e_1:
+			{
+				InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D* L_7 = __this->___m_InterpolatePose;
+				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_8 = ___0_aimPose;
+				il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_9;
+				L_9 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
+				NullCheck(G_B3_1);
+				bool L_10;
+				L_10 = PlaybackGestureHandler_TryGetCommonGestureHelper_m12238B96C958D07670A837719800EBDE2999ECA2(G_B3_1, G_B3_0, L_7, L_8, L_9, (bool)1, NULL);
+				V_2 = L_10;
+				goto IL_0051;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0051:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:157>
+		bool L_11 = V_2;
+		return L_11;
+	}
+}
+// Method Definition Index: 75340
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetAimActivateValue_m6CEC6D12ABAE7C147D0840F2F39137E69ED70677 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, float* ___0_aimActivateValue, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackGestureHandler_TryGetCommonGestureHelper_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m396D0DEEEDDAE869FCFB105392D384FBDFF74D16_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CTryGetAimActivateValueU3Eb__21_0_m4474CC5FC023BD4BFE9D06D091678D914538AD48_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* G_B2_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B2_1 = NULL;
+	TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* G_B1_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B1_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:161>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:162>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:164>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:165>
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* L_0 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__21_0;
+		TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			G_B2_1 = __this;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+		G_B1_1 = __this;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* L_2 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9;
+		TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* L_3 = (TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC*)il2cpp_codegen_object_new(TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1__ctor_mBE214428A9D6D9B91CE3E0DF2BC94DB289D9ACB2(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CTryGetAimActivateValueU3Eb__21_0_m4474CC5FC023BD4BFE9D06D091678D914538AD48_RuntimeMethod_var), NULL);
+		TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* L_4 = L_3;
+		((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__21_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__21_0), (void*)L_4);
+		G_B2_0 = L_4;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0020:
+	{
+		InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC* L_5 = __this->___m_InterpolateValue;
+		float* L_6 = ___0_aimActivateValue;
+		NullCheck(G_B2_1);
+		bool L_7;
+		L_7 = PlaybackGestureHandler_TryGetCommonGestureHelper_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m396D0DEEEDDAE869FCFB105392D384FBDFF74D16(G_B2_1, G_B2_0, L_5, L_6, (0.0f), PlaybackGestureHandler_TryGetCommonGestureHelper_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m396D0DEEEDDAE869FCFB105392D384FBDFF74D16_RuntimeMethod_var);
+		return L_7;
+	}
+}
+// Method Definition Index: 75341
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetAimActivatedState_mEAF2EA8FC1A51CB84735EC894DBA3403D2B30113 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, bool* ___0_isAimActivated, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackGestureHandler_TryGetCommonGestureHelper_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m313FAE6B7EE351294140F3B288EEDA51EF6E17E7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CTryGetAimActivatedStateU3Eb__22_0_mD455B6E1E956E7AD6BE31172450E1FF8AA185D43_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* G_B2_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B2_1 = NULL;
+	TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* G_B1_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B1_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:170>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:171>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:172>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:173>
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* L_0 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__22_0;
+		TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			G_B2_1 = __this;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+		G_B1_1 = __this;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* L_2 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9;
+		TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* L_3 = (TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D*)il2cpp_codegen_object_new(TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1__ctor_mD939A92A65D62CB1DACD122B76D4E658DE5CCC11(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CTryGetAimActivatedStateU3Eb__22_0_mD455B6E1E956E7AD6BE31172450E1FF8AA185D43_RuntimeMethod_var), NULL);
+		TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* L_4 = L_3;
+		((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__22_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__22_0), (void*)L_4);
+		G_B2_0 = L_4;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0020:
+	{
+		bool* L_5 = ___0_isAimActivated;
+		NullCheck(G_B2_1);
+		bool L_6;
+		L_6 = PlaybackGestureHandler_TryGetCommonGestureHelper_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m313FAE6B7EE351294140F3B288EEDA51EF6E17E7(G_B2_1, G_B2_0, L_5, (bool)0, PlaybackGestureHandler_TryGetCommonGestureHelper_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m313FAE6B7EE351294140F3B288EEDA51EF6E17E7_RuntimeMethod_var);
+		return L_6;
+	}
+}
+// Method Definition Index: 75342
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetGraspValue_m2F73C7536A04866327EB2099A0BAA45AC3EDA877 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, float* ___0_graspValue, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackGestureHandler_TryGetCommonGestureHelper_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m396D0DEEEDDAE869FCFB105392D384FBDFF74D16_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CTryGetGraspValueU3Eb__23_0_m8EA4E0C89533012FF1A749BF454CD0D73BF934DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* G_B2_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B2_1 = NULL;
+	TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* G_B1_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B1_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:178>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:179>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:180>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:181>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:182>
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* L_0 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__23_0;
+		TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			G_B2_1 = __this;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+		G_B1_1 = __this;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* L_2 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9;
+		TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* L_3 = (TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC*)il2cpp_codegen_object_new(TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1__ctor_mBE214428A9D6D9B91CE3E0DF2BC94DB289D9ACB2(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CTryGetGraspValueU3Eb__23_0_m8EA4E0C89533012FF1A749BF454CD0D73BF934DE_RuntimeMethod_var), NULL);
+		TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* L_4 = L_3;
+		((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__23_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__23_0), (void*)L_4);
+		G_B2_0 = L_4;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0020:
+	{
+		InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC* L_5 = __this->___m_InterpolateValue;
+		float* L_6 = ___0_graspValue;
+		NullCheck(G_B2_1);
+		bool L_7;
+		L_7 = PlaybackGestureHandler_TryGetCommonGestureHelper_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m396D0DEEEDDAE869FCFB105392D384FBDFF74D16(G_B2_1, G_B2_0, L_5, L_6, (0.0f), PlaybackGestureHandler_TryGetCommonGestureHelper_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m396D0DEEEDDAE869FCFB105392D384FBDFF74D16_RuntimeMethod_var);
+		return L_7;
+	}
+}
+// Method Definition Index: 75343
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetGraspFirmState_mC980FCDFB5A9BDE5ED01F928E9331AD8BD00ED8A (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, bool* ___0_isGraspFirm, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackGestureHandler_TryGetCommonGestureHelper_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m313FAE6B7EE351294140F3B288EEDA51EF6E17E7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CTryGetGraspFirmStateU3Eb__24_0_mA50A513ABFF044E7CD9F379D6921604E37EA5F3D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* G_B2_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B2_1 = NULL;
+	TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* G_B1_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B1_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:187>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:188>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:189>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:190>
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* L_0 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__24_0;
+		TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			G_B2_1 = __this;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+		G_B1_1 = __this;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* L_2 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9;
+		TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* L_3 = (TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D*)il2cpp_codegen_object_new(TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1__ctor_mD939A92A65D62CB1DACD122B76D4E658DE5CCC11(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CTryGetGraspFirmStateU3Eb__24_0_mA50A513ABFF044E7CD9F379D6921604E37EA5F3D_RuntimeMethod_var), NULL);
+		TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* L_4 = L_3;
+		((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__24_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__24_0), (void*)L_4);
+		G_B2_0 = L_4;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0020:
+	{
+		bool* L_5 = ___0_isGraspFirm;
+		NullCheck(G_B2_1);
+		bool L_6;
+		L_6 = PlaybackGestureHandler_TryGetCommonGestureHelper_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m313FAE6B7EE351294140F3B288EEDA51EF6E17E7(G_B2_1, G_B2_0, L_5, (bool)0, PlaybackGestureHandler_TryGetCommonGestureHelper_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m313FAE6B7EE351294140F3B288EEDA51EF6E17E7_RuntimeMethod_var);
+		return L_6;
+	}
+}
+// Method Definition Index: 75344
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetGripPose_m809AEA675DCD0B510247433CB359BEB0F80169A1 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_gripPose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CTryGetGripPoseU3Eb__25_0_m77330BB57B42A12B6BF7DB78167AE2EAD15DE4AF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* G_B2_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B2_1 = NULL;
+	TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* G_B1_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B1_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:195>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:196>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:197>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:198>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:199>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:200>
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_0 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__25_0;
+		TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			G_B2_1 = __this;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+		G_B1_1 = __this;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* L_2 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9;
+		TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_3 = (TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA*)il2cpp_codegen_object_new(TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1__ctor_mA9304F35D96E0C430EE57BD9C9AB8F54FEF7842F(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CTryGetGripPoseU3Eb__25_0_m77330BB57B42A12B6BF7DB78167AE2EAD15DE4AF_RuntimeMethod_var), NULL);
+		TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_4 = L_3;
+		((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__25_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__25_0), (void*)L_4);
+		G_B2_0 = L_4;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0020:
+	{
+		InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D* L_5 = __this->___m_InterpolatePose;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_6 = ___0_gripPose;
+		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_7;
+		L_7 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
+		NullCheck(G_B2_1);
+		bool L_8;
+		L_8 = PlaybackGestureHandler_TryGetCommonGestureHelper_m12238B96C958D07670A837719800EBDE2999ECA2(G_B2_1, G_B2_0, L_5, L_6, L_7, (bool)1, NULL);
+		return L_8;
+	}
+}
+// Method Definition Index: 75345
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetPinchPose_mD1B049E7489EB80641F272122065B3577359E7FE (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_pinchPose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CTryGetPinchPoseU3Eb__26_0_m705BE66F0AE6DFE1014E8881435B9DEF6094DB49_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* G_B2_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B2_1 = NULL;
+	TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* G_B1_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B1_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:205>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:206>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:207>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:208>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:209>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:210>
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_0 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__26_0;
+		TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			G_B2_1 = __this;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+		G_B1_1 = __this;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* L_2 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9;
+		TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_3 = (TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA*)il2cpp_codegen_object_new(TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1__ctor_mA9304F35D96E0C430EE57BD9C9AB8F54FEF7842F(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CTryGetPinchPoseU3Eb__26_0_m705BE66F0AE6DFE1014E8881435B9DEF6094DB49_RuntimeMethod_var), NULL);
+		TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_4 = L_3;
+		((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__26_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__26_0), (void*)L_4);
+		G_B2_0 = L_4;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0020:
+	{
+		InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D* L_5 = __this->___m_InterpolatePose;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_6 = ___0_pinchPose;
+		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_7;
+		L_7 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
+		NullCheck(G_B2_1);
+		bool L_8;
+		L_8 = PlaybackGestureHandler_TryGetCommonGestureHelper_m12238B96C958D07670A837719800EBDE2999ECA2(G_B2_1, G_B2_0, L_5, L_6, L_7, (bool)1, NULL);
+		return L_8;
+	}
+}
+// Method Definition Index: 75346
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetPinchValue_m6A39C65B6F192CDD3B92A3A939F12735DD13EAF7 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, float* ___0_pinchValue, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackGestureHandler_TryGetCommonGestureHelper_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m396D0DEEEDDAE869FCFB105392D384FBDFF74D16_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CTryGetPinchValueU3Eb__27_0_mA6A6FCB4A5190D0EA3D9DF493E8E85F73C37135A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* G_B2_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B2_1 = NULL;
+	TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* G_B1_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B1_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:215>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:216>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:217>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:218>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:219>
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* L_0 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__27_0;
+		TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			G_B2_1 = __this;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+		G_B1_1 = __this;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* L_2 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9;
+		TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* L_3 = (TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC*)il2cpp_codegen_object_new(TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1__ctor_mBE214428A9D6D9B91CE3E0DF2BC94DB289D9ACB2(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CTryGetPinchValueU3Eb__27_0_mA6A6FCB4A5190D0EA3D9DF493E8E85F73C37135A_RuntimeMethod_var), NULL);
+		TryGetFromGestures_1_tC53E6B0C4112A47BC72476BBEF8A9FD24865FEEC* L_4 = L_3;
+		((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__27_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__27_0), (void*)L_4);
+		G_B2_0 = L_4;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0020:
+	{
+		InterpolateFunc_1_tA6BFFF84EACF88E9432189149D1DC686DEAA40BC* L_5 = __this->___m_InterpolateValue;
+		float* L_6 = ___0_pinchValue;
+		NullCheck(G_B2_1);
+		bool L_7;
+		L_7 = PlaybackGestureHandler_TryGetCommonGestureHelper_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m396D0DEEEDDAE869FCFB105392D384FBDFF74D16(G_B2_1, G_B2_0, L_5, L_6, (0.0f), PlaybackGestureHandler_TryGetCommonGestureHelper_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m396D0DEEEDDAE869FCFB105392D384FBDFF74D16_RuntimeMethod_var);
+		return L_7;
+	}
+}
+// Method Definition Index: 75347
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetPinchTouchedState_m2633839A2395360570637BC296AD7C42AC826E47 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, bool* ___0_isPinched, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackGestureHandler_TryGetCommonGestureHelper_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m313FAE6B7EE351294140F3B288EEDA51EF6E17E7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CTryGetPinchTouchedStateU3Eb__28_0_m58C8CF4119E4785FE7A7BBC6BC297154F23A1238_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* G_B2_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B2_1 = NULL;
+	TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* G_B1_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B1_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:224>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:225>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:226>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:227>
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* L_0 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__28_0;
+		TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			G_B2_1 = __this;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+		G_B1_1 = __this;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* L_2 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9;
+		TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* L_3 = (TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D*)il2cpp_codegen_object_new(TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1__ctor_mD939A92A65D62CB1DACD122B76D4E658DE5CCC11(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CTryGetPinchTouchedStateU3Eb__28_0_m58C8CF4119E4785FE7A7BBC6BC297154F23A1238_RuntimeMethod_var), NULL);
+		TryGetFromGestures_1_tABEF06476C4D37A2182F9101A93DE737B154F03D* L_4 = L_3;
+		((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__28_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__28_0), (void*)L_4);
+		G_B2_0 = L_4;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0020:
+	{
+		bool* L_5 = ___0_isPinched;
+		NullCheck(G_B2_1);
+		bool L_6;
+		L_6 = PlaybackGestureHandler_TryGetCommonGestureHelper_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m313FAE6B7EE351294140F3B288EEDA51EF6E17E7(G_B2_1, G_B2_0, L_5, (bool)0, PlaybackGestureHandler_TryGetCommonGestureHelper_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m313FAE6B7EE351294140F3B288EEDA51EF6E17E7_RuntimeMethod_var);
+		return L_6;
+	}
+}
+// Method Definition Index: 75348
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetPokePose_m049B688FA9F23BABDAC4AFF1DB721528C29D8AAF (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_pokePose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CTryGetPokePoseU3Eb__29_0_m5FEE46D149285816FEC66C712060212124D9537F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* G_B2_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B2_1 = NULL;
+	TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* G_B1_0 = NULL;
+	PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* G_B1_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:232>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:233>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:234>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:235>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:236>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:237>
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_0 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__29_0;
+		TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			G_B2_1 = __this;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+		G_B1_1 = __this;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* L_2 = ((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9;
+		TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_3 = (TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA*)il2cpp_codegen_object_new(TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA_il2cpp_TypeInfo_var);
+		TryGetFromGestures_1__ctor_mA9304F35D96E0C430EE57BD9C9AB8F54FEF7842F(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CTryGetPokePoseU3Eb__29_0_m5FEE46D149285816FEC66C712060212124D9537F_RuntimeMethod_var), NULL);
+		TryGetFromGestures_1_t1F3969F3F7021D89942AAE1EC8011838CB6288FA* L_4 = L_3;
+		((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__29_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9__29_0), (void*)L_4);
+		G_B2_0 = L_4;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0020:
+	{
+		InterpolateFunc_1_t31414FF673656CA38AB49383E4863F908FC3BD0D* L_5 = __this->___m_InterpolatePose;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_6 = ___0_pokePose;
+		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_7;
+		L_7 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
+		NullCheck(G_B2_1);
+		bool L_8;
+		L_8 = PlaybackGestureHandler_TryGetCommonGestureHelper_m12238B96C958D07670A837719800EBDE2999ECA2(G_B2_1, G_B2_0, L_5, L_6, L_7, (bool)1, NULL);
+		return L_8;
+	}
+}
+// Method Definition Index: 75349
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetAimState_mFB4A34501B440D9F45AFA8356DA899DEC2FA5F3F (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* ___0_aimState, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:243>
+		bool L_0 = __this->___m_IsCurrentFrameValid;
+		if (!L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_1 = (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)(&__this->___m_CurrentFrame);
+		int32_t L_2 = __this->___m_Handedness;
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_3 = ___0_aimState;
+		bool L_4;
+		L_4 = XRHandCaptureFrame_TryGetAimState_m9620620B803C1FA6D8A06622D3DF77DD8E42BEDB(L_1, L_2, L_3, NULL);
+		if (L_4)
+		{
+			goto IL_0025;
+		}
+	}
+
+IL_001c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:245>
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_5 = ___0_aimState;
+		il2cpp_codegen_initobj(L_5, sizeof(XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:246>
+		return (bool)0;
+	}
+
+IL_0025:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:250>
+		bool L_6 = __this->___m_IsNextFrameValid;
+		if (!L_6)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_7 = (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)(&__this->___m_NextFrame);
+		int32_t L_8 = __this->___m_Handedness;
+		bool L_9;
+		L_9 = XRHandCaptureFrame_TryGetAimState_m9620620B803C1FA6D8A06622D3DF77DD8E42BEDB(L_7, L_8, (&V_0), NULL);
+		if (!L_9)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:252>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_10 = __this->___m_CurrentFrame;
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_11 = __this->___m_NextFrame;
+		float L_12;
+		L_12 = PlaybackGestureHandler_get_currentElapsedTime_m19432D4260689528D372504592F0964C68D476C7(__this, NULL);
+		float L_13;
+		L_13 = PlaybackInterpolator_CalculateBlendScalar_m59E94B0702C60793659E5ECA6DA0A0731B5E00CE(L_10, L_11, L_12, NULL);
+		V_1 = L_13;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:253>
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_14 = ___0_aimState;
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_15 = ___0_aimState;
+		float L_16 = V_1;
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3 L_17;
+		L_17 = PlaybackInterpolator_InterpolateAimState_m1812C3AD7C70B05C64AA21911F8E2876B4B5340D(L_15, (&V_0), L_16, NULL);
+		*(XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3*)L_14 = L_17;
+	}
+
+IL_0069:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:257>
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_18 = ___0_aimState;
+		RuntimeObject* L_19 = __this->___m_CoordinateTransform;
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_20 = ___0_aimState;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_21;
+		L_21 = XRHandAimState_get_aimPoseInternal_m6E2D473AA6B68B56C3667CA95F69B21FCA7C0005_inline(L_20, NULL);
+		V_2 = L_21;
+		NullCheck(L_19);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_22;
+		L_22 = InterfaceFuncInvoker1< Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* >::Invoke(2, IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var, L_19, (&V_2));
+		XRHandAimState_set_aimPoseInternal_mC1DF3050FF09083FF19C531F56DEE78669C76530_inline(L_18, L_22, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:259>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 75350
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetCommonGesturesState_m6A39C46CCF34F66B4DE1FA03E5AED9ED6AE7BC4B (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* ___0_commonGestures, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:265>
+		bool L_0 = __this->___m_IsCurrentFrameValid;
+		if (!L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_1 = (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)(&__this->___m_CurrentFrame);
+		int32_t L_2 = __this->___m_Handedness;
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_3 = ___0_commonGestures;
+		bool L_4;
+		L_4 = XRHandCaptureFrame_TryGetCommonGestures_m16F64E4B5739A4ED756C8E07647ABEBD52E166C6(L_1, L_2, L_3, NULL);
+		if (L_4)
+		{
+			goto IL_0025;
+		}
+	}
+
+IL_001c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:267>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_5 = ___0_commonGestures;
+		il2cpp_codegen_initobj(L_5, sizeof(XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:268>
+		return (bool)0;
+	}
+
+IL_0025:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:272>
+		bool L_6 = __this->___m_IsNextFrameValid;
+		if (!L_6)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_7 = (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)(&__this->___m_NextFrame);
+		int32_t L_8 = __this->___m_Handedness;
+		bool L_9;
+		L_9 = XRHandCaptureFrame_TryGetCommonGestures_m16F64E4B5739A4ED756C8E07647ABEBD52E166C6(L_7, L_8, (&V_0), NULL);
+		if (!L_9)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:274>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_10 = __this->___m_CurrentFrame;
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_11 = __this->___m_NextFrame;
+		float L_12;
+		L_12 = PlaybackGestureHandler_get_currentElapsedTime_m19432D4260689528D372504592F0964C68D476C7(__this, NULL);
+		float L_13;
+		L_13 = PlaybackInterpolator_CalculateBlendScalar_m59E94B0702C60793659E5ECA6DA0A0731B5E00CE(L_10, L_11, L_12, NULL);
+		V_1 = L_13;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:275>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_14 = ___0_commonGestures;
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_15 = ___0_commonGestures;
+		float L_16 = V_1;
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 L_17;
+		L_17 = PlaybackInterpolator_InterpolateCommonGesturesState_m318E828BAA8E67F3B02A34A91D45527F7471D485(L_15, (&V_0), L_16, NULL);
+		*(XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858*)L_14 = L_17;
+	}
+
+IL_0069:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:279>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_18 = ___0_commonGestures;
+		RuntimeObject* L_19 = __this->___m_CoordinateTransform;
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_20 = ___0_commonGestures;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_21;
+		L_21 = XRCommonHandGesturesState_get_aimPoseInternal_mCAB98BA67ED6383E6E77E63EBBD361EB06B1D464_inline(L_20, NULL);
+		V_2 = L_21;
+		NullCheck(L_19);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_22;
+		L_22 = InterfaceFuncInvoker1< Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* >::Invoke(2, IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var, L_19, (&V_2));
+		XRCommonHandGesturesState_set_aimPoseInternal_m8DC7AE7EBE975D3D41CF9E223549B9FFA0D03128_inline(L_18, L_22, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:280>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_23 = ___0_commonGestures;
+		RuntimeObject* L_24 = __this->___m_CoordinateTransform;
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_25 = ___0_commonGestures;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_26;
+		L_26 = XRCommonHandGesturesState_get_gripPoseInternal_mD1FC6ECFB2943B232C76DF66763E4BE959D1E911_inline(L_25, NULL);
+		V_2 = L_26;
+		NullCheck(L_24);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_27;
+		L_27 = InterfaceFuncInvoker1< Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* >::Invoke(2, IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var, L_24, (&V_2));
+		XRCommonHandGesturesState_set_gripPoseInternal_m174803A0C7491484B6D67B7B89FD9173A650C923_inline(L_23, L_27, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:281>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_28 = ___0_commonGestures;
+		RuntimeObject* L_29 = __this->___m_CoordinateTransform;
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_30 = ___0_commonGestures;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_31;
+		L_31 = XRCommonHandGesturesState_get_pinchPoseInternal_m088ACD3C2728BF29FC8D0450E1FF4A54A58490C6_inline(L_30, NULL);
+		V_2 = L_31;
+		NullCheck(L_29);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_32;
+		L_32 = InterfaceFuncInvoker1< Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* >::Invoke(2, IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var, L_29, (&V_2));
+		XRCommonHandGesturesState_set_pinchPoseInternal_mC96EF78C1166FCFD7FA20A1CCB9F9D019415A473_inline(L_28, L_32, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:282>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_33 = ___0_commonGestures;
+		RuntimeObject* L_34 = __this->___m_CoordinateTransform;
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_35 = ___0_commonGestures;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_36;
+		L_36 = XRCommonHandGesturesState_get_pokePoseInternal_m21283D3CC3DE71F445A3DF960DAA55B9D8E834F8_inline(L_35, NULL);
+		V_2 = L_36;
+		NullCheck(L_34);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_37;
+		L_37 = InterfaceFuncInvoker1< Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* >::Invoke(2, IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var, L_34, (&V_2));
+		XRCommonHandGesturesState_set_pokePoseInternal_m456B15F0D061B9BF23C05915627F23F728EB7288_inline(L_33, L_37, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:284>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 75351
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackGestureHandler_TryGetCommonGesturesStates_m621A7D4C5288641F4672ECC8219F9EEB9ED92F71 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, bool* ___0_isNextValid, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* ___1_current, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* ___2_next, float* ___3_blendScalar, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:297>
+		il2cpp_codegen_runtime_class_init_inline(PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_il2cpp_TypeInfo_var);
+		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_StaticFields*)il2cpp_codegen_static_fields_for(PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_il2cpp_TypeInfo_var))->___k_TryGetTwoCommonGesturesMarker;
+		V_1 = L_0;
+		AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 L_1;
+		L_1 = ProfilerMarker_Auto_m133FA724EB95D16187B37D2C8A501D7E989B1F8D_inline((&V_1), NULL);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_008d:
+			{
+				AutoScope_Dispose_mED763F3F51261EF8FB79DB32CD06E0A3F6C40481_inline((&V_0), NULL);
+				return;
+			}
+		});
+		try
+		{
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:299>
+				XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_2 = ___2_next;
+				il2cpp_codegen_initobj(L_2, sizeof(XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858));
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:300>
+				bool* L_3 = ___0_isNextValid;
+				*((int8_t*)L_3) = (int8_t)0;
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:301>
+				float* L_4 = ___3_blendScalar;
+				*((float*)L_4) = (float)(0.0f);
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:303>
+				bool L_5 = __this->___m_IsCurrentFrameValid;
+				if (!L_5)
+				{
+					goto IL_003c_1;
+				}
+			}
+			{
+				XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_6 = (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)(&__this->___m_CurrentFrame);
+				int32_t L_7 = __this->___m_Handedness;
+				XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_8 = ___1_current;
+				bool L_9;
+				L_9 = XRHandCaptureFrame_TryGetCommonGestures_m16F64E4B5739A4ED756C8E07647ABEBD52E166C6(L_6, L_7, L_8, NULL);
+				if (L_9)
+				{
+					goto IL_0047_1;
+				}
+			}
+
+IL_003c_1:
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:305>
+				XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_10 = ___1_current;
+				il2cpp_codegen_initobj(L_10, sizeof(XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858));
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:306>
+				V_2 = (bool)0;
+				goto IL_009b;
+			}
+
+IL_0047_1:
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:309>
+				bool L_11 = __this->___m_IsNextFrameValid;
+				if (L_11)
+				{
+					goto IL_0053_1;
+				}
+			}
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:310>
+				V_2 = (bool)1;
+				goto IL_009b;
+			}
+
+IL_0053_1:
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:312>
+				bool* L_12 = ___0_isNextValid;
+				XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_13 = (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)(&__this->___m_NextFrame);
+				int32_t L_14 = __this->___m_Handedness;
+				XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_15 = ___2_next;
+				bool L_16;
+				L_16 = XRHandCaptureFrame_TryGetCommonGestures_m16F64E4B5739A4ED756C8E07647ABEBD52E166C6(L_13, L_14, L_15, NULL);
+				*((int8_t*)L_12) = (int8_t)L_16;
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:313>
+				bool* L_17 = ___0_isNextValid;
+				int32_t L_18 = *((uint8_t*)L_17);
+				if (L_18)
+				{
+					goto IL_006f_1;
+				}
+			}
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:314>
+				V_2 = (bool)1;
+				goto IL_009b;
+			}
+
+IL_006f_1:
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:316>
+				float* L_19 = ___3_blendScalar;
+				XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_20 = __this->___m_CurrentFrame;
+				XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_21 = __this->___m_NextFrame;
+				float L_22;
+				L_22 = PlaybackGestureHandler_get_currentElapsedTime_m19432D4260689528D372504592F0964C68D476C7(__this, NULL);
+				float L_23;
+				L_23 = PlaybackInterpolator_CalculateBlendScalar_m59E94B0702C60793659E5ECA6DA0A0731B5E00CE(L_20, L_21, L_22, NULL);
+				*((float*)L_19) = (float)L_23;
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:317>
+				V_2 = (bool)1;
+				goto IL_009b;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_009b:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:319>
+		bool L_24 = V_2;
+		return L_24;
+	}
+}
+// Method Definition Index: 75352
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackGestureHandler_SetCoordinateTransform_m4921438617B1489053B98374302511423C16C6C4 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, RuntimeObject* ___0_coordinateTransform, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:323>
+		RuntimeObject* L_0 = ___0_coordinateTransform;
+		__this->___m_CoordinateTransform = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CoordinateTransform), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:324>
+		return;
+	}
+}
+// Method Definition Index: 75353
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackGestureHandler_SetTimeController_mBBB7E260AA2D4A7AA81D6479F53A16A759AD7E18 (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, RuntimeObject* ___0_timeController, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:328>
+		RuntimeObject* L_0 = ___0_timeController;
+		__this->___m_TimeController = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TimeController), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:329>
+		return;
+	}
+}
+// Method Definition Index: 75354
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaybackGestureHandler__cctor_m580757FD8C3609F7EA13C347103E9E152F8ED744 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral094B45DDD46CF781B40060A8A5DF09CACC719095);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral50FFE2A9C9DE765FB90517159FA2BAF3662853CA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:21>
+		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_0), _stringLiteral50FFE2A9C9DE765FB90517159FA2BAF3662853CA, NULL);
+		((PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_StaticFields*)il2cpp_codegen_static_fields_for(PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_il2cpp_TypeInfo_var))->___k_TryGetAimPoseMarker = L_0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:22>
+		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_1), _stringLiteral094B45DDD46CF781B40060A8A5DF09CACC719095, NULL);
+		((PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_StaticFields*)il2cpp_codegen_static_fields_for(PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_il2cpp_TypeInfo_var))->___k_TryGetTwoCommonGesturesMarker = L_1;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 75363
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m03B153A9BA70BD0C46EA5FCC14A3C98541D0D341 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* L_0 = (U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E*)il2cpp_codegen_object_new(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var);
+		U3CU3Ec__ctor_m63FFAF2E50C32B48345CFA801B2F29F9E6841E65(L_0, NULL);
+		((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E_il2cpp_TypeInfo_var))->___U3CU3E9), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 75364
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m63FFAF2E50C32B48345CFA801B2F29F9E6841E65 (U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 75365
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CTryGetAimPoseU3Eb__20_0_mDEAE4565A1423753DD41BA68121CB68A9F14856F (U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* __this, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 ___0_g, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_p, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:151>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_0 = ___1_p;
+		bool L_1;
+		L_1 = XRCommonHandGesturesState_TryGetAimPose_m0A6EDA7CD957DEABFB82E12DACDD894BE8B71433((&___0_g), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 75366
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CTryGetAimActivateValueU3Eb__21_0_m4474CC5FC023BD4BFE9D06D091678D914538AD48 (U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* __this, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 ___0_g, float* ___1_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:162>
+		float* L_0 = ___1_v;
+		bool L_1;
+		L_1 = XRCommonHandGesturesState_TryGetAimActivateValue_mF677E6403769D707018A5EA22C560A6B89A9DB2F((&___0_g), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 75367
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CTryGetAimActivatedStateU3Eb__22_0_mD455B6E1E956E7AD6BE31172450E1FF8AA185D43 (U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* __this, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 ___0_g, bool* ___1_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:171>
+		bool* L_0 = ___1_v;
+		bool L_1;
+		L_1 = XRCommonHandGesturesState_TryGetAimActivatedState_mD093B0DD7F15FD55408053DCFE29312487691D41((&___0_g), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 75368
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CTryGetGraspValueU3Eb__23_0_m8EA4E0C89533012FF1A749BF454CD0D73BF934DE (U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* __this, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 ___0_g, float* ___1_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:179>
+		float* L_0 = ___1_v;
+		bool L_1;
+		L_1 = XRCommonHandGesturesState_TryGetGraspValue_mE6FD1F8550A8A6367BE448154F5D12E9225FB784((&___0_g), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 75369
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CTryGetGraspFirmStateU3Eb__24_0_mA50A513ABFF044E7CD9F379D6921604E37EA5F3D (U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* __this, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 ___0_g, bool* ___1_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:188>
+		bool* L_0 = ___1_v;
+		bool L_1;
+		L_1 = XRCommonHandGesturesState_TryGetGraspFirmState_mAD57D622E4788091986B2703831EED0F574EEE76((&___0_g), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 75370
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CTryGetGripPoseU3Eb__25_0_m77330BB57B42A12B6BF7DB78167AE2EAD15DE4AF (U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* __this, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 ___0_g, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_p, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:196>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_0 = ___1_p;
+		bool L_1;
+		L_1 = XRCommonHandGesturesState_TryGetGripPose_m13E977B6195240886A36151754A4F66E36296FE4((&___0_g), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 75371
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CTryGetPinchPoseU3Eb__26_0_m705BE66F0AE6DFE1014E8881435B9DEF6094DB49 (U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* __this, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 ___0_g, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_p, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:206>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_0 = ___1_p;
+		bool L_1;
+		L_1 = XRCommonHandGesturesState_TryGetPinchPose_m2A4EA1A1E95062672967BCC2CAAEDC9B5FB61183((&___0_g), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 75372
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CTryGetPinchValueU3Eb__27_0_mA6A6FCB4A5190D0EA3D9DF493E8E85F73C37135A (U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* __this, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 ___0_g, float* ___1_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:216>
+		float* L_0 = ___1_v;
+		bool L_1;
+		L_1 = XRCommonHandGesturesState_TryGetPinchValue_m21460743DFFF74631DF1E68D6B4B71D5688CA0EA((&___0_g), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 75373
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CTryGetPinchTouchedStateU3Eb__28_0_m58C8CF4119E4785FE7A7BBC6BC297154F23A1238 (U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* __this, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 ___0_g, bool* ___1_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:225>
+		bool* L_0 = ___1_v;
+		bool L_1;
+		L_1 = XRCommonHandGesturesState_TryGetPinchTouchedState_m9B094E218B96D7E493CE36FEB3173B3E54FA6CB1((&___0_g), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 75374
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CTryGetPokePoseU3Eb__29_0_m5FEE46D149285816FEC66C712060212124D9537F (U3CU3Ec_tC186FA86D75B646B768038039441D2C986C45D2E* __this, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 ___0_g, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_p, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:233>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_0 = ___1_p;
+		bool L_1;
+		L_1 = XRCommonHandGesturesState_TryGetPokePose_mF66AFB288D432FDC8E7C6FF88CEEDC533B67B3BA((&___0_g), L_0, NULL);
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 75375
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlaybackInterpolator_CalculateBlendScalar_m75576D47F819FD596C39187A70ECFD8EA11D737D (float ___0_currentTime, float ___1_nextTime, float ___2_elapsedTime, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:26>
+		float L_0 = ___1_nextTime;
+		float L_1 = ___0_currentTime;
+		V_0 = ((float)il2cpp_codegen_subtract(L_0, L_1));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:27>
+		float L_2 = V_0;
+		if ((!(((float)L_2) < ((float)(9.99999975E-06f)))))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:28>
+		return (0.0f);
+	}
+
+IL_0012:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:30>
+		float L_3 = ___2_elapsedTime;
+		float L_4 = ___0_currentTime;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:31>
+		float L_5 = V_0;
+		float L_6;
+		L_6 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(((float)il2cpp_codegen_subtract(L_3, L_4))/L_5)), NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 75376
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlaybackInterpolator_CalculateBlendScalar_m59E94B0702C60793659E5ECA6DA0A0731B5E00CE (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 ___0_currentFrame, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 ___1_nextFrame, float ___2_elapsedTime, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:50>
+		float L_0;
+		L_0 = XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline((&___0_currentFrame), NULL);
+		float L_1;
+		L_1 = XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline((&___1_nextFrame), NULL);
+		float L_2 = ___2_elapsedTime;
+		float L_3;
+		L_3 = PlaybackInterpolator_CalculateBlendScalar_m75576D47F819FD596C39187A70ECFD8EA11D737D(L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 75377
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 PlaybackInterpolator_InterpolatePose_mA7075DA7A9E4D028BB4CB18207D1A8D4047A23EF (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_start, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_end, float ___2_t, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:62>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:64>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_0 = ___0_start;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = L_0->___position;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_2 = ___1_end;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = L_2->___position;
+		float L_4 = ___2_t;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_1, L_3, L_4, NULL);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_6 = ___0_start;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7 = L_6->___rotation;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_8 = ___1_end;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9 = L_8->___rotation;
+		float L_10 = ___2_t;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_11;
+		L_11 = Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15_inline(L_7, L_9, L_10, NULL);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&L_12), L_5, L_11, NULL);
+		return L_12;
+	}
+}
+// Method Definition Index: 75378
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlaybackInterpolator_InterpolateValue_m35FF537F0491FF97A31EAB9A58FE97F67F7A5CD2 (float* ___0_start, float* ___1_end, float ___2_t, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:76>
+		float* L_0 = ___0_start;
+		float L_1 = *((float*)L_0);
+		float* L_2 = ___1_end;
+		float L_3 = *((float*)L_2);
+		float L_4 = ___2_t;
+		float L_5;
+		L_5 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_1, L_3, L_4, NULL);
+		return L_5;
+	}
+}
+// Method Definition Index: 75379
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaybackInterpolator_TryInterpolateJoints_m7EEC1685A4FBF7BF8E9740B02BF633AC737279F7 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* ___0_handBefore, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* ___1_handAfter, float ___2_blendScalar, int32_t ___3_handedness, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___4_outputJoints, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	float V_10 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_18;
+	memset((&V_18), 0, sizeof(V_18));
+	int32_t G_B19_0 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:96>
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_0 = ___0_handBefore;
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_1 = (*(XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471*)L_0);
+		V_0 = L_1;
+		bool L_2;
+		L_2 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_0), NULL);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_3 = ___1_handAfter;
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_4 = (*(XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471*)L_3);
+		V_0 = L_4;
+		bool L_5;
+		L_5 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_0), NULL);
+		if (L_5)
+		{
+			goto IL_0022;
+		}
+	}
+
+IL_0020:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:97>
+		return (bool)0;
+	}
+
+IL_0022:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:99>
+		V_1 = 0;
+		goto IL_0148;
+	}
+
+IL_0029:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:101>
+		int32_t L_6 = V_1;
+		int32_t L_7;
+		L_7 = XRHandJointIDUtility_FromIndex_m3A7C3DE3C3C5F89090C7B3B01B2E93ADC526BA2E(L_6, NULL);
+		V_2 = L_7;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:103>
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_8 = ___0_handBefore;
+		int32_t L_9 = V_2;
+		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_10;
+		L_10 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035(L_8, L_9, NULL);
+		V_3 = L_10;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:104>
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_11 = ___1_handAfter;
+		int32_t L_12 = V_2;
+		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_13;
+		L_13 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035(L_11, L_12, NULL);
+		V_4 = L_13;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:106>
+		bool L_14;
+		L_14 = XRHandJoint_TryGetPose_m1AA1E69E7753E1CC4E64F8649751BF7D30CE113E((&V_3), (&V_5), NULL);
+		if (!L_14)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		bool L_15;
+		L_15 = XRHandJoint_TryGetPose_m1AA1E69E7753E1CC4E64F8649751BF7D30CE113E((&V_4), (&V_6), NULL);
+		if (L_15)
+		{
+			goto IL_008a;
+		}
+	}
+
+IL_0057:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:110>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:111>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:112>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:113>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:114>
+		int32_t L_16 = V_1;
+		int32_t L_17 = ___3_handedness;
+		int32_t L_18 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_19;
+		L_19 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
+		il2cpp_codegen_initobj((&V_18), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_18;
+		il2cpp_codegen_initobj((&V_18), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_18;
+		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_22;
+		L_22 = XRHandProviderUtility_CreateJoint_m821C313C0A76868D0E5BB50368DD0EF240237B75(L_17, 0, L_18, L_19, (0.0f), L_20, L_21, NULL);
+		IL2CPP_NATIVEARRAY_SET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, ((&___4_outputJoints))->___m_Buffer, L_16, (L_22));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:115>
+		goto IL_0144;
+	}
+
+IL_008a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:119>
+		float L_23 = ___2_blendScalar;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_24;
+		L_24 = PlaybackInterpolator_InterpolatePose_mA7075DA7A9E4D028BB4CB18207D1A8D4047A23EF((&V_5), (&V_6), L_23, NULL);
+		V_7 = L_24;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:122>
+		V_8 = (0.0f);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:123>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:124>
+		bool L_25;
+		L_25 = XRHandJoint_TryGetRadius_m992C3DC67D51BCF5F949503D98178BE191D2526D((&V_3), (&V_9), NULL);
+		if (!L_25)
+		{
+			goto IL_00bf;
+		}
+	}
+	{
+		bool L_26;
+		L_26 = XRHandJoint_TryGetRadius_m992C3DC67D51BCF5F949503D98178BE191D2526D((&V_4), (&V_10), NULL);
+		if (!L_26)
+		{
+			goto IL_00bf;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:126>
+		float L_27 = ___2_blendScalar;
+		float L_28;
+		L_28 = PlaybackInterpolator_InterpolateValue_m35FF537F0491FF97A31EAB9A58FE97F67F7A5CD2((&V_9), (&V_10), L_27, NULL);
+		V_8 = L_28;
+	}
+
+IL_00bf:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:130>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		L_29 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_11 = L_29;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:131>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:132>
+		bool L_30;
+		L_30 = XRHandJoint_TryGetLinearVelocity_m3BC24DBDEB210B51568D21317B1B3574A6B57F6B((&V_3), (&V_12), NULL);
+		if (!L_30)
+		{
+			goto IL_00e8;
+		}
+	}
+	{
+		bool L_31;
+		L_31 = XRHandJoint_TryGetLinearVelocity_m3BC24DBDEB210B51568D21317B1B3574A6B57F6B((&V_4), (&V_13), NULL);
+		if (!L_31)
+		{
+			goto IL_00e8;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:134>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = V_12;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_13;
+		float L_34 = ___2_blendScalar;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
+		L_35 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_32, L_33, L_34, NULL);
+		V_11 = L_35;
+	}
+
+IL_00e8:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:137>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
+		L_36 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_14 = L_36;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:138>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:139>
+		bool L_37;
+		L_37 = XRHandJoint_TryGetAngularVelocity_mA486ED68AE5883EC4EE22A4403457E5F3F64CF63((&V_3), (&V_15), NULL);
+		if (!L_37)
+		{
+			goto IL_0111;
+		}
+	}
+	{
+		bool L_38;
+		L_38 = XRHandJoint_TryGetAngularVelocity_mA486ED68AE5883EC4EE22A4403457E5F3F64CF63((&V_4), (&V_16), NULL);
+		if (!L_38)
+		{
+			goto IL_0111;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:141>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = V_15;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_16;
+		float L_41 = ___2_blendScalar;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
+		L_42 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_39, L_40, L_41, NULL);
+		V_14 = L_42;
+	}
+
+IL_0111:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:145>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:146>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:147>
+		float L_43 = ___2_blendScalar;
+		if ((((float)L_43) < ((float)(0.5f))))
+		{
+			goto IL_0122;
+		}
+	}
+	{
+		int32_t L_44;
+		L_44 = XRHandJoint_get_trackingState_mD1202D64E796D92C38FA87BD02DFBD58AF5E4696_inline((&V_4), NULL);
+		G_B19_0 = L_44;
+		goto IL_0129;
+	}
+
+IL_0122:
+	{
+		int32_t L_45;
+		L_45 = XRHandJoint_get_trackingState_mD1202D64E796D92C38FA87BD02DFBD58AF5E4696_inline((&V_3), NULL);
+		G_B19_0 = L_45;
+	}
+
+IL_0129:
+	{
+		V_17 = G_B19_0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:150>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:151>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:154>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:156>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:157>
+		int32_t L_46 = V_1;
+		int32_t L_47 = ___3_handedness;
+		int32_t L_48 = V_17;
+		int32_t L_49 = V_2;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_50 = V_7;
+		float L_51 = V_8;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52 = V_11;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53 = V_14;
+		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_54;
+		L_54 = XRHandProviderUtility_CreateJoint_m821C313C0A76868D0E5BB50368DD0EF240237B75(L_47, L_48, L_49, L_50, L_51, L_52, L_53, NULL);
+		IL2CPP_NATIVEARRAY_SET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, ((&___4_outputJoints))->___m_Buffer, L_46, (L_54));
+	}
+
+IL_0144:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:99>
+		int32_t L_55 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_55, 1));
+	}
+
+IL_0148:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:99>
+		int32_t L_56 = V_1;
+		int32_t L_57;
+		L_57 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)27), NULL);
+		if ((((int32_t)L_56) < ((int32_t)L_57)))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:160>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 75380
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 PlaybackInterpolator_InterpolateCommonGesturesState_m318E828BAA8E67F3B02A34A91D45527F7471D485 (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* ___0_current, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* ___1_next, float ___2_blendScalar, const RuntimeMethod* method) 
+{
+	XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	int32_t G_B3_0 = 0;
+	int32_t G_B1_0 = 0;
+	int32_t G_B2_0 = 0;
+	int32_t G_B6_0 = 0;
+	int32_t G_B4_0 = 0;
+	int32_t G_B5_0 = 0;
+	int32_t G_B9_0 = 0;
+	int32_t G_B7_0 = 0;
+	int32_t G_B8_0 = 0;
+	int32_t G_B12_0 = 0;
+	int32_t G_B10_0 = 0;
+	int32_t G_B11_0 = 0;
+	int32_t G_B15_0 = 0;
+	int32_t G_B13_0 = 0;
+	int32_t G_B14_0 = 0;
+	int32_t G_B18_0 = 0;
+	int32_t G_B16_0 = 0;
+	int32_t G_B17_0 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:176>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_0 = ___0_current;
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 L_1 = (*(XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858*)L_0);
+		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:178>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_2 = ___0_current;
+		int32_t L_3;
+		L_3 = XRCommonHandGesturesState_get_flags_m28DE88859CFE4D4A802B05CD88BE07F3182AA28E_inline(L_2, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:179>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_4 = ___1_next;
+		int32_t L_5;
+		L_5 = XRCommonHandGesturesState_get_flags_m28DE88859CFE4D4A802B05CD88BE07F3182AA28E_inline(L_4, NULL);
+		V_1 = L_5;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:182>
+		int32_t L_6 = L_3;
+		bool L_7;
+		L_7 = XRCommonHandGesturesFlagsExtensions_HasGesturesFlag_m7CC72D31438983A263956B8968F1533B04CBA53D(L_6, 1, NULL);
+		if (!L_7)
+		{
+			G_B3_0 = L_6;
+			goto IL_0045;
+		}
+		G_B1_0 = L_6;
+	}
+	{
+		int32_t L_8 = V_1;
+		bool L_9;
+		L_9 = XRCommonHandGesturesFlagsExtensions_HasGesturesFlag_m7CC72D31438983A263956B8968F1533B04CBA53D(L_8, 1, NULL);
+		if (!L_9)
+		{
+			G_B3_0 = G_B1_0;
+			goto IL_0045;
+		}
+		G_B2_0 = G_B1_0;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:183>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_10 = ___0_current;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_11;
+		L_11 = XRCommonHandGesturesState_get_aimPoseInternal_mCAB98BA67ED6383E6E77E63EBBD361EB06B1D464_inline(L_10, NULL);
+		V_2 = L_11;
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_12 = ___1_next;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_13;
+		L_13 = XRCommonHandGesturesState_get_aimPoseInternal_mCAB98BA67ED6383E6E77E63EBBD361EB06B1D464_inline(L_12, NULL);
+		V_3 = L_13;
+		float L_14 = ___2_blendScalar;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_15;
+		L_15 = PlaybackInterpolator_InterpolatePose_mA7075DA7A9E4D028BB4CB18207D1A8D4047A23EF((&V_2), (&V_3), L_14, NULL);
+		XRCommonHandGesturesState_set_aimPoseInternal_m8DC7AE7EBE975D3D41CF9E223549B9FFA0D03128_inline((&V_0), L_15, NULL);
+		G_B3_0 = G_B2_0;
+	}
+
+IL_0045:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:184>
+		int32_t L_16 = G_B3_0;
+		bool L_17;
+		L_17 = XRCommonHandGesturesFlagsExtensions_HasGesturesFlag_m7CC72D31438983A263956B8968F1533B04CBA53D(L_16, 8, NULL);
+		if (!L_17)
+		{
+			G_B6_0 = L_16;
+			goto IL_0076;
+		}
+		G_B4_0 = L_16;
+	}
+	{
+		int32_t L_18 = V_1;
+		bool L_19;
+		L_19 = XRCommonHandGesturesFlagsExtensions_HasGesturesFlag_m7CC72D31438983A263956B8968F1533B04CBA53D(L_18, 8, NULL);
+		if (!L_19)
+		{
+			G_B6_0 = G_B4_0;
+			goto IL_0076;
+		}
+		G_B5_0 = G_B4_0;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:185>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_20 = ___0_current;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_21;
+		L_21 = XRCommonHandGesturesState_get_gripPoseInternal_mD1FC6ECFB2943B232C76DF66763E4BE959D1E911_inline(L_20, NULL);
+		V_2 = L_21;
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_22 = ___1_next;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_23;
+		L_23 = XRCommonHandGesturesState_get_gripPoseInternal_mD1FC6ECFB2943B232C76DF66763E4BE959D1E911_inline(L_22, NULL);
+		V_3 = L_23;
+		float L_24 = ___2_blendScalar;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_25;
+		L_25 = PlaybackInterpolator_InterpolatePose_mA7075DA7A9E4D028BB4CB18207D1A8D4047A23EF((&V_2), (&V_3), L_24, NULL);
+		XRCommonHandGesturesState_set_gripPoseInternal_m174803A0C7491484B6D67B7B89FD9173A650C923_inline((&V_0), L_25, NULL);
+		G_B6_0 = G_B5_0;
+	}
+
+IL_0076:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:186>
+		int32_t L_26 = G_B6_0;
+		bool L_27;
+		L_27 = XRCommonHandGesturesFlagsExtensions_HasGesturesFlag_m7CC72D31438983A263956B8968F1533B04CBA53D(L_26, ((int32_t)16), NULL);
+		if (!L_27)
+		{
+			G_B9_0 = L_26;
+			goto IL_00a9;
+		}
+		G_B7_0 = L_26;
+	}
+	{
+		int32_t L_28 = V_1;
+		bool L_29;
+		L_29 = XRCommonHandGesturesFlagsExtensions_HasGesturesFlag_m7CC72D31438983A263956B8968F1533B04CBA53D(L_28, ((int32_t)16), NULL);
+		if (!L_29)
+		{
+			G_B9_0 = G_B7_0;
+			goto IL_00a9;
+		}
+		G_B8_0 = G_B7_0;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:187>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_30 = ___0_current;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_31;
+		L_31 = XRCommonHandGesturesState_get_pinchPoseInternal_m088ACD3C2728BF29FC8D0450E1FF4A54A58490C6_inline(L_30, NULL);
+		V_2 = L_31;
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_32 = ___1_next;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_33;
+		L_33 = XRCommonHandGesturesState_get_pinchPoseInternal_m088ACD3C2728BF29FC8D0450E1FF4A54A58490C6_inline(L_32, NULL);
+		V_3 = L_33;
+		float L_34 = ___2_blendScalar;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_35;
+		L_35 = PlaybackInterpolator_InterpolatePose_mA7075DA7A9E4D028BB4CB18207D1A8D4047A23EF((&V_2), (&V_3), L_34, NULL);
+		XRCommonHandGesturesState_set_pinchPoseInternal_mC96EF78C1166FCFD7FA20A1CCB9F9D019415A473_inline((&V_0), L_35, NULL);
+		G_B9_0 = G_B8_0;
+	}
+
+IL_00a9:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:188>
+		int32_t L_36 = G_B9_0;
+		bool L_37;
+		L_37 = XRCommonHandGesturesFlagsExtensions_HasGesturesFlag_m7CC72D31438983A263956B8968F1533B04CBA53D(L_36, ((int32_t)64), NULL);
+		if (!L_37)
+		{
+			G_B12_0 = L_36;
+			goto IL_00dc;
+		}
+		G_B10_0 = L_36;
+	}
+	{
+		int32_t L_38 = V_1;
+		bool L_39;
+		L_39 = XRCommonHandGesturesFlagsExtensions_HasGesturesFlag_m7CC72D31438983A263956B8968F1533B04CBA53D(L_38, ((int32_t)64), NULL);
+		if (!L_39)
+		{
+			G_B12_0 = G_B10_0;
+			goto IL_00dc;
+		}
+		G_B11_0 = G_B10_0;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:189>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_40 = ___0_current;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_41;
+		L_41 = XRCommonHandGesturesState_get_pokePoseInternal_m21283D3CC3DE71F445A3DF960DAA55B9D8E834F8_inline(L_40, NULL);
+		V_2 = L_41;
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_42 = ___1_next;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_43;
+		L_43 = XRCommonHandGesturesState_get_pokePoseInternal_m21283D3CC3DE71F445A3DF960DAA55B9D8E834F8_inline(L_42, NULL);
+		V_3 = L_43;
+		float L_44 = ___2_blendScalar;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_45;
+		L_45 = PlaybackInterpolator_InterpolatePose_mA7075DA7A9E4D028BB4CB18207D1A8D4047A23EF((&V_2), (&V_3), L_44, NULL);
+		XRCommonHandGesturesState_set_pokePoseInternal_m456B15F0D061B9BF23C05915627F23F728EB7288_inline((&V_0), L_45, NULL);
+		G_B12_0 = G_B11_0;
+	}
+
+IL_00dc:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:195>
+		int32_t L_46 = G_B12_0;
+		bool L_47;
+		L_47 = XRCommonHandGesturesFlagsExtensions_HasGesturesFlag_m7CC72D31438983A263956B8968F1533B04CBA53D(L_46, 2, NULL);
+		if (!L_47)
+		{
+			G_B15_0 = L_46;
+			goto IL_010f;
+		}
+		G_B13_0 = L_46;
+	}
+	{
+		int32_t L_48 = V_1;
+		bool L_49;
+		L_49 = XRCommonHandGesturesFlagsExtensions_HasGesturesFlag_m7CC72D31438983A263956B8968F1533B04CBA53D(L_48, 2, NULL);
+		if (!L_49)
+		{
+			G_B15_0 = G_B13_0;
+			goto IL_010f;
+		}
+		G_B14_0 = G_B13_0;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:196>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_50 = ___0_current;
+		float L_51;
+		L_51 = XRCommonHandGesturesState_get_aimActivateValueInternal_m422381BD69FA2E999C62B7B0DEB30C1A8940014C_inline(L_50, NULL);
+		V_4 = L_51;
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_52 = ___1_next;
+		float L_53;
+		L_53 = XRCommonHandGesturesState_get_aimActivateValueInternal_m422381BD69FA2E999C62B7B0DEB30C1A8940014C_inline(L_52, NULL);
+		V_5 = L_53;
+		float L_54 = ___2_blendScalar;
+		float L_55;
+		L_55 = PlaybackInterpolator_InterpolateValue_m35FF537F0491FF97A31EAB9A58FE97F67F7A5CD2((&V_4), (&V_5), L_54, NULL);
+		XRCommonHandGesturesState_set_aimActivateValueInternal_m301D65AB8C8185B990CA8E2D5E021F3D09302D22_inline((&V_0), L_55, NULL);
+		G_B15_0 = G_B14_0;
+	}
+
+IL_010f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:197>
+		int32_t L_56 = G_B15_0;
+		bool L_57;
+		L_57 = XRCommonHandGesturesFlagsExtensions_HasGesturesFlag_m7CC72D31438983A263956B8968F1533B04CBA53D(L_56, 4, NULL);
+		if (!L_57)
+		{
+			G_B18_0 = L_56;
+			goto IL_0142;
+		}
+		G_B16_0 = L_56;
+	}
+	{
+		int32_t L_58 = V_1;
+		bool L_59;
+		L_59 = XRCommonHandGesturesFlagsExtensions_HasGesturesFlag_m7CC72D31438983A263956B8968F1533B04CBA53D(L_58, 4, NULL);
+		if (!L_59)
+		{
+			G_B18_0 = G_B16_0;
+			goto IL_0142;
+		}
+		G_B17_0 = G_B16_0;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:198>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_60 = ___0_current;
+		float L_61;
+		L_61 = XRCommonHandGesturesState_get_graspValueInternal_m5C26004B9D0AEB0D2A186DB29AAA839EB00A3070_inline(L_60, NULL);
+		V_4 = L_61;
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_62 = ___1_next;
+		float L_63;
+		L_63 = XRCommonHandGesturesState_get_graspValueInternal_m5C26004B9D0AEB0D2A186DB29AAA839EB00A3070_inline(L_62, NULL);
+		V_5 = L_63;
+		float L_64 = ___2_blendScalar;
+		float L_65;
+		L_65 = PlaybackInterpolator_InterpolateValue_m35FF537F0491FF97A31EAB9A58FE97F67F7A5CD2((&V_4), (&V_5), L_64, NULL);
+		XRCommonHandGesturesState_set_graspValueInternal_mE6D3C6E2FDD17A42AD25F326C269D1F9C5583FEE_inline((&V_0), L_65, NULL);
+		G_B18_0 = G_B17_0;
+	}
+
+IL_0142:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:199>
+		bool L_66;
+		L_66 = XRCommonHandGesturesFlagsExtensions_HasGesturesFlag_m7CC72D31438983A263956B8968F1533B04CBA53D(G_B18_0, ((int32_t)32), NULL);
+		if (!L_66)
+		{
+			goto IL_0176;
+		}
+	}
+	{
+		int32_t L_67 = V_1;
+		bool L_68;
+		L_68 = XRCommonHandGesturesFlagsExtensions_HasGesturesFlag_m7CC72D31438983A263956B8968F1533B04CBA53D(L_67, ((int32_t)32), NULL);
+		if (!L_68)
+		{
+			goto IL_0176;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:200>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_69 = ___0_current;
+		float L_70;
+		L_70 = XRCommonHandGesturesState_get_pinchValueInternal_m3C5CA2EEF328C9A3D1B6CFF90C33BD9616275F4D_inline(L_69, NULL);
+		V_4 = L_70;
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_71 = ___1_next;
+		float L_72;
+		L_72 = XRCommonHandGesturesState_get_pinchValueInternal_m3C5CA2EEF328C9A3D1B6CFF90C33BD9616275F4D_inline(L_71, NULL);
+		V_5 = L_72;
+		float L_73 = ___2_blendScalar;
+		float L_74;
+		L_74 = PlaybackInterpolator_InterpolateValue_m35FF537F0491FF97A31EAB9A58FE97F67F7A5CD2((&V_4), (&V_5), L_73, NULL);
+		XRCommonHandGesturesState_set_pinchValueInternal_m2525479ED68D25A3D32C388FBB08A8BABADC37CF_inline((&V_0), L_74, NULL);
+	}
+
+IL_0176:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:202>
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858 L_75 = V_0;
+		return L_75;
+	}
+}
+// Method Definition Index: 75381
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3 PlaybackInterpolator_InterpolateAimState_m1812C3AD7C70B05C64AA21911F8E2876B4B5340D (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* ___0_current, XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* ___1_next, float ___2_blendScalar, const RuntimeMethod* method) 
+{
+	XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:218>
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_0 = ___0_current;
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3 L_1 = (*(XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3*)L_0);
+		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:221>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:222>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:223>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:224>
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_2 = ___0_current;
+		float L_3;
+		L_3 = XRHandAimState_get_pinchStrengthIndex_mFC510D1D7622BC7C20C2308D328CB4006A46D377_inline(L_2, NULL);
+		V_3 = L_3;
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_4 = ___1_next;
+		float L_5;
+		L_5 = XRHandAimState_get_pinchStrengthIndex_mFC510D1D7622BC7C20C2308D328CB4006A46D377_inline(L_4, NULL);
+		V_4 = L_5;
+		float L_6 = ___2_blendScalar;
+		float L_7;
+		L_7 = PlaybackInterpolator_InterpolateValue_m35FF537F0491FF97A31EAB9A58FE97F67F7A5CD2((&V_3), (&V_4), L_6, NULL);
+		XRHandAimState_set_pinchStrengthIndex_m13121AB7F41745CD7B8037BA7357F84E0B95997C_inline((&V_0), L_7, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:226>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:227>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:228>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:229>
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_8 = ___0_current;
+		float L_9;
+		L_9 = XRHandAimState_get_pinchStrengthMiddle_m7358E799FBA827B309E200EB2F89620660AB80BF_inline(L_8, NULL);
+		V_3 = L_9;
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_10 = ___1_next;
+		float L_11;
+		L_11 = XRHandAimState_get_pinchStrengthMiddle_m7358E799FBA827B309E200EB2F89620660AB80BF_inline(L_10, NULL);
+		V_4 = L_11;
+		float L_12 = ___2_blendScalar;
+		float L_13;
+		L_13 = PlaybackInterpolator_InterpolateValue_m35FF537F0491FF97A31EAB9A58FE97F67F7A5CD2((&V_3), (&V_4), L_12, NULL);
+		XRHandAimState_set_pinchStrengthMiddle_m5CFDE93F0C7DC460B0675C9725F870E085755DE1_inline((&V_0), L_13, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:231>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:232>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:233>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:234>
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_14 = ___0_current;
+		float L_15;
+		L_15 = XRHandAimState_get_pinchStrengthRing_m3FC8D078B4119EB357512C2D242A90852E32E28F_inline(L_14, NULL);
+		V_3 = L_15;
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_16 = ___1_next;
+		float L_17;
+		L_17 = XRHandAimState_get_pinchStrengthRing_m3FC8D078B4119EB357512C2D242A90852E32E28F_inline(L_16, NULL);
+		V_4 = L_17;
+		float L_18 = ___2_blendScalar;
+		float L_19;
+		L_19 = PlaybackInterpolator_InterpolateValue_m35FF537F0491FF97A31EAB9A58FE97F67F7A5CD2((&V_3), (&V_4), L_18, NULL);
+		XRHandAimState_set_pinchStrengthRing_mABE1E6CCD847674103368961F1CB939DC4C9E51D_inline((&V_0), L_19, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:236>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:237>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:238>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:239>
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_20 = ___0_current;
+		float L_21;
+		L_21 = XRHandAimState_get_pinchStrengthLittle_mF58CB4E7D291C1F1AFDE73B0F46CD89A5CE696DB_inline(L_20, NULL);
+		V_3 = L_21;
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_22 = ___1_next;
+		float L_23;
+		L_23 = XRHandAimState_get_pinchStrengthLittle_mF58CB4E7D291C1F1AFDE73B0F46CD89A5CE696DB_inline(L_22, NULL);
+		V_4 = L_23;
+		float L_24 = ___2_blendScalar;
+		float L_25;
+		L_25 = PlaybackInterpolator_InterpolateValue_m35FF537F0491FF97A31EAB9A58FE97F67F7A5CD2((&V_3), (&V_4), L_24, NULL);
+		XRHandAimState_set_pinchStrengthLittle_m960F5BF3B8F0C4DB8E16287BE4CD4BCEC38A6E32_inline((&V_0), L_25, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:242>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:243>
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_26 = ___0_current;
+		bool L_27;
+		L_27 = XRHandAimState_TryGetAimPose_mCC636BEC3D90552D0EB6FC209E2F706DEFEBC254(L_26, (&V_1), NULL);
+		if (!L_27)
+		{
+			goto IL_00ac;
+		}
+	}
+	{
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_28 = ___1_next;
+		bool L_29;
+		L_29 = XRHandAimState_TryGetAimPose_mCC636BEC3D90552D0EB6FC209E2F706DEFEBC254(L_28, (&V_2), NULL);
+		if (!L_29)
+		{
+			goto IL_00ac;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:245>
+		float L_30 = ___2_blendScalar;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_31;
+		L_31 = PlaybackInterpolator_InterpolatePose_mA7075DA7A9E4D028BB4CB18207D1A8D4047A23EF((&V_1), (&V_2), L_30, NULL);
+		XRHandAimState_set_aimPoseInternal_mC1DF3050FF09083FF19C531F56DEE78669C76530_inline((&V_0), L_31, NULL);
+	}
+
+IL_00ac:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackInterpolator.cs:248>
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3 L_32 = V_0;
+		return L_32;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 75382
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FrameBasedTimeController_get_ElapsedTime_m3755025DADCBA4A687CB65B9F2191B5B97679CEA (FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:20>
+		float L_0 = __this->___m_ElapsedTime;
+		return L_0;
+	}
+}
+// Method Definition Index: 75383
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameBasedTimeController_set_ElapsedTime_m8C7DE9ED0EA00B9934F1AA67370B2377FAAFCD59 (FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:21>
+		float L_0 = ___0_value;
+		__this->___m_ElapsedTime = L_0;
+		return;
+	}
+}
+// Method Definition Index: 75384
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FrameBasedTimeController_get_FrameIndex_m4101464B646E291CE0BED821F448E775DC5549FB (FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:29>
+		int32_t L_0 = __this->___m_FrameIndex;
+		return L_0;
+	}
+}
+// Method Definition Index: 75385
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameBasedTimeController_set_FrameIndex_mD6592CE44E4178E8F857E762A3116B8D3E92E667 (FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:30>
+		int32_t L_0 = ___0_value;
+		__this->___m_FrameIndex = L_0;
+		return;
+	}
+}
+// Method Definition Index: 75386
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameBasedTimeController_Reset_m6BFF10B2EBE22BC805006A3F783C582AF1170B68 (FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:38>
+		__this->___m_FrameIndex = 0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:39>
+		__this->___m_ElapsedTime = (0.0f);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:40>
+		return;
+	}
+}
+// Method Definition Index: 75387
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameBasedTimeController_UpdateTimeBasedOnFrameIndex_mB3B15F8C9C49A1BB497C009621009C082B7AD411 (FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6* __this, XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___0_sequence, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyList_1_t1785B1942CAB824DA803DFC6ADD04233B2CB32D4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:49>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_0 = ___0_sequence;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_2 = ___0_sequence;
+		NullCheck(L_2);
+		RuntimeObject* L_3;
+		L_3 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_4 = ___0_sequence;
+		NullCheck(L_4);
+		RuntimeObject* L_5;
+		L_5 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_4, NULL);
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var, L_5);
+		if (L_6)
+		{
+			goto IL_002a;
+		}
+	}
+
+IL_001e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:51>
+		__this->___m_ElapsedTime = (0.0f);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:52>
+		return;
+	}
+
+IL_002a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:56>
+		int32_t L_7 = __this->___m_FrameIndex;
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_8 = ___0_sequence;
+		NullCheck(L_8);
+		RuntimeObject* L_9;
+		L_9 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_8, NULL);
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var, L_9);
+		int32_t L_11;
+		L_11 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_7, 0, ((int32_t)il2cpp_codegen_subtract(L_10, 1)), NULL);
+		__this->___m_FrameIndex = L_11;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:59>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_12 = ___0_sequence;
+		NullCheck(L_12);
+		RuntimeObject* L_13;
+		L_13 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_12, NULL);
+		int32_t L_14 = __this->___m_FrameIndex;
+		NullCheck(L_13);
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_15;
+		L_15 = InterfaceFuncInvoker1< XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073, int32_t >::Invoke(0, IReadOnlyList_1_t1785B1942CAB824DA803DFC6ADD04233B2CB32D4_il2cpp_TypeInfo_var, L_13, L_14);
+		V_0 = L_15;
+		float L_16;
+		L_16 = XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline((&V_0), NULL);
+		__this->___m_ElapsedTime = L_16;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:60>
+		return;
+	}
+}
+// Method Definition Index: 75388
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameBasedTimeController_ApplyFrameDelta_m4B8EC2F48CC04D985591E53FD3E89AD128209983 (FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6* __this, float ___0_deltaTime, XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___1_sequence, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyList_1_t1785B1942CAB824DA803DFC6ADD04233B2CB32D4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:71>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_0 = ___1_sequence;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_2 = ___1_sequence;
+		NullCheck(L_2);
+		RuntimeObject* L_3;
+		L_3 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_4 = ___1_sequence;
+		NullCheck(L_4);
+		RuntimeObject* L_5;
+		L_5 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_4, NULL);
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var, L_5);
+		if (L_6)
+		{
+			goto IL_001f;
+		}
+	}
+
+IL_001e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:72>
+		return;
+	}
+
+IL_001f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:74>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_7 = ___1_sequence;
+		NullCheck(L_7);
+		RuntimeObject* L_8;
+		L_8 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_7, NULL);
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var, L_8);
+		V_0 = L_9;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:77>
+		int32_t L_10 = __this->___m_FrameIndex;
+		int32_t L_11 = V_0;
+		int32_t L_12;
+		L_12 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(((int32_t)il2cpp_codegen_add(L_10, 1)), 0, ((int32_t)il2cpp_codegen_subtract(L_11, 1)), NULL);
+		__this->___m_FrameIndex = L_12;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:80>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_13 = ___1_sequence;
+		NullCheck(L_13);
+		RuntimeObject* L_14;
+		L_14 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_13, NULL);
+		int32_t L_15 = __this->___m_FrameIndex;
+		NullCheck(L_14);
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_16;
+		L_16 = InterfaceFuncInvoker1< XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073, int32_t >::Invoke(0, IReadOnlyList_1_t1785B1942CAB824DA803DFC6ADD04233B2CB32D4_il2cpp_TypeInfo_var, L_14, L_15);
+		V_1 = L_16;
+		float L_17;
+		L_17 = XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline((&V_1), NULL);
+		__this->___m_ElapsedTime = L_17;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:81>
+		return;
+	}
+}
+// Method Definition Index: 75389
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FrameBasedTimeController_IsComplete_mF9C2F0BD069BB1D0F2C32F1D179D339A8261CBEC (FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6* __this, XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___0_sequence, bool ___1_looping, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:92>
+		bool L_0 = ___1_looping;
+		if (!L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:93>
+		return (bool)0;
+	}
+
+IL_0005:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:95>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_1 = ___0_sequence;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_2)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_3 = ___0_sequence;
+		NullCheck(L_3);
+		RuntimeObject* L_4;
+		L_4 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_5 = ___0_sequence;
+		NullCheck(L_5);
+		RuntimeObject* L_6;
+		L_6 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_5, NULL);
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var, L_6);
+		if (L_7)
+		{
+			goto IL_0025;
+		}
+	}
+
+IL_0023:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:96>
+		return (bool)1;
+	}
+
+IL_0025:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:98>
+		int32_t L_8 = __this->___m_FrameIndex;
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_9 = ___0_sequence;
+		NullCheck(L_9);
+		RuntimeObject* L_10;
+		L_10 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_9, NULL);
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var, L_10);
+		return (bool)((((int32_t)((((int32_t)L_8) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_11, 1))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 75390
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FrameBasedTimeController_NeedsInterpolation_m0DFE8F6CE3B551BCE877D093D3EE6A6490A40561 (FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6* __this, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 ___0_currentFrame, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:108>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 75391
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FrameBasedTimeController_TryGetInterpolationFrames_m95B4770D128EDF1C1CC994ADA99743EDB038CCBE (FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6* __this, XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___0_sequence, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___1_currentFrame, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___2_nextFrame, float* ___3_blendScalar, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:125>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_0 = ___1_currentFrame;
+		il2cpp_codegen_initobj(L_0, sizeof(XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:126>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_1 = ___2_nextFrame;
+		il2cpp_codegen_initobj(L_1, sizeof(XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:127>
+		float* L_2 = ___3_blendScalar;
+		*((float*)L_2) = (float)(0.0f);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/FrameBasedTimeController.cs:128>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 75392
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameBasedTimeController__ctor_m8F61818B239F7CB1838B12CB1A21D833F87EB0B8 (FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 75403
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TimeBasedTimeController_get_ElapsedTime_m7C4C2BC6F715C6F4BCFA66F8C7E5B534BDA3CB69 (TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:20>
+		float L_0 = __this->___m_ElapsedTime;
+		return L_0;
+	}
+}
+// Method Definition Index: 75404
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeBasedTimeController_set_ElapsedTime_mC479579ECB90C0DA02CDABF757AF9A9702622D58 (TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:21>
+		float L_0 = ___0_value;
+		__this->___m_ElapsedTime = L_0;
+		return;
+	}
+}
+// Method Definition Index: 75405
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TimeBasedTimeController_get_FrameIndex_mC852CCFFA331BD9B5F4388795A467A5BDFD7147F (TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:30>
+		int32_t L_0 = __this->___m_FrameIndex;
+		return L_0;
+	}
+}
+// Method Definition Index: 75406
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeBasedTimeController_set_FrameIndex_m99E20B78FFFB0AC8CC40004DB91FA1CDCA580FD5 (TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:31>
+		int32_t L_0 = ___0_value;
+		__this->___m_FrameIndex = L_0;
+		return;
+	}
+}
+// Method Definition Index: 75407
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeBasedTimeController_Reset_m43B944423471A843E55697A04EECFA3E91941AE8 (TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:39>
+		__this->___m_FrameIndex = 0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:40>
+		__this->___m_ElapsedTime = (0.0f);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:41>
+		return;
+	}
+}
+// Method Definition Index: 75408
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeBasedTimeController_UpdateTimeBasedOnFrameIndex_mE66ACA6A053DB356090E95BC32D571C948C2C629 (TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4* __this, XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___0_sequence, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyList_1_t1785B1942CAB824DA803DFC6ADD04233B2CB32D4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:50>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_0 = ___0_sequence;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_2 = ___0_sequence;
+		NullCheck(L_2);
+		RuntimeObject* L_3;
+		L_3 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_4 = ___0_sequence;
+		NullCheck(L_4);
+		RuntimeObject* L_5;
+		L_5 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_4, NULL);
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var, L_5);
+		if (L_6)
+		{
+			goto IL_002a;
+		}
+	}
+
+IL_001e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:52>
+		__this->___m_ElapsedTime = (0.0f);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:53>
+		return;
+	}
+
+IL_002a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:57>
+		int32_t L_7 = __this->___m_FrameIndex;
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_8 = ___0_sequence;
+		NullCheck(L_8);
+		RuntimeObject* L_9;
+		L_9 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_8, NULL);
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var, L_9);
+		int32_t L_11;
+		L_11 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_7, 0, ((int32_t)il2cpp_codegen_subtract(L_10, 1)), NULL);
+		__this->___m_FrameIndex = L_11;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:60>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_12 = ___0_sequence;
+		NullCheck(L_12);
+		RuntimeObject* L_13;
+		L_13 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_12, NULL);
+		int32_t L_14 = __this->___m_FrameIndex;
+		NullCheck(L_13);
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_15;
+		L_15 = InterfaceFuncInvoker1< XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073, int32_t >::Invoke(0, IReadOnlyList_1_t1785B1942CAB824DA803DFC6ADD04233B2CB32D4_il2cpp_TypeInfo_var, L_13, L_14);
+		V_0 = L_15;
+		float L_16;
+		L_16 = XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline((&V_0), NULL);
+		__this->___m_ElapsedTime = L_16;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:61>
+		return;
+	}
+}
+// Method Definition Index: 75409
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeBasedTimeController_ApplyFrameDelta_mB8DBEF5DDB61B1B4EF1CA772BF26ADB362C5F351 (TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4* __this, float ___0_deltaTime, XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___1_sequence, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:71>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_0 = ___1_sequence;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_2 = ___1_sequence;
+		NullCheck(L_2);
+		RuntimeObject* L_3;
+		L_3 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_4 = ___1_sequence;
+		NullCheck(L_4);
+		RuntimeObject* L_5;
+		L_5 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_4, NULL);
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var, L_5);
+		if (L_6)
+		{
+			goto IL_001f;
+		}
+	}
+
+IL_001e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:72>
+		return;
+	}
+
+IL_001f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:74>
+		float L_7 = __this->___m_ElapsedTime;
+		float L_8 = ___0_deltaTime;
+		__this->___m_ElapsedTime = ((float)il2cpp_codegen_add(L_7, L_8));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:75>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_9 = ___1_sequence;
+		float L_10 = __this->___m_ElapsedTime;
+		NullCheck(L_9);
+		int32_t L_11;
+		L_11 = XRHandCaptureSequence_GetClosestFrameIndex_m0E9692C2124B5DB229931164169C8A25218289FB(L_9, L_10, NULL);
+		__this->___m_FrameIndex = L_11;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:76>
+		return;
+	}
+}
+// Method Definition Index: 75410
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimeBasedTimeController_IsComplete_m6784FD7893E4B901FAA922827C9E9FF3DAF01665 (TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4* __this, XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___0_sequence, bool ___1_looping, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyList_1_t1785B1942CAB824DA803DFC6ADD04233B2CB32D4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:87>
+		bool L_0 = ___1_looping;
+		if (!L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:88>
+		return (bool)0;
+	}
+
+IL_0005:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:90>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_1 = ___0_sequence;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_2)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_3 = ___0_sequence;
+		NullCheck(L_3);
+		RuntimeObject* L_4;
+		L_4 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_5 = ___0_sequence;
+		NullCheck(L_5);
+		RuntimeObject* L_6;
+		L_6 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_5, NULL);
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var, L_6);
+		if (L_7)
+		{
+			goto IL_0025;
+		}
+	}
+
+IL_0023:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:91>
+		return (bool)1;
+	}
+
+IL_0025:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:94>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_8 = ___0_sequence;
+		NullCheck(L_8);
+		RuntimeObject* L_9;
+		L_9 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_8, NULL);
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_10 = ___0_sequence;
+		NullCheck(L_10);
+		RuntimeObject* L_11;
+		L_11 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_10, NULL);
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var, L_11);
+		NullCheck(L_9);
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_13;
+		L_13 = InterfaceFuncInvoker1< XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073, int32_t >::Invoke(0, IReadOnlyList_1_t1785B1942CAB824DA803DFC6ADD04233B2CB32D4_il2cpp_TypeInfo_var, L_9, ((int32_t)il2cpp_codegen_subtract(L_12, 1)));
+		V_0 = L_13;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:95>
+		float L_14 = __this->___m_ElapsedTime;
+		float L_15;
+		L_15 = XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline((&V_0), NULL);
+		return (bool)((((int32_t)((!(((float)L_14) >= ((float)L_15)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 75411
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimeBasedTimeController_NeedsInterpolation_m8AB7D43DF236B619EBC015B712B2DCAB35F4EC0B (TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4* __this, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 ___0_currentFrame, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:107>
+		float L_0 = __this->___m_ElapsedTime;
+		float L_1;
+		L_1 = XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline((&___0_currentFrame), NULL);
+		if ((!(((float)L_0) <= ((float)((float)il2cpp_codegen_add(L_1, (9.99999975E-06f)))))))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:108>
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:112>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 75412
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimeBasedTimeController_TryGetInterpolationFrames_m96F11A22B5024C4CD39C32D608A1E90CBCCBC36E (TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4* __this, XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___0_sequence, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___1_currentFrame, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___2_nextFrame, float* ___3_blendScalar, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyList_1_t1785B1942CAB824DA803DFC6ADD04233B2CB32D4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:130>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_0 = ___1_currentFrame;
+		il2cpp_codegen_initobj(L_0, sizeof(XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:131>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_1 = ___2_nextFrame;
+		il2cpp_codegen_initobj(L_1, sizeof(XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:132>
+		float* L_2 = ___3_blendScalar;
+		*((float*)L_2) = (float)(0.0f);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:134>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_3 = ___0_sequence;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_4)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_5 = ___0_sequence;
+		NullCheck(L_5);
+		RuntimeObject* L_6;
+		L_6 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_7 = ___0_sequence;
+		NullCheck(L_7);
+		RuntimeObject* L_8;
+		L_8 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_7, NULL);
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var, L_8);
+		if (L_9)
+		{
+			goto IL_0036;
+		}
+	}
+
+IL_0034:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:135>
+		return (bool)0;
+	}
+
+IL_0036:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:138>
+		int32_t L_10 = __this->___m_FrameIndex;
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_11 = ___0_sequence;
+		NullCheck(L_11);
+		RuntimeObject* L_12;
+		L_12 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_11, NULL);
+		NullCheck(L_12);
+		int32_t L_13;
+		L_13 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var, L_12);
+		if ((((int32_t)L_10) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_13, 1)))))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:139>
+		return (bool)0;
+	}
+
+IL_004d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:141>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_14 = ___1_currentFrame;
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_15 = ___0_sequence;
+		NullCheck(L_15);
+		RuntimeObject* L_16;
+		L_16 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_15, NULL);
+		int32_t L_17 = __this->___m_FrameIndex;
+		NullCheck(L_16);
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_18;
+		L_18 = InterfaceFuncInvoker1< XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073, int32_t >::Invoke(0, IReadOnlyList_1_t1785B1942CAB824DA803DFC6ADD04233B2CB32D4_il2cpp_TypeInfo_var, L_16, L_17);
+		*(XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)L_14 = L_18;
+		Il2CppCodeGenWriteBarrier((void**)&(((XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)L_14)->___m_ContainingAsset), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)L_14)->___m_LeftHandJoints), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)L_14)->___m_RightHandJoints), (void*)NULL);
+		#endif
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:142>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_19 = ___2_nextFrame;
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_20 = ___0_sequence;
+		NullCheck(L_20);
+		RuntimeObject* L_21;
+		L_21 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_20, NULL);
+		int32_t L_22 = __this->___m_FrameIndex;
+		NullCheck(L_21);
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_23;
+		L_23 = InterfaceFuncInvoker1< XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073, int32_t >::Invoke(0, IReadOnlyList_1_t1785B1942CAB824DA803DFC6ADD04233B2CB32D4_il2cpp_TypeInfo_var, L_21, ((int32_t)il2cpp_codegen_add(L_22, 1)));
+		*(XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)L_19 = L_23;
+		Il2CppCodeGenWriteBarrier((void**)&(((XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)L_19)->___m_ContainingAsset), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)L_19)->___m_LeftHandJoints), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)L_19)->___m_RightHandJoints), (void*)NULL);
+		#endif
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:145>
+		float L_24 = __this->___m_ElapsedTime;
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_25 = ___1_currentFrame;
+		float L_26;
+		L_26 = XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline(L_25, NULL);
+		if ((!(((float)L_24) <= ((float)((float)il2cpp_codegen_add(L_26, (9.99999975E-06f)))))))
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:146>
+		return (bool)0;
+	}
+
+IL_0093:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:149>
+		float L_27 = __this->___m_ElapsedTime;
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_28 = ___2_nextFrame;
+		float L_29;
+		L_29 = XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline(L_28, NULL);
+		if ((!(((float)L_27) >= ((float)((float)il2cpp_codegen_subtract(L_29, (9.99999975E-06f)))))))
+		{
+			goto IL_00a9;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:150>
+		return (bool)0;
+	}
+
+IL_00a9:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:153>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_30 = ___2_nextFrame;
+		float L_31;
+		L_31 = XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline(L_30, NULL);
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_32 = ___1_currentFrame;
+		float L_33;
+		L_33 = XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline(L_32, NULL);
+		V_0 = ((float)il2cpp_codegen_subtract(L_31, L_33));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:154>
+		float L_34 = V_0;
+		if ((!(((float)L_34) < ((float)(9.99999975E-06f)))))
+		{
+			goto IL_00c1;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:155>
+		return (bool)0;
+	}
+
+IL_00c1:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:157>
+		float* L_35 = ___3_blendScalar;
+		float L_36 = __this->___m_ElapsedTime;
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_37 = ___1_currentFrame;
+		float L_38;
+		L_38 = XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline(L_37, NULL);
+		float L_39 = V_0;
+		*((float*)L_35) = (float)((float)(((float)il2cpp_codegen_subtract(L_36, L_38))/L_39));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/TimeControl/TimeBasedTimeController.cs:158>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 75413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeBasedTimeController__ctor_m82A65326307630CFEFEEC3F1417118CA6364927B (TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 75418
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 RelativeToInitialRootTransform_get_CurrentAnchor_mECA726F1B9C93EEA28920F6716740BD986C56B73 (RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:20>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = __this->___m_OriginPose;
+		return L_0;
+	}
+}
+// Method Definition Index: 75419
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RelativeToInitialRootTransform_UpdateRootPose_m0517FFFAA3C4E858CF1B431115C0021BCC0E3C51 (RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_anchor, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 ___1_frame, int32_t ___2_handedness, const RuntimeMethod* method) 
+{
+	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:30>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = ___0_anchor;
+		__this->___m_OriginPose = L_0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:33>
+		int32_t L_1 = ___2_handedness;
+		bool L_2;
+		L_2 = RelativeToInitialRootTransform_TryGetHandFromFrame_m5BA7393FFE6702158804B6106341E94D4938F572(__this, (&___1_frame), L_1, (&V_0), NULL);
+		if (!L_2)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:36>
+		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_3;
+		L_3 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&V_0), 1, NULL);
+		V_2 = L_3;
+		bool L_4;
+		L_4 = XRHandJoint_TryGetPose_m1AA1E69E7753E1CC4E64F8649751BF7D30CE113E((&V_2), (&V_1), NULL);
+		if (L_4)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:37>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_5;
+		L_5 = XRHand_get_rootPose_m4F34E7F55AEBFD2FF7491364ADB00B27BF86F1A5_inline((&V_0), NULL);
+		V_1 = L_5;
+	}
+
+IL_0030:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:42>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:43>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_6 = (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)(&(&V_1)->___rotation);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Quaternion_get_eulerAngles_m2DB5158B5C3A71FD60FC8A6EE43D3AAA1CFED122_inline(L_6, NULL);
+		float L_8 = L_7.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9;
+		L_9 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), L_8, (0.0f), NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10;
+		L_10 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512_inline(L_9, NULL);
+		__this->___m_RotateIntoInitialRootPoseSpace = L_10;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:44>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_11 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = L_11.___position;
+		__this->___m_InitialRootPosition = L_12;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:46>
+		XRHand_Dispose_mCDBEBDCC8FF815323680F5C3F7595F2BCE6D23B5((&V_0), NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:47>
+		return (bool)1;
+	}
+
+IL_0070:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:53>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13;
+		L_13 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		__this->___m_RotateIntoInitialRootPoseSpace = L_13;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:54>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		__this->___m_InitialRootPosition = L_14;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:55>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 75420
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 RelativeToInitialRootTransform_TransformPose_m4013E1E8819383B88525BBB794DF1D18B228A504 (RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_capturedPose, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:70>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_0 = ___0_capturedPose;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = L_0->___position;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = __this->___m_InitialRootPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_1, L_2, NULL);
+		V_0 = L_3;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:71>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = __this->___m_RotateIntoInitialRootPoseSpace;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_4, L_5, NULL);
+		V_1 = L_6;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:72>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_7 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_OriginPose);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = L_7->___position;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_9 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_OriginPose);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = L_9->___rotation;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_10, L_11, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_8, L_12, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:75>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_14 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_OriginPose);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15 = L_14->___rotation;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = __this->___m_RotateIntoInitialRootPoseSpace;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
+		L_17 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_15, L_16, NULL);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_18 = ___0_capturedPose;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_19 = L_18->___rotation;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20;
+		L_20 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_17, L_19, NULL);
+		V_2 = L_20;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:77>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_21 = V_2;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_22;
+		memset((&L_22), 0, sizeof(L_22));
+		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&L_22), L_13, L_21, NULL);
+		return L_22;
+	}
+}
+// Method Definition Index: 75421
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RelativeToInitialRootTransform_UpdateAnchor_mF50F94935A91E858D20CA839857C1B29DA773F72 (RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_newAnchor, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:87>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = ___0_newAnchor;
+		__this->___m_OriginPose = L_0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:88>
+		return;
+	}
+}
+// Method Definition Index: 75422
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RelativeToInitialRootTransform_TryGetHandFromFrame_m5BA7393FFE6702158804B6106341E94D4938F572 (RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A* __this, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___0_frame, int32_t ___1_handedness, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* ___2_hand, const RuntimeMethod* method) 
+{
+	XRHandCaptureSnapshot_t956439CF03BF6D3AAE255BB4851DE09108C05DFE V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:96>
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_0 = ___2_hand;
+		il2cpp_codegen_initobj(L_0, sizeof(XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:98>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_1 = ___0_frame;
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_2 = (*(XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)L_1);
+		V_1 = L_2;
+		int32_t L_3 = ___1_handedness;
+		bool L_4;
+		L_4 = XRHandCaptureFrame_TryGetHandSnapshot_m9EEF50448E1788FA048C91552D4D9E8EDF1D9B5B((&V_1), L_3, (&V_0), NULL);
+		if (L_4)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:99>
+		return (bool)0;
+	}
+
+IL_001c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:102>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/RelativeToInitialRootTransform.cs:103>
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_5 = ___2_hand;
+		bool L_6;
+		L_6 = XRHandCaptureSnapshot_TryGetHand_m050C4C2E43BFDD9EF43EC685251EDA4717218968((&V_0), 0, 2, L_5, NULL);
+		if (L_6)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_7 = ___2_hand;
+		bool L_8;
+		L_8 = XRHandCaptureSnapshot_TryGetHand_m050C4C2E43BFDD9EF43EC685251EDA4717218968((&V_0), 1, 2, L_7, NULL);
+		return L_8;
+	}
+
+IL_0033:
+	{
+		return (bool)1;
+	}
+}
+// Method Definition Index: 75423
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RelativeToInitialRootTransform__ctor_m18D45841EEC33E8E432FF10023D4ED86E1646A07 (RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 75424
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 RelativeToInitialRootTransform_UnityEngine_XR_Hands_Capture_Playback_IPlaybackCoordinateTransform_TransformPose_mB4A5FF20BD0515F45A0BD34A4707E77F118AEBF8 (RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_capturedPose, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_0 = ___0_capturedPose;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_1;
+		L_1 = RelativeToInitialRootTransform_TransformPose_m4013E1E8819383B88525BBB794DF1D18B228A504(__this, L_0, NULL);
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 75425
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 WorldSpaceCoordinateTransform_get_CurrentAnchor_mDEC2764BF59D351370E38450E354AFC203EE08A5 (WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/WorldSpaceCoordinateTransform.cs:17>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = __this->___m_OriginPose;
+		return L_0;
+	}
+}
+// Method Definition Index: 75426
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WorldSpaceCoordinateTransform_UpdateRootPose_mA15B17DBF711F1B8DF5CE9BB3AF943F4C935507B (WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_anchor, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 ___1_frame, int32_t ___2_handedness, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/WorldSpaceCoordinateTransform.cs:27>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = ___0_anchor;
+		__this->___m_OriginPose = L_0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/WorldSpaceCoordinateTransform.cs:28>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 75427
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 WorldSpaceCoordinateTransform_TransformPose_m240B3B36F23A1685575DD23BD56CB722A11AC3B3 (WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_capturedPose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/WorldSpaceCoordinateTransform.cs:38>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_0 = ___0_capturedPose;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_1 = (*(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)L_0);
+		V_0 = L_1;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2 = __this->___m_OriginPose;
+		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_3;
+		L_3 = Pose_GetTransformedBy_m8B18A1ED205791F95CDC1D1F2A08A42D6DA02CBF((&V_0), L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 75428
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WorldSpaceCoordinateTransform_UpdateAnchor_m5507AB7E9897964239DDB292376DF573690E7F87 (WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_newAnchor, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/WorldSpaceCoordinateTransform.cs:47>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = ___0_newAnchor;
+		__this->___m_OriginPose = L_0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Transforms/WorldSpaceCoordinateTransform.cs:48>
+		return;
+	}
+}
+// Method Definition Index: 75429
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WorldSpaceCoordinateTransform__ctor_mF69FC116871F8C0CD3B4A43D697EFAA9765A2EEC (WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 75430
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 WorldSpaceCoordinateTransform_UnityEngine_XR_Hands_Capture_Playback_IPlaybackCoordinateTransform_TransformPose_m5E740BE67EC038EB21E07A0350612DBA3555D0D1 (WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_capturedPose, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_0 = ___0_capturedPose;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_1;
+		L_1 = WorldSpaceCoordinateTransform_TransformPose_m240B3B36F23A1685575DD23BD56CB722A11AC3B3(__this, L_0, NULL);
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 75431
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_get_handedness_m60BEF5E6BCEF820F2FF46025064291F1CF9CAA66 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:25>
+		int32_t L_0 = __this->___m_Handedness;
+		return L_0;
+	}
+}
+// Method Definition Index: 75432
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* XRHandPlayback_get_sourceCaptureSequence_mDB2C8C11725331930A9AE593C3D9901578C3FE85 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:46>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_0 = __this->___m_SourceCaptureSequence;
+		return L_0;
+	}
+}
+// Method Definition Index: 75433
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_set_sourceCaptureSequence_mA42A1F7A83A3C3275C2B3D4686383455A1BBFEE7 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___0_value, const RuntimeMethod* method) 
+{
+	PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* G_B2_0 = NULL;
+	PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* G_B1_0 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:49>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_0 = ___0_value;
+		__this->___m_SourceCaptureSequence = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SourceCaptureSequence), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:50>
+		PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* L_1 = __this->___m_FrameProvider;
+		PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* L_2 = L_1;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			goto IL_0012;
+		}
+		G_B1_0 = L_2;
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_3 = ___0_value;
+		NullCheck(G_B2_0);
+		PlaybackFrameProvider_UpdateSequence_mC65A2E64698652B1C27B8698AD78ED89124672E4_inline(G_B2_0, L_3, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:51>
+		return;
+	}
+}
+// Method Definition Index: 75434
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRHandPlayback_get_anchor_m5279700733DA8D9B76B39980E01B0C02C5A5206C (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* G_B2_0 = NULL;
+	RuntimeObject* G_B1_0 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:71>
+		RuntimeObject* L_0 = __this->___m_CoordinateTransform;
+		RuntimeObject* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0010;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2;
+		L_2 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
+		return L_2;
+	}
+
+IL_0010:
+	{
+		NullCheck(G_B2_0);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_3;
+		L_3 = InterfaceFuncInvoker0< Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 >::Invoke(0, IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var, G_B2_0);
+		return L_3;
+	}
+}
+// Method Definition Index: 75435
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_set_anchor_mF84BC8EDC6A59EE9A4C197DDB5DA3AC52F96D110 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* G_B3_0 = NULL;
+	IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* G_B2_0 = NULL;
+	IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* G_B7_0 = NULL;
+	int32_t G_B7_1 = 0;
+	IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* G_B6_0 = NULL;
+	int32_t G_B6_1 = 0;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 G_B8_0;
+	memset((&G_B8_0), 0, sizeof(G_B8_0));
+	int32_t G_B8_1 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:75>
+		V_0 = 0;
+		goto IL_001c;
+	}
+
+IL_0004:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:76>
+		IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* L_0 = __this->___m_CoordinateTransformers;
+		IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* L_1 = L_0;
+		if (L_1)
+		{
+			G_B3_0 = L_1;
+			goto IL_0010;
+		}
+		G_B2_0 = L_1;
+	}
+	{
+		goto IL_0018;
+	}
+
+IL_0010:
+	{
+		int32_t L_2 = V_0;
+		NullCheck(G_B3_0);
+		int32_t L_3 = L_2;
+		RuntimeObject* L_4 = (G_B3_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_5 = ___0_value;
+		NullCheck(L_4);
+		InterfaceActionInvoker1< Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 >::Invoke(3, IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var, L_4, L_5);
+	}
+
+IL_0018:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:75>
+		int32_t L_6 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
+	}
+
+IL_001c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:75>
+		int32_t L_7 = V_0;
+		IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* L_8 = __this->___m_CoordinateTransformers;
+		IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* L_9 = L_8;
+		if (L_9)
+		{
+			G_B7_0 = L_9;
+			G_B7_1 = L_7;
+			goto IL_0032;
+		}
+		G_B6_0 = L_9;
+		G_B6_1 = L_7;
+	}
+	{
+		il2cpp_codegen_initobj((&V_2), sizeof(Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28));
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_10 = V_2;
+		G_B8_0 = L_10;
+		G_B8_1 = G_B6_1;
+		goto IL_0039;
+	}
+
+IL_0032:
+	{
+		NullCheck(G_B7_0);
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_11;
+		memset((&L_11), 0, sizeof(L_11));
+		Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_11), ((int32_t)(((RuntimeArray*)G_B7_0)->max_length)), Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
+		G_B8_0 = L_11;
+		G_B8_1 = G_B7_1;
+	}
+
+IL_0039:
+	{
+		V_1 = G_B8_0;
+		int32_t L_12;
+		L_12 = Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_inline((&V_1), Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_RuntimeMethod_var);
+		bool L_13;
+		L_13 = Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_inline((&V_1), Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_RuntimeMethod_var);
+		if (((int32_t)(((((int32_t)G_B8_1) < ((int32_t)L_12))? 1 : 0)&(int32_t)L_13)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:77>
+		return;
+	}
+}
+// Method Definition Index: 75436
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_Play_m6B7953A70D2E41AF4280E8D19C4526F877A729F9 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, bool ___0_resetIfSequenceEnded, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* G_B4_0 = NULL;
+	RuntimeObject* G_B3_0 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:101>
+		__this->___m_IsRunning = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:102>
+		XRHandPlayback_SyncIsPlaying_m7C557B51A29C553F55B562D4DB4E3B13F87D9EEA(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:105>
+		bool L_0 = ___0_resetIfSequenceEnded;
+		if (!L_0)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		bool L_1;
+		L_1 = XRHandPlayback_get_isPlaying_mCFEE681F6C675E0A75F2CC0464B6FADE7ABF5F9B_inline(__this, NULL);
+		if (L_1)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:107>
+		RuntimeObject* L_2 = __this->___m_TimeController;
+		RuntimeObject* L_3 = L_2;
+		if (L_3)
+		{
+			G_B4_0 = L_3;
+			goto IL_0024;
+		}
+		G_B3_0 = L_3;
+	}
+	{
+		goto IL_0029;
+	}
+
+IL_0024:
+	{
+		NullCheck(G_B4_0);
+		InterfaceActionInvoker0::Invoke(4, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, G_B4_0);
+	}
+
+IL_0029:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:108>
+		XRHandPlayback_SyncIsPlaying_m7C557B51A29C553F55B562D4DB4E3B13F87D9EEA(__this, NULL);
+	}
+
+IL_002f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:110>
+		return;
+	}
+}
+// Method Definition Index: 75437
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_Stop_m61A338E4005D6133F808A72E1E88D6C2D1F9563A (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* G_B2_0 = NULL;
+	RuntimeObject* G_B1_0 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:124>
+		__this->___m_IsRunning = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:125>
+		__this->___m_IsPlaying = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:126>
+		RuntimeObject* L_0 = __this->___m_TimeController;
+		RuntimeObject* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0019;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		return;
+	}
+
+IL_0019:
+	{
+		NullCheck(G_B2_0);
+		InterfaceActionInvoker0::Invoke(4, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, G_B2_0);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:127>
+		return;
+	}
+}
+// Method Definition Index: 75438
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_Pause_m7CAC27057FCCD1A3BA000D3AC3EFEEA4507976A2 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:141>
+		__this->___m_IsRunning = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:142>
+		__this->___m_IsPlaying = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:143>
+		return;
+	}
+}
+// Method Definition Index: 75439
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_get_isRunning_m3E3746AE060218451DB03AA4A4423FA6BE77FF45 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:158>
+		bool L_0 = __this->___m_IsRunning;
+		return L_0;
+	}
+}
+// Method Definition Index: 75440
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_get_isPlaying_mCFEE681F6C675E0A75F2CC0464B6FADE7ABF5F9B (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:178>
+		bool L_0 = __this->___m_IsPlaying;
+		return L_0;
+	}
+}
+// Method Definition Index: 75441
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandPlayback_get_elapsedTime_mDEAD91746A424DDA6388813EAE71B1803AA65788 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* G_B2_0 = NULL;
+	RuntimeObject* G_B1_0 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:199>
+		RuntimeObject* L_0 = __this->___m_TimeController;
+		RuntimeObject* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0010;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		return (0.0f);
+	}
+
+IL_0010:
+	{
+		NullCheck(G_B2_0);
+		float L_2;
+		L_2 = InterfaceFuncInvoker0< float >::Invoke(0, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, G_B2_0);
+		return L_2;
+	}
+}
+// Method Definition Index: 75442
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_set_elapsedTime_mB725BAFBEFA8E2AC362EF5DE368AB6741A33DF67 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:200>
+		RuntimeObject* L_0 = __this->___m_TimeController;
+		if (!L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:200>
+		RuntimeObject* L_1 = __this->___m_TimeController;
+		float L_2 = ___0_value;
+		NullCheck(L_1);
+		InterfaceActionInvoker1< float >::Invoke(1, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, L_1, L_2);
+	}
+
+IL_0014:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:200>
+		return;
+	}
+}
+// Method Definition Index: 75443
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_get_frameIndex_m752AB5F0C0F23A72BB610AB84BCB9DB429798FD2 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* G_B2_0 = NULL;
+	RuntimeObject* G_B1_0 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:224>
+		RuntimeObject* L_0 = __this->___m_TimeController;
+		RuntimeObject* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000c;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		return 0;
+	}
+
+IL_000c:
+	{
+		NullCheck(G_B2_0);
+		int32_t L_2;
+		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(2, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, G_B2_0);
+		return L_2;
+	}
+}
+// Method Definition Index: 75444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_set_frameIndex_m0A02F0563C590E7BC9D8D62DB9EE1DA550F76CBE (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:227>
+		RuntimeObject* L_0 = __this->___m_TimeController;
+		if (!L_0)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:229>
+		RuntimeObject* L_1 = __this->___m_TimeController;
+		int32_t L_2 = ___0_value;
+		NullCheck(L_1);
+		InterfaceActionInvoker1< int32_t >::Invoke(3, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, L_1, L_2);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:230>
+		RuntimeObject* L_3 = __this->___m_TimeController;
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_4 = __this->___m_SourceCaptureSequence;
+		NullCheck(L_3);
+		InterfaceActionInvoker1< XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* >::Invoke(5, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, L_3, L_4);
+	}
+
+IL_0025:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:232>
+		return;
+	}
+}
+// Method Definition Index: 75445
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_get_options_m21D23C668253867FD23C09E2836216609CC83E81 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:248>
+		int32_t L_0 = __this->___m_Options;
+		return L_0;
+	}
+}
+// Method Definition Index: 75446
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_set_options_m298560055346161F81DC1FC379A1D2EC2DBE0C91 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:251>
+		int32_t L_0 = __this->___m_Options;
+		int32_t L_1 = ___0_value;
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:252>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:254>
+		float L_2;
+		L_2 = XRHandPlayback_get_elapsedTime_mDEAD91746A424DDA6388813EAE71B1803AA65788(__this, NULL);
+		V_0 = L_2;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:255>
+		int32_t L_3;
+		L_3 = XRHandPlayback_get_frameIndex_m752AB5F0C0F23A72BB610AB84BCB9DB429798FD2(__this, NULL);
+		V_1 = L_3;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:256>
+		int32_t L_4 = ___0_value;
+		__this->___m_Options = L_4;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:257>
+		XRHandPlayback_ReflectOptionsToHandlers_m9049A0F882321BB315EB43C7E5ADD27D903C0121(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:258>
+		RuntimeObject* L_5 = __this->___m_TimeController;
+		if (!L_5)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:260>
+		RuntimeObject* L_6 = __this->___m_TimeController;
+		float L_7 = V_0;
+		NullCheck(L_6);
+		InterfaceActionInvoker1< float >::Invoke(1, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, L_6, L_7);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:261>
+		RuntimeObject* L_8 = __this->___m_TimeController;
+		int32_t L_9 = V_1;
+		NullCheck(L_8);
+		InterfaceActionInvoker1< int32_t >::Invoke(3, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, L_8, L_9);
+	}
+
+IL_0045:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:263>
+		return;
+	}
+}
+// Method Definition Index: 75447
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback__ctor_m9BD90A936BE4F002C04930DB3E32AC299A0DB280 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, XRHandSubsystemActions_t03691377110983C05157D075A90C3CCF259E7221* ___0_actions, int32_t ___1_handedness, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandPlayback_OnBeginTryUpdateHands_m2E107016303FA973225FD0344E3FBA9ED00367C3_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:687>
+		IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* L_0 = (IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921*)(IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921*)SZArrayNew(IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921_il2cpp_TypeInfo_var, (uint32_t)2);
+		IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* L_1 = L_0;
+		WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022* L_2 = (WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022*)il2cpp_codegen_object_new(WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022_il2cpp_TypeInfo_var);
+		WorldSpaceCoordinateTransform__ctor_mF69FC116871F8C0CD3B4A43D697EFAA9765A2EEC(L_2, NULL);
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, L_2);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_2);
+		IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* L_3 = L_1;
+		RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A* L_4 = (RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A*)il2cpp_codegen_object_new(RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A_il2cpp_TypeInfo_var);
+		RelativeToInitialRootTransform__ctor_m18D45841EEC33E8E432FF10023D4ED86E1646A07(L_4, NULL);
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, L_4);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_4);
+		__this->___m_CoordinateTransformers = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CoordinateTransformers), (void*)L_3);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:688>
+		IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12* L_5 = (IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12*)(IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12*)SZArrayNew(IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12_il2cpp_TypeInfo_var, (uint32_t)2);
+		IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12* L_6 = L_5;
+		TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4* L_7 = (TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4*)il2cpp_codegen_object_new(TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4_il2cpp_TypeInfo_var);
+		TimeBasedTimeController__ctor_m82A65326307630CFEFEEC3F1417118CA6364927B(L_7, NULL);
+		NullCheck(L_6);
+		ArrayElementTypeCheck (L_6, L_7);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_7);
+		IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12* L_8 = L_6;
+		FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6* L_9 = (FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6*)il2cpp_codegen_object_new(FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6_il2cpp_TypeInfo_var);
+		FrameBasedTimeController__ctor_m8F61818B239F7CB1838B12CB1A21D833F87EB0B8(L_9, NULL);
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, L_9);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_9);
+		__this->___m_TimeControllers = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TimeControllers), (void*)L_8);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:266>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:268>
+		int32_t L_10 = ___1_handedness;
+		__this->___m_Handedness = L_10;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:269>
+		int32_t L_11 = __this->___m_Options;
+		RuntimeObject* L_12;
+		L_12 = XRHandPlayback_CreateCoordinateTransform_m7561EEF8686977B1DF7C11B1E7F3009C455319CF(__this, L_11, NULL);
+		__this->___m_CoordinateTransform = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CoordinateTransform), (void*)L_12);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:270>
+		IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* L_13 = __this->___m_CoordinateTransformers;
+		V_0 = L_13;
+		V_1 = 0;
+		goto IL_0073;
+	}
+
+IL_0062:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:270>
+		IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* L_14 = V_0;
+		int32_t L_15 = V_1;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		RuntimeObject* L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:273>
+		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_18;
+		L_18 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
+		NullCheck(L_17);
+		InterfaceActionInvoker1< Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 >::Invoke(3, IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var, L_17, L_18);
+		int32_t L_19 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+	}
+
+IL_0073:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:270>
+		int32_t L_20 = V_1;
+		IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* L_21 = V_0;
+		NullCheck(L_21);
+		if ((((int32_t)L_20) < ((int32_t)((int32_t)(((RuntimeArray*)L_21)->max_length)))))
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:276>
+		int32_t L_22 = __this->___m_Options;
+		RuntimeObject* L_23;
+		L_23 = XRHandPlayback_CreateTimeController_m1D678176969A6563E8CCBC027476E7CAFC92D204(__this, L_22, NULL);
+		__this->___m_TimeController = L_23;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TimeController), (void*)L_23);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:277>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_24 = __this->___m_SourceCaptureSequence;
+		int32_t L_25 = __this->___m_Handedness;
+		PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* L_26 = (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E*)il2cpp_codegen_object_new(PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E_il2cpp_TypeInfo_var);
+		PlaybackFrameProvider__ctor_mEA6B6C708974B1EF6F002AB22A9E45C2B25E507B(L_26, L_24, L_25, NULL);
+		__this->___m_FrameProvider = L_26;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_FrameProvider), (void*)L_26);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:278>
+		int32_t L_27 = __this->___m_Handedness;
+		RuntimeObject* L_28 = __this->___m_CoordinateTransform;
+		RuntimeObject* L_29 = __this->___m_TimeController;
+		PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* L_30 = (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37*)il2cpp_codegen_object_new(PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37_il2cpp_TypeInfo_var);
+		PlaybackGestureHandler__ctor_mD8F07CD3B75340AF67D05FB99D7ADBF94CF3B4B7(L_30, L_27, L_28, L_29, NULL);
+		__this->___m_GestureHandler = L_30;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GestureHandler), (void*)L_30);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:279>
+		XRHandSubsystemActions_t03691377110983C05157D075A90C3CCF259E7221* L_31 = ___0_actions;
+		Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD** L_32 = (Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD**)(&L_31->___beginTryUpdateHands);
+		Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD** L_33 = L_32;
+		Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD* L_34 = *((Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD**)L_33);
+		Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD* L_35 = (Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD*)il2cpp_codegen_object_new(Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD_il2cpp_TypeInfo_var);
+		Action_1__ctor_mC06DD44B8C9E022AA3AA06898FA15D2136ED18D7(L_35, __this, (intptr_t)((void*)XRHandPlayback_OnBeginTryUpdateHands_m2E107016303FA973225FD0344E3FBA9ED00367C3_RuntimeMethod_var), NULL);
+		Delegate_t* L_36;
+		L_36 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_34, L_35, NULL);
+		*((Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD**)L_33) = (Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD*)((Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD*)Castclass((RuntimeObject*)L_36, Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD**)L_33, (void*)(Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD*)((Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD*)Castclass((RuntimeObject*)L_36, Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD_il2cpp_TypeInfo_var)));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:280>
+		return;
+	}
+}
+// Method Definition Index: 75448
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_GetActiveSequenceFlags_m3766158B4965FC70DAFEEB4DBC2759894A4B8CF0 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:282>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_0 = __this->___m_SourceCaptureSequence;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = XRHandCaptureSequence_get_flags_mE0DD2B34F2525D4562CAECAD9E67BAFAD5D8F2C7_inline(L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 75449
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetActiveFrame_m4A5938F9A40C5E033FEFBE8F08FFC1EACE962C57 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___0_frame, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	RuntimeObject* G_B2_0 = NULL;
+	RuntimeObject* G_B1_0 = NULL;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:286>
+		RuntimeObject* L_0 = __this->___m_TimeController;
+		RuntimeObject* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000d;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		G_B3_0 = 0;
+		goto IL_0012;
+	}
+
+IL_000d:
+	{
+		NullCheck(G_B2_0);
+		int32_t L_2;
+		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(2, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, G_B2_0);
+		G_B3_0 = L_2;
+	}
+
+IL_0012:
+	{
+		V_0 = G_B3_0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:287>
+		PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* L_3 = __this->___m_FrameProvider;
+		int32_t L_4 = V_0;
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_5 = ___0_frame;
+		NullCheck(L_3);
+		bool L_6;
+		L_6 = PlaybackFrameProvider_TryGetCurrentFrame_mB22ECC97728696D2F45CFC7886E8A4F0E89D8005(L_3, L_4, L_5, NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 75450
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetNextActiveFrame_mE1327659F70E166195CE27DB4F50822E29424384 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___0_frame, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	RuntimeObject* G_B2_0 = NULL;
+	RuntimeObject* G_B1_0 = NULL;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:292>
+		RuntimeObject* L_0 = __this->___m_TimeController;
+		RuntimeObject* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000d;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		G_B3_0 = 0;
+		goto IL_0012;
+	}
+
+IL_000d:
+	{
+		NullCheck(G_B2_0);
+		int32_t L_2;
+		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(2, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, G_B2_0);
+		G_B3_0 = L_2;
+	}
+
+IL_0012:
+	{
+		V_0 = G_B3_0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:293>
+		PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* L_3 = __this->___m_FrameProvider;
+		int32_t L_4 = V_0;
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_5 = ___0_frame;
+		NullCheck(L_3);
+		bool L_6;
+		L_6 = PlaybackFrameProvider_TryGetNextFrame_m9E570F828E2435F812F28FD678258BC258009328(L_3, L_4, L_5, NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 75451
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_TryUpdateHand_mD0AD748CC25484DB0FD8DB6B8F00515B4CCC7713 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_updateType, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_handRootPose, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___2_handJoints, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	RuntimeObject* G_B7_0 = NULL;
+	RuntimeObject* G_B6_0 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:301>
+		il2cpp_codegen_runtime_class_init_inline(XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var);
+		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_StaticFields*)il2cpp_codegen_static_fields_for(XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var))->___k_TryUpdateHandMarker;
+		V_1 = L_0;
+		AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 L_1;
+		L_1 = ProfilerMarker_Auto_m133FA724EB95D16187B37D2C8A501D7E989B1F8D_inline((&V_1), NULL);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_005f:
+			{
+				AutoScope_Dispose_mED763F3F51261EF8FB79DB32CD06E0A3F6C40481_inline((&V_0), NULL);
+				return;
+			}
+		});
+		try
+		{
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:303>
+				int32_t L_2 = ___0_updateType;
+				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_3 = ___1_handRootPose;
+				NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 L_4 = ___2_handJoints;
+				int32_t L_5;
+				L_5 = XRHandPlayback_TryUpdateHandImpl_mCA850EF8330E365356099D7A1837ADE71B8B9C60(__this, L_2, L_3, L_4, NULL);
+				__this->___m_MostRecentSuccessFlags = L_5;
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:306>
+				bool L_6 = __this->___m_IsPlaying;
+				if (L_6)
+				{
+					goto IL_002e_1;
+				}
+			}
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:307>
+				int32_t L_7 = __this->___m_MostRecentSuccessFlags;
+				V_2 = L_7;
+				goto IL_006d;
+			}
+
+IL_002e_1:
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:309>
+				int32_t L_8 = ___0_updateType;
+				if ((!(((uint32_t)L_8) == ((uint32_t)1))))
+				{
+					goto IL_0056_1;
+				}
+			}
+			{
+				bool L_9 = __this->___m_IsPlaying;
+				if (!L_9)
+				{
+					goto IL_0056_1;
+				}
+			}
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:310>
+				RuntimeObject* L_10 = __this->___m_TimeController;
+				RuntimeObject* L_11 = L_10;
+				if (L_11)
+				{
+					G_B7_0 = L_11;
+					goto IL_0046_1;
+				}
+				G_B6_0 = L_11;
+			}
+			{
+				goto IL_0056_1;
+			}
+
+IL_0046_1:
+			{
+				float L_12;
+				L_12 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+				XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_13 = __this->___m_SourceCaptureSequence;
+				NullCheck(G_B7_0);
+				InterfaceActionInvoker2< float, XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* >::Invoke(6, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, G_B7_0, L_12, L_13);
+			}
+
+IL_0056_1:
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:312>
+				int32_t L_14 = __this->___m_MostRecentSuccessFlags;
+				V_2 = L_14;
+				goto IL_006d;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_006d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:314>
+		int32_t L_15 = V_2;
+		return L_15;
+	}
+}
+// Method Definition Index: 75452
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_TryUpdateHandImpl_mCA850EF8330E365356099D7A1837ADE71B8B9C60 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_updateType, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_handRootPose, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___2_handJoints, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:321>
+		il2cpp_codegen_runtime_class_init_inline(XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var);
+		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_StaticFields*)il2cpp_codegen_static_fields_for(XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var))->___k_TryUpdateHandImplMarker;
+		V_1 = L_0;
+		AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 L_1;
+		L_1 = ProfilerMarker_Auto_m133FA724EB95D16187B37D2C8A501D7E989B1F8D_inline((&V_1), NULL);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_00cd:
+			{
+				AutoScope_Dispose_mED763F3F51261EF8FB79DB32CD06E0A3F6C40481_inline((&V_0), NULL);
+				return;
+			}
+		});
+		try
+		{
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:323>
+				bool L_2;
+				L_2 = XRHandPlayback_HasAnyFrames_m80021290A35711B34A38768D520B18BE376CDD2D(__this, NULL);
+				if (L_2)
+				{
+					goto IL_001d_1;
+				}
+			}
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:324>
+				V_3 = 0;
+				goto IL_00db;
+			}
+
+IL_001d_1:
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:326>
+				int32_t L_3 = ___0_updateType;
+				if ((!(((uint32_t)L_3) == ((uint32_t)1))))
+				{
+					goto IL_002d_1;
+				}
+			}
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:327>
+				int32_t L_4 = __this->___m_MostRecentSuccessFlags;
+				V_3 = L_4;
+				goto IL_00db;
+			}
+
+IL_002d_1:
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:329>
+				V_2 = 0;
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:330>
+				XRHandPlayback_UpdateOriginPose_mB8EC1C5800970C12BEAC5EB241190032E028C203(__this, NULL);
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:331>
+				int32_t L_5 = V_2;
+				int32_t L_6 = __this->___m_Handedness;
+				il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+				int32_t L_7;
+				L_7 = HandsUtility_ToRootPoseUpdateSuccessFlag_m2CD549A59C6D8C45E0B0C218B51F780206308D64(L_6, NULL);
+				V_2 = ((int32_t)((int32_t)L_5|(int32_t)L_7));
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:332>
+				XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_8 = (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)(&__this->___m_CurrentFrame);
+				bool L_9;
+				L_9 = XRHandPlayback_TryGetActiveFrame_m4A5938F9A40C5E033FEFBE8F08FFC1EACE962C57(__this, L_8, NULL);
+				__this->___m_IsCurrentFrameValid = L_9;
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:333>
+				bool L_10 = __this->___m_IsCurrentFrameValid;
+				if (L_10)
+				{
+					goto IL_0061_1;
+				}
+			}
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:334>
+				V_3 = 0;
+				goto IL_00db;
+			}
+
+IL_0061_1:
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:336>
+				XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_11 = (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)(&__this->___m_NextFrame);
+				bool L_12;
+				L_12 = XRHandPlayback_TryGetNextActiveFrame_mE1327659F70E166195CE27DB4F50822E29424384(__this, L_11, NULL);
+				__this->___m_IsNextFrameValid = L_12;
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:339>
+				PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* L_13 = __this->___m_GestureHandler;
+				XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_14 = __this->___m_CurrentFrame;
+				XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_15 = __this->___m_NextFrame;
+				bool L_16 = __this->___m_IsCurrentFrameValid;
+				bool L_17 = __this->___m_IsNextFrameValid;
+				NullCheck(L_13);
+				PlaybackGestureHandler_UpdateFrameState_mEF1E9B5B1361CBCE78A6226FF798FEF202CFE7D0(L_13, L_14, L_15, L_16, L_17, NULL);
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:342>
+				RuntimeObject* L_18 = __this->___m_TimeController;
+				if (!L_18)
+				{
+					goto IL_00bf_1;
+				}
+			}
+			{
+				RuntimeObject* L_19 = __this->___m_TimeController;
+				XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_20 = __this->___m_CurrentFrame;
+				NullCheck(L_19);
+				bool L_21;
+				L_21 = InterfaceFuncInvoker1< bool, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 >::Invoke(8, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, L_19, L_20);
+				if (!L_21)
+				{
+					goto IL_00bf_1;
+				}
+			}
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:344>
+				int32_t L_22 = V_2;
+				int32_t L_23 = ___0_updateType;
+				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_24 = ___1_handRootPose;
+				NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 L_25 = ___2_handJoints;
+				int32_t L_26;
+				L_26 = XRHandPlayback_HandleTimeBasedHandsUpdate_m7CC73E04702929EF262CB538F44FC0B00ED25D83(__this, L_23, L_24, L_25, NULL);
+				V_3 = ((int32_t)((int32_t)L_22|(int32_t)L_26));
+				goto IL_00db;
+			}
+
+IL_00bf_1:
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:347>
+				int32_t L_27 = V_2;
+				int32_t L_28 = ___0_updateType;
+				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_29 = ___1_handRootPose;
+				NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 L_30 = ___2_handJoints;
+				int32_t L_31;
+				L_31 = XRHandPlayback_TryUpdateHandFromOneFrame_m477470B3DD338106FADD9D6D96F268B378EDC19F(__this, L_28, L_29, L_30, NULL);
+				V_3 = ((int32_t)((int32_t)L_27|(int32_t)L_31));
+				goto IL_00db;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_00db:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:349>
+		int32_t L_32 = V_3;
+		return L_32;
+	}
+}
+// Method Definition Index: 75453
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryFindHandBackward_m26E5829CC88CFF5BA665F8B318082A04857E2D21 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_startFrameIndex, int32_t ___1_updateType, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* ___2_hand, float* ___3_timestamp, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:361>
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_0 = ___2_hand;
+		il2cpp_codegen_initobj(L_0, sizeof(XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:362>
+		float* L_1 = ___3_timestamp;
+		*((float*)L_1) = (float)(-1.0f);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:364>
+		int32_t L_2 = ___0_startFrameIndex;
+		V_0 = L_2;
+		goto IL_0045;
+	}
+
+IL_0013:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:366>
+		PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* L_3 = __this->___m_FrameProvider;
+		int32_t L_4 = V_0;
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = PlaybackFrameProvider_TryGetCurrentFrame_mB22ECC97728696D2F45CFC7886E8A4F0E89D8005(L_3, L_4, (&V_1), NULL);
+		if (!L_5)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:369>
+		int32_t L_6 = ___1_updateType;
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_7 = ___2_hand;
+		bool L_8;
+		L_8 = XRHandPlayback_TryGetEitherHand_mBFD82CFD7D04E6CCD90C53F1BBBCFEA92492D43A(__this, (&V_1), L_6, L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:371>
+		float* L_9 = ___3_timestamp;
+		float L_10;
+		L_10 = XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline((&V_1), NULL);
+		*((float*)L_9) = (float)L_10;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:372>
+		return (bool)1;
+	}
+
+IL_003b:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:375>
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_11 = ___2_hand;
+		XRHand_Dispose_mCDBEBDCC8FF815323680F5C3F7595F2BCE6D23B5(L_11, NULL);
+	}
+
+IL_0041:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:364>
+		int32_t L_12 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_12, 1));
+	}
+
+IL_0045:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:364>
+		int32_t L_13 = V_0;
+		if ((((int32_t)L_13) >= ((int32_t)0)))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:378>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 75454
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryFindHandForward_mA03008773EC19A8903A2C8BAFC29E5708694B70C (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_startFrameIndex, int32_t ___1_updateType, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* ___2_hand, float* ___3_timestamp, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:391>
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_0 = ___2_hand;
+		il2cpp_codegen_initobj(L_0, sizeof(XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:392>
+		float* L_1 = ___3_timestamp;
+		*((float*)L_1) = (float)(-1.0f);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:394>
+		int32_t L_2 = ___0_startFrameIndex;
+		V_0 = L_2;
+		goto IL_0045;
+	}
+
+IL_0013:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:396>
+		PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* L_3 = __this->___m_FrameProvider;
+		int32_t L_4 = V_0;
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = PlaybackFrameProvider_TryGetCurrentFrame_mB22ECC97728696D2F45CFC7886E8A4F0E89D8005(L_3, L_4, (&V_1), NULL);
+		if (!L_5)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:399>
+		int32_t L_6 = ___1_updateType;
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_7 = ___2_hand;
+		bool L_8;
+		L_8 = XRHandPlayback_TryGetEitherHand_mBFD82CFD7D04E6CCD90C53F1BBBCFEA92492D43A(__this, (&V_1), L_6, L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:401>
+		float* L_9 = ___3_timestamp;
+		float L_10;
+		L_10 = XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline((&V_1), NULL);
+		*((float*)L_9) = (float)L_10;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:402>
+		return (bool)1;
+	}
+
+IL_003b:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:405>
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_11 = ___2_hand;
+		XRHand_Dispose_mCDBEBDCC8FF815323680F5C3F7595F2BCE6D23B5(L_11, NULL);
+	}
+
+IL_0041:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:394>
+		int32_t L_12 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0045:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:394>
+		int32_t L_13 = V_0;
+		PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* L_14 = __this->___m_FrameProvider;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = PlaybackFrameProvider_get_frameCount_mBDE19C0D9F3B39E5B325C685E46C4A3804CC1E0B(L_14, NULL);
+		if ((((int32_t)L_13) < ((int32_t)L_15)))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:408>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 75455
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_HandleTimeBasedHandsUpdate_m7CC73E04702929EF262CB538F44FC0B00ED25D83 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_updateType, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_handRootPose, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___2_handJoints, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	bool V_5 = false;
+	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	RuntimeObject* G_B2_0 = NULL;
+	RuntimeObject* G_B1_0 = NULL;
+	float G_B3_0 = 0.0f;
+	RuntimeObject* G_B5_0 = NULL;
+	RuntimeObject* G_B4_0 = NULL;
+	int32_t G_B6_0 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:423>
+		RuntimeObject* L_0 = __this->___m_TimeController;
+		RuntimeObject* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0011;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		G_B3_0 = (0.0f);
+		goto IL_0016;
+	}
+
+IL_0011:
+	{
+		NullCheck(G_B2_0);
+		float L_2;
+		L_2 = InterfaceFuncInvoker0< float >::Invoke(0, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, G_B2_0);
+		G_B3_0 = L_2;
+	}
+
+IL_0016:
+	{
+		V_0 = G_B3_0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:424>
+		RuntimeObject* L_3 = __this->___m_TimeController;
+		RuntimeObject* L_4 = L_3;
+		if (L_4)
+		{
+			G_B5_0 = L_4;
+			goto IL_0024;
+		}
+		G_B4_0 = L_4;
+	}
+	{
+		G_B6_0 = 0;
+		goto IL_0029;
+	}
+
+IL_0024:
+	{
+		NullCheck(G_B5_0);
+		int32_t L_5;
+		L_5 = InterfaceFuncInvoker0< int32_t >::Invoke(2, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, G_B5_0);
+		G_B6_0 = L_5;
+	}
+
+IL_0029:
+	{
+		V_1 = G_B6_0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:427>
+		float L_6 = V_0;
+		if ((((float)L_6) == ((float)(0.0f))))
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		float L_7 = V_0;
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_8 = (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)(&__this->___m_CurrentFrame);
+		float L_9;
+		L_9 = XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline(L_8, NULL);
+		if ((((float)L_7) <= ((float)L_9)))
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11;
+		L_11 = XRHandPlayback_GetFrameCount_m50D3E11441EA9F7F28C93A395D898D26CD5DC55E(__this, NULL);
+		if ((!(((uint32_t)L_10) == ((uint32_t)((int32_t)il2cpp_codegen_subtract(L_11, 1))))))
+		{
+			goto IL_0055;
+		}
+	}
+
+IL_004b:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:428>
+		int32_t L_12 = ___0_updateType;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_13 = ___1_handRootPose;
+		NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 L_14 = ___2_handJoints;
+		int32_t L_15;
+		L_15 = XRHandPlayback_TryUpdateHandFromOneFrame_m477470B3DD338106FADD9D6D96F268B378EDC19F(__this, L_12, L_13, L_14, NULL);
+		return L_15;
+	}
+
+IL_0055:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:430>
+		V_2 = 0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:433>
+		int32_t L_16 = V_1;
+		int32_t L_17 = ___0_updateType;
+		bool L_18;
+		L_18 = XRHandPlayback_TryFindHandBackward_m26E5829CC88CFF5BA665F8B318082A04857E2D21(__this, L_16, L_17, (&V_3), (&V_4), NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:434>
+		int32_t L_19 = V_1;
+		int32_t L_20 = ___0_updateType;
+		bool L_21;
+		L_21 = XRHandPlayback_TryFindHandForward_mA03008773EC19A8903A2C8BAFC29E5708694B70C(__this, ((int32_t)il2cpp_codegen_add(L_19, 1)), L_20, (&V_6), (&V_7), NULL);
+		V_5 = L_21;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:436>
+		bool L_22 = V_5;
+		if (!((int32_t)((int32_t)L_18&(int32_t)L_22)))
+		{
+			goto IL_00dd;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:438>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:439>
+		float L_23 = V_4;
+		float L_24 = V_7;
+		float L_25 = V_0;
+		float L_26;
+		L_26 = PlaybackInterpolator_CalculateBlendScalar_m75576D47F819FD596C39187A70ECFD8EA11D737D(L_23, L_24, L_25, NULL);
+		V_8 = L_26;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:442>
+		float L_27 = V_8;
+		int32_t L_28 = __this->___m_Handedness;
+		NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 L_29 = ___2_handJoints;
+		bool L_30;
+		L_30 = PlaybackInterpolator_TryInterpolateJoints_m7EEC1685A4FBF7BF8E9740B02BF633AC737279F7((&V_3), (&V_6), L_27, L_28, L_29, NULL);
+		if (!L_30)
+		{
+			goto IL_00dd;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:446>
+		NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 L_31 = ___2_handJoints;
+		XRHandPlayback_TransformJointsInPlaceHelper_mD9E86B54400C6C73F91EDD0099F8A502B86192C3(__this, L_31, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:448>
+		int32_t L_32 = V_2;
+		int32_t L_33 = __this->___m_Handedness;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_34;
+		L_34 = HandsUtility_ToJointsUpdateSuccessFlag_m23FBE21AE0A45F483BD9196C21E6ABF465DE9C0F(L_33, NULL);
+		V_2 = ((int32_t)((int32_t)L_32|(int32_t)L_34));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:450>
+		int32_t L_35;
+		L_35 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(1, NULL);
+		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_36;
+		L_36 = IL2CPP_NATIVEARRAY_GET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, ((&___2_handJoints))->___m_Buffer, L_35);
+		V_10 = L_36;
+		bool L_37;
+		L_37 = XRHandJoint_TryGetPose_m1AA1E69E7753E1CC4E64F8649751BF7D30CE113E((&V_10), (&V_9), NULL);
+		if (!L_37)
+		{
+			goto IL_00dd;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:452>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_38 = ___1_handRootPose;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_39 = V_9;
+		*(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)L_38 = L_39;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:453>
+		int32_t L_40 = V_2;
+		int32_t L_41 = __this->___m_Handedness;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_42;
+		L_42 = HandsUtility_ToRootPoseUpdateSuccessFlag_m2CD549A59C6D8C45E0B0C218B51F780206308D64(L_41, NULL);
+		V_2 = ((int32_t)((int32_t)L_40|(int32_t)L_42));
+	}
+
+IL_00dd:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:458>
+		XRHand_Dispose_mCDBEBDCC8FF815323680F5C3F7595F2BCE6D23B5((&V_3), NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:459>
+		XRHand_Dispose_mCDBEBDCC8FF815323680F5C3F7595F2BCE6D23B5((&V_6), NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:460>
+		int32_t L_43 = V_2;
+		return L_43;
+	}
+}
+// Method Definition Index: 75456
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_UpdateHandFromFrame_m3D4E98BFAEB3290FF9E4D1E570BD44DD90BB298D (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___0_frame, int32_t ___1_updateType, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___2_handRootPose, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___3_handJoints, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	XRHandCaptureSnapshot_t956439CF03BF6D3AAE255BB4851DE09108C05DFE V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	int32_t V_4 = 0;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:477>
+		il2cpp_codegen_runtime_class_init_inline(XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var);
+		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_StaticFields*)il2cpp_codegen_static_fields_for(XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var))->___k_TryUpdateHandByFrameMarker;
+		V_1 = L_0;
+		AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 L_1;
+		L_1 = ProfilerMarker_Auto_m133FA724EB95D16187B37D2C8A501D7E989B1F8D_inline((&V_1), NULL);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_00a3:
+			{
+				AutoScope_Dispose_mED763F3F51261EF8FB79DB32CD06E0A3F6C40481_inline((&V_0), NULL);
+				return;
+			}
+		});
+		try
+		{
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:480>
+				XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_2 = ___0_frame;
+				XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_3 = (*(XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)L_2);
+				V_6 = L_3;
+				int32_t L_4 = __this->___m_Handedness;
+				bool L_5;
+				L_5 = XRHandCaptureFrame_TryGetHandSnapshot_m9EEF50448E1788FA048C91552D4D9E8EDF1D9B5B((&V_6), L_4, (&V_2), NULL);
+				if (L_5)
+				{
+					goto IL_002f_1;
+				}
+			}
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:481>
+				V_7 = 0;
+				goto IL_00b1;
+			}
+
+IL_002f_1:
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:484>
+				int32_t L_6 = ___1_updateType;
+				bool L_7;
+				L_7 = XRHandCaptureSnapshot_TryGetHand_m050C4C2E43BFDD9EF43EC685251EDA4717218968((&V_2), L_6, 2, (&V_3), NULL);
+				if (L_7)
+				{
+					goto IL_0048_1;
+				}
+			}
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:486>
+				XRHand_Dispose_mCDBEBDCC8FF815323680F5C3F7595F2BCE6D23B5((&V_3), NULL);
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:487>
+				V_7 = 0;
+				goto IL_00b1;
+			}
+
+IL_0048_1:
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:490>
+				V_4 = 0;
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:494>
+				NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 L_8 = ___3_handJoints;
+				XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_9 = V_3;
+				XRHandPlayback_TransformJointsInPlaceHelper_m365A4009DE205488A0F8FD665641D8CBBD6FAD18(__this, L_8, L_9, NULL);
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:496>
+				int32_t L_10 = V_4;
+				int32_t L_11 = __this->___m_Handedness;
+				il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+				int32_t L_12;
+				L_12 = HandsUtility_ToJointsUpdateSuccessFlag_m23FBE21AE0A45F483BD9196C21E6ABF465DE9C0F(L_11, NULL);
+				V_4 = ((int32_t)((int32_t)L_10|(int32_t)L_12));
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:498>
+				int32_t L_13;
+				L_13 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(1, NULL);
+				XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_14;
+				L_14 = IL2CPP_NATIVEARRAY_GET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, ((&___3_handJoints))->___m_Buffer, L_13);
+				V_8 = L_14;
+				bool L_15;
+				L_15 = XRHandJoint_TryGetPose_m1AA1E69E7753E1CC4E64F8649751BF7D30CE113E((&V_8), (&V_5), NULL);
+				if (!L_15)
+				{
+					goto IL_0096_1;
+				}
+			}
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:500>
+				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_16 = ___2_handRootPose;
+				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_17 = V_5;
+				*(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)L_16 = L_17;
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:501>
+				int32_t L_18 = V_4;
+				int32_t L_19 = __this->___m_Handedness;
+				il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+				int32_t L_20;
+				L_20 = HandsUtility_ToRootPoseUpdateSuccessFlag_m2CD549A59C6D8C45E0B0C218B51F780206308D64(L_19, NULL);
+				V_4 = ((int32_t)((int32_t)L_18|(int32_t)L_20));
+			}
+
+IL_0096_1:
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:504>
+				XRHand_Dispose_mCDBEBDCC8FF815323680F5C3F7595F2BCE6D23B5((&V_3), NULL);
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:505>
+				int32_t L_21 = V_4;
+				V_7 = L_21;
+				goto IL_00b1;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_00b1:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:507>
+		int32_t L_22 = V_7;
+		return L_22;
+	}
+}
+// Method Definition Index: 75457
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_TransformJointsInPlaceHelper_mD9E86B54400C6C73F91EDD0099F8A502B86192C3 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___0_handJoints, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:518>
+		V_0 = 0;
+		goto IL_0039;
+	}
+
+IL_0004:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:520>
+		int32_t L_0 = V_0;
+		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_1;
+		L_1 = IL2CPP_NATIVEARRAY_GET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, ((&___0_handJoints))->___m_Buffer, L_0);
+		V_1 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:521>
+		int32_t L_2;
+		L_2 = XRHandJoint_get_trackingState_mD1202D64E796D92C38FA87BD02DFBD58AF5E4696_inline((&V_1), NULL);
+		if (!((int32_t)((int32_t)L_2&2)))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:524>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_3 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&(&V_1)->___m_Pose);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_4;
+		L_4 = XRHandPlayback_ShiftByOrigin_m786BAA24DB2F3BDC82FE6901C37C857B1D257F81(__this, L_3, NULL);
+		(&V_1)->___m_Pose = L_4;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:525>
+		int32_t L_5 = V_0;
+		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_6 = V_1;
+		IL2CPP_NATIVEARRAY_SET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, ((&___0_handJoints))->___m_Buffer, L_5, (L_6));
+	}
+
+IL_0035:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:518>
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
+	}
+
+IL_0039:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:518>
+		int32_t L_8 = V_0;
+		int32_t L_9;
+		L_9 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)27), NULL);
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:527>
+		return;
+	}
+}
+// Method Definition Index: 75458
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_TransformJointsInPlaceHelper_m365A4009DE205488A0F8FD665641D8CBBD6FAD18 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___0_handJoints, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___1_hand, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:539>
+		V_0 = 1;
+		goto IL_003e;
+	}
+
+IL_0004:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:541>
+		int32_t L_0 = V_0;
+		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_1;
+		L_1 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___1_hand), L_0, NULL);
+		V_1 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:542>
+		int32_t L_2;
+		L_2 = XRHandJoint_get_trackingState_mD1202D64E796D92C38FA87BD02DFBD58AF5E4696_inline((&V_1), NULL);
+		if (!((int32_t)((int32_t)L_2&2)))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:545>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_3 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&(&V_1)->___m_Pose);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_4;
+		L_4 = XRHandPlayback_ShiftByOrigin_m786BAA24DB2F3BDC82FE6901C37C857B1D257F81(__this, L_3, NULL);
+		(&V_1)->___m_Pose = L_4;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:546>
+		int32_t L_5 = V_0;
+		int32_t L_6;
+		L_6 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(L_5, NULL);
+		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_7 = V_1;
+		IL2CPP_NATIVEARRAY_SET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, ((&___0_handJoints))->___m_Buffer, L_6, (L_7));
+	}
+
+IL_003a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:539>
+		int32_t L_8 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_8, 1));
+	}
+
+IL_003e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:539>
+		int32_t L_9 = V_0;
+		if ((((int32_t)L_9) < ((int32_t)((int32_t)27))))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:548>
+		return;
+	}
+}
+// Method Definition Index: 75459
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_TryUpdateHandFromOneFrame_m477470B3DD338106FADD9D6D96F268B378EDC19F (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_updateType, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_handRootPose, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___2_handJoints, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:554>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_0 = (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)(&__this->___m_CurrentFrame);
+		int32_t L_1 = ___0_updateType;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_2 = ___1_handRootPose;
+		NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 L_3 = ___2_handJoints;
+		int32_t L_4;
+		L_4 = XRHandPlayback_UpdateHandFromFrame_m3D4E98BFAEB3290FF9E4D1E570BD44DD90BB298D(__this, L_0, L_1, L_2, L_3, NULL);
+		return L_4;
+	}
+}
+// Method Definition Index: 75460
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetEitherHand_mBFD82CFD7D04E6CCD90C53F1BBBCFEA92492D43A (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* ___0_frame, int32_t ___1_preferredUpdateType, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* ___2_hand, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRHandCaptureSnapshot_t956439CF03BF6D3AAE255BB4851DE09108C05DFE V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:558>
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* L_0 = ___0_frame;
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_1 = (*(XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073*)L_0);
+		V_1 = L_1;
+		int32_t L_2 = __this->___m_Handedness;
+		bool L_3;
+		L_3 = XRHandCaptureFrame_TryGetHandSnapshot_m9EEF50448E1788FA048C91552D4D9E8EDF1D9B5B((&V_1), L_2, (&V_0), NULL);
+		if (L_3)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:560>
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_4 = ___2_hand;
+		il2cpp_codegen_initobj(L_4, sizeof(XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471));
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:561>
+		return (bool)0;
+	}
+
+IL_0021:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:564>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:565>
+		int32_t L_5 = ___1_preferredUpdateType;
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_6 = ___2_hand;
+		bool L_7;
+		L_7 = XRHandCaptureSnapshot_TryGetHand_m050C4C2E43BFDD9EF43EC685251EDA4717218968((&V_0), L_5, 2, L_6, NULL);
+		if (L_7)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		int32_t L_8 = ___1_preferredUpdateType;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		int32_t L_9;
+		L_9 = HandsUtility_GetOtherUpdateType_mF58D3CF67DDA897DCDED2D4270CFC0044EB3B581(L_8, NULL);
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* L_10 = ___2_hand;
+		bool L_11;
+		L_11 = XRHandCaptureSnapshot_TryGetHand_m050C4C2E43BFDD9EF43EC685251EDA4717218968((&V_0), L_9, 2, L_10, NULL);
+		return L_11;
+	}
+
+IL_003d:
+	{
+		return (bool)1;
+	}
+}
+// Method Definition Index: 75461
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetCommonGesturesState_mF0F5DD5703566714F05B947F90FA0B81C9B1868B (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* ___0_commonGestures, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:568>
+		PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* L_0 = __this->___m_GestureHandler;
+		XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* L_1 = ___0_commonGestures;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = PlaybackGestureHandler_TryGetCommonGesturesState_m6A39C46CCF34F66B4DE1FA03E5AED9ED6AE7BC4B(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 75462
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetAimPose_m36A7ABBD73FBEAC21E684DFD0275128CBDB49C83 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_aimPose, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:570>
+		PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* L_0 = __this->___m_GestureHandler;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_1 = ___0_aimPose;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = PlaybackGestureHandler_TryGetAimPose_mB4FD81C9B601C653C78295C25A5393DACDB4B29D(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 75463
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetAimActivateValue_mEF2F7A5533C8FB6C1B8DB648839066CD0C44FB89 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, float* ___0_aimActivateValue, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:572>
+		PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* L_0 = __this->___m_GestureHandler;
+		float* L_1 = ___0_aimActivateValue;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = PlaybackGestureHandler_TryGetAimActivateValue_m6CEC6D12ABAE7C147D0840F2F39137E69ED70677(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 75464
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetAimActivatedState_mB7FC1075ED3233A3C7B25809B6C0584FF2B93764 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, bool* ___0_isAimActivated, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:574>
+		PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* L_0 = __this->___m_GestureHandler;
+		bool* L_1 = ___0_isAimActivated;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = PlaybackGestureHandler_TryGetAimActivatedState_mEAF2EA8FC1A51CB84735EC894DBA3403D2B30113(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 75465
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetGraspValue_mAF80839E2640489025D9BC772FF5BEBD8C1FD964 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, float* ___0_graspValue, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:576>
+		PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* L_0 = __this->___m_GestureHandler;
+		float* L_1 = ___0_graspValue;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = PlaybackGestureHandler_TryGetGraspValue_m2F73C7536A04866327EB2099A0BAA45AC3EDA877(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 75466
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetGraspFirmState_m9ADE4AA9EE5079DA3E09F4428F78E96A1B42D222 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, bool* ___0_isGraspFirm, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:578>
+		PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* L_0 = __this->___m_GestureHandler;
+		bool* L_1 = ___0_isGraspFirm;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = PlaybackGestureHandler_TryGetGraspFirmState_mC980FCDFB5A9BDE5ED01F928E9331AD8BD00ED8A(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 75467
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetGripPose_mF4D73B109369E6F749F84B0813685FA258C04B23 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_gripPose, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:580>
+		PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* L_0 = __this->___m_GestureHandler;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_1 = ___0_gripPose;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = PlaybackGestureHandler_TryGetGripPose_m809AEA675DCD0B510247433CB359BEB0F80169A1(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 75468
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetPinchPose_m61158EAA8FEB4956757F7DF849823C7A948B185D (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_pinchPose, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:582>
+		PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* L_0 = __this->___m_GestureHandler;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_1 = ___0_pinchPose;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = PlaybackGestureHandler_TryGetPinchPose_mD1B049E7489EB80641F272122065B3577359E7FE(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 75469
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetPinchValue_m639C36CF00448F32ADE88071887659E5ED154520 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, float* ___0_pinchValue, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:584>
+		PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* L_0 = __this->___m_GestureHandler;
+		float* L_1 = ___0_pinchValue;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = PlaybackGestureHandler_TryGetPinchValue_m6A39C65B6F192CDD3B92A3A939F12735DD13EAF7(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 75470
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetPinchTouchedState_mE27E2CD755ADAFCD6834E232CE27F587C16B347D (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, bool* ___0_isPinched, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:586>
+		PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* L_0 = __this->___m_GestureHandler;
+		bool* L_1 = ___0_isPinched;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = PlaybackGestureHandler_TryGetPinchTouchedState_m2633839A2395360570637BC296AD7C42AC826E47(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 75471
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetPokePose_m8951B9F8BA583F02F57FF16E2D73DA5681547E38 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_pokePose, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:588>
+		PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* L_0 = __this->___m_GestureHandler;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_1 = ___0_pokePose;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = PlaybackGestureHandler_TryGetPokePose_m049B688FA9F23BABDAC4AFF1DB721528C29D8AAF(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 75472
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_get_detectedHandMeshLayout_mCDEC43641AA597FB15EEC96CB806196BCE1404C0 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* G_B2_0 = NULL;
+	XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* G_B1_0 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:591>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_0 = __this->___m_SourceCaptureSequence;
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000c;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		return (int32_t)(0);
+	}
+
+IL_000c:
+	{
+		NullCheck(G_B2_0);
+		int32_t L_2;
+		L_2 = XRHandCaptureSequence_get_detectedHandMeshLayout_m7B5B383D0119DEE2C57441DEE488B233490D3FE5_inline(G_B2_0, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 75473
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_TryGetAimState_m3FB7067907947917233C7A4A9EF50D0D81C661A4 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* ___0_aimState, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:593>
+		PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* L_0 = __this->___m_GestureHandler;
+		XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* L_1 = ___0_aimState;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = PlaybackGestureHandler_TryGetAimState_mFB4A34501B440D9F45AFA8356DA899DEC2FA5F3F(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 75474
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_ReflectOptionsToHandlers_m9049A0F882321BB315EB43C7E5ADD27D903C0121 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:598>
+		IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* L_0 = __this->___m_CoordinateTransformers;
+		int32_t L_1 = __this->___m_Options;
+		NullCheck(L_0);
+		int32_t L_2 = ((int32_t)(((int32_t)((int32_t)L_1>>3))&1));
+		RuntimeObject* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		__this->___m_CoordinateTransform = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CoordinateTransform), (void*)L_3);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:599>
+		IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12* L_4 = __this->___m_TimeControllers;
+		int32_t L_5 = __this->___m_Options;
+		NullCheck(L_4);
+		int32_t L_6 = ((int32_t)((int32_t)L_5&1));
+		RuntimeObject* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		__this->___m_TimeController = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TimeController), (void*)L_7);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:600>
+		PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* L_8 = __this->___m_GestureHandler;
+		RuntimeObject* L_9 = __this->___m_CoordinateTransform;
+		NullCheck(L_8);
+		PlaybackGestureHandler_SetCoordinateTransform_m4921438617B1489053B98374302511423C16C6C4_inline(L_8, L_9, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:601>
+		PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* L_10 = __this->___m_GestureHandler;
+		RuntimeObject* L_11 = __this->___m_TimeController;
+		NullCheck(L_10);
+		PlaybackGestureHandler_SetTimeController_mBBB7E260AA2D4A7AA81D6479F53A16A759AD7E18_inline(L_10, L_11, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:602>
+		return;
+	}
+}
+// Method Definition Index: 75475
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_OnBeginTryUpdateHands_m2E107016303FA973225FD0344E3FBA9ED00367C3 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_updateType, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:606>
+		int32_t L_0 = ___0_updateType;
+		if (!L_0)
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:607>
+		return;
+	}
+
+IL_0004:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:609>
+		XRHandPlayback_LoopToStartIfNeeded_mFA62921CF821757D272AA305FD09B21A7F6392D2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:610>
+		XRHandPlayback_SyncIsPlaying_m7C557B51A29C553F55B562D4DB4E3B13F87D9EEA(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:611>
+		XRHandPlayback_ReflectOptionsToHandlers_m9049A0F882321BB315EB43C7E5ADD27D903C0121(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:612>
+		XRHandPlayback_UpdateOriginPose_mB8EC1C5800970C12BEAC5EB241190032E028C203(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:613>
+		return;
+	}
+}
+// Method Definition Index: 75476
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_UpdateOriginPose_mB8EC1C5800970C12BEAC5EB241190032E028C203 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:619>
+		RuntimeObject* L_0 = __this->___m_CoordinateTransform;
+		if (!L_0)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* L_1 = __this->___m_FrameProvider;
+		RuntimeObject* L_2 = __this->___m_TimeController;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(2, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, L_2);
+		NullCheck(L_1);
+		bool L_4;
+		L_4 = PlaybackFrameProvider_TryGetCurrentFrame_mB22ECC97728696D2F45CFC7886E8A4F0E89D8005(L_1, L_3, (&V_0), NULL);
+		if (!L_4)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:621>
+		RuntimeObject* L_5 = __this->___m_CoordinateTransform;
+		RuntimeObject* L_6 = __this->___m_CoordinateTransform;
+		NullCheck(L_6);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_7;
+		L_7 = InterfaceFuncInvoker0< Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 >::Invoke(0, IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var, L_6);
+		XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073 L_8 = V_0;
+		int32_t L_9 = __this->___m_Handedness;
+		NullCheck(L_5);
+		bool L_10;
+		L_10 = InterfaceFuncInvoker3< bool, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073, int32_t >::Invoke(1, IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var, L_5, L_7, L_8, L_9);
+	}
+
+IL_0040:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:623>
+		return;
+	}
+}
+// Method Definition Index: 75477
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandPlayback_GetFrameCount_m50D3E11441EA9F7F28C93A395D898D26CD5DC55E (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:625>
+		PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* L_0 = __this->___m_FrameProvider;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = PlaybackFrameProvider_get_frameCount_mBDE19C0D9F3B39E5B325C685E46C4A3804CC1E0B(L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 75478
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlayback_HasAnyFrames_m80021290A35711B34A38768D520B18BE376CDD2D (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:626>
+		PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* L_0 = __this->___m_FrameProvider;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = PlaybackFrameProvider_get_hasFrames_mE63E539C086C89B72CB41E6FB32852C3BF6E2AB5(L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 75479
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_LoopToStartIfNeeded_mFA62921CF821757D272AA305FD09B21A7F6392D2 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:630>
+		bool L_0 = __this->___m_IsPlaying;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:631>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:633>
+		int32_t L_1 = __this->___m_Options;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = HandsUtility_IsAnyFlagEnabled_m3C9B0A45739493C45B977E80EC41D2C3D6D0AAEA(L_1, 2, NULL);
+		if (!L_2)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:635>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:636>
+		RuntimeObject* L_3 = __this->___m_TimeController;
+		if (!L_3)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		RuntimeObject* L_4 = __this->___m_TimeController;
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_5 = __this->___m_SourceCaptureSequence;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = InterfaceFuncInvoker2< bool, XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237*, bool >::Invoke(7, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, L_4, L_5, (bool)0);
+		if (!L_6)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:637>
+		XRHandPlayback_SeekToStart_m5CB6680DB4F6825A94D7B0EA9EA3187656D743D8(__this, NULL);
+	}
+
+IL_0039:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:639>
+		return;
+	}
+}
+// Method Definition Index: 75480
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_SyncIsPlaying_m7C557B51A29C553F55B562D4DB4E3B13F87D9EEA (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	RuntimeObject* G_B7_0 = NULL;
+	RuntimeObject* G_B6_0 = NULL;
+	int32_t G_B8_0 = 0;
+	int32_t G_B11_0 = 0;
+	RuntimeObject* G_B14_0 = NULL;
+	RuntimeObject* G_B13_0 = NULL;
+	float G_B15_0 = 0.0f;
+	XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* G_B17_0 = NULL;
+	XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* G_B16_0 = NULL;
+	float G_B18_0 = 0.0f;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:643>
+		bool L_0 = __this->___m_IsRunning;
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:645>
+		__this->___m_IsPlaying = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:646>
+		return;
+	}
+
+IL_0010:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:649>
+		int32_t L_1 = __this->___m_Options;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = HandsUtility_IsAnyFlagEnabled_m3C9B0A45739493C45B977E80EC41D2C3D6D0AAEA(L_1, 2, NULL);
+		if (!L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:651>
+		__this->___m_IsPlaying = (bool)1;
+		return;
+	}
+
+IL_0026:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:653>
+		int32_t L_3 = __this->___m_Options;
+		il2cpp_codegen_runtime_class_init_inline(HandsUtility_tBD6BA1A7A066B371FFA152108C2A77071BC4EC7A_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = HandsUtility_IsAnyFlagEnabled_m3C9B0A45739493C45B977E80EC41D2C3D6D0AAEA(L_3, 1, NULL);
+		if (!L_4)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:655>
+		RuntimeObject* L_5 = __this->___m_TimeController;
+		RuntimeObject* L_6 = L_5;
+		if (L_6)
+		{
+			G_B7_0 = L_6;
+			goto IL_0041;
+		}
+		G_B6_0 = L_6;
+	}
+	{
+		G_B8_0 = 0;
+		goto IL_0046;
+	}
+
+IL_0041:
+	{
+		NullCheck(G_B7_0);
+		int32_t L_7;
+		L_7 = InterfaceFuncInvoker0< int32_t >::Invoke(2, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, G_B7_0);
+		G_B8_0 = L_7;
+	}
+
+IL_0046:
+	{
+		V_0 = G_B8_0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:658>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_8 = __this->___m_SourceCaptureSequence;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_9)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		G_B11_0 = 0;
+		goto IL_006a;
+	}
+
+IL_0058:
+	{
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_10 = __this->___m_SourceCaptureSequence;
+		NullCheck(L_10);
+		RuntimeObject* L_11;
+		L_11 = XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline(L_10, NULL);
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_t87271E2DC380B9B72141D3092577F4530D8D362D_il2cpp_TypeInfo_var, L_11);
+		G_B11_0 = ((int32_t)il2cpp_codegen_subtract(L_12, 1));
+	}
+
+IL_006a:
+	{
+		V_1 = G_B11_0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:659>
+		int32_t L_13 = V_0;
+		int32_t L_14 = V_1;
+		__this->___m_IsPlaying = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		return;
+	}
+
+IL_0076:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:663>
+		RuntimeObject* L_15 = __this->___m_TimeController;
+		RuntimeObject* L_16 = L_15;
+		if (L_16)
+		{
+			G_B14_0 = L_16;
+			goto IL_0087;
+		}
+		G_B13_0 = L_16;
+	}
+	{
+		G_B15_0 = (0.0f);
+		goto IL_008c;
+	}
+
+IL_0087:
+	{
+		NullCheck(G_B14_0);
+		float L_17;
+		L_17 = InterfaceFuncInvoker0< float >::Invoke(0, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, G_B14_0);
+		G_B15_0 = L_17;
+	}
+
+IL_008c:
+	{
+		V_2 = G_B15_0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:664>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_18 = __this->___m_SourceCaptureSequence;
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_19 = L_18;
+		if (L_19)
+		{
+			G_B17_0 = L_19;
+			goto IL_009e;
+		}
+		G_B16_0 = L_19;
+	}
+	{
+		G_B18_0 = (0.0f);
+		goto IL_00a3;
+	}
+
+IL_009e:
+	{
+		NullCheck(G_B17_0);
+		float L_20;
+		L_20 = XRHandCaptureSequence_get_durationInSeconds_mBA819931E78008CF5A3BEE2D43F04BE1A0FCE63D_inline(G_B17_0, NULL);
+		G_B18_0 = L_20;
+	}
+
+IL_00a3:
+	{
+		V_3 = G_B18_0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:665>
+		float L_21 = V_2;
+		float L_22 = V_3;
+		__this->___m_IsPlaying = (bool)((((float)L_21) < ((float)L_22))? 1 : 0);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:667>
+		return;
+	}
+}
+// Method Definition Index: 75481
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback_SeekToStart_m5CB6680DB4F6825A94D7B0EA9EA3187656D743D8 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* G_B2_0 = NULL;
+	RuntimeObject* G_B1_0 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:671>
+		RuntimeObject* L_0 = __this->___m_TimeController;
+		RuntimeObject* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000b;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		return;
+	}
+
+IL_000b:
+	{
+		NullCheck(G_B2_0);
+		InterfaceActionInvoker0::Invoke(4, IPlaybackTimeController_t5D8F1DA0046009A26F07B9590F8798E0836569E0_il2cpp_TypeInfo_var, G_B2_0);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:672>
+		return;
+	}
+}
+// Method Definition Index: 75482
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRHandPlayback_ShiftByOrigin_m786BAA24DB2F3BDC82FE6901C37C857B1D257F81 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_pose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:676>
+		il2cpp_codegen_runtime_class_init_inline(XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var);
+		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_StaticFields*)il2cpp_codegen_static_fields_for(XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var))->___k_ShiftByOriginMarker;
+		V_1 = L_0;
+		AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 L_1;
+		L_1 = ProfilerMarker_Auto_m133FA724EB95D16187B37D2C8A501D7E989B1F8D_inline((&V_1), NULL);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_002e:
+			{
+				AutoScope_Dispose_mED763F3F51261EF8FB79DB32CD06E0A3F6C40481_inline((&V_0), NULL);
+				return;
+			}
+		});
+		try
+		{
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:679>
+				RuntimeObject* L_2 = __this->___m_CoordinateTransform;
+				if (!L_2)
+				{
+					goto IL_0025_1;
+				}
+			}
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:680>
+				RuntimeObject* L_3 = __this->___m_CoordinateTransform;
+				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_4 = ___0_pose;
+				NullCheck(L_3);
+				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_5;
+				L_5 = InterfaceFuncInvoker1< Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* >::Invoke(2, IPlaybackCoordinateTransform_tF309B1EBEB5DB3CF0677F01E96895C88311CEF83_il2cpp_TypeInfo_var, L_3, L_4);
+				V_2 = L_5;
+				goto IL_003c;
+			}
+
+IL_0025_1:
+			{
+				//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:683>
+				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_6 = ___0_pose;
+				Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_7 = (*(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)L_6);
+				V_2 = L_7;
+				goto IL_003c;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_003c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:685>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_8 = V_2;
+		return L_8;
+	}
+}
+// Method Definition Index: 75483
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XRHandPlayback_CreateCoordinateTransform_m7561EEF8686977B1DF7C11B1E7F3009C455319CF (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_playbackOptions, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:692>
+		IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* L_0 = __this->___m_CoordinateTransformers;
+		int32_t L_1 = ___0_playbackOptions;
+		NullCheck(L_0);
+		int32_t L_2 = ((int32_t)(((int32_t)((int32_t)L_1>>3))&1));
+		RuntimeObject* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return L_3;
+	}
+}
+// Method Definition Index: 75484
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XRHandPlayback_CreateTimeController_m1D678176969A6563E8CCBC027476E7CAFC92D204 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, int32_t ___0_playbackOptions, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:697>
+		IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12* L_0 = __this->___m_TimeControllers;
+		int32_t L_1 = ___0_playbackOptions;
+		NullCheck(L_0);
+		int32_t L_2 = ((int32_t)((int32_t)L_1&1));
+		RuntimeObject* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		return L_3;
+	}
+}
+// Method Definition Index: 75485
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback__ctor_mFD2220726FD491CEE5C7576E7392C456B9CC03C9 (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:687>
+		IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* L_0 = (IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921*)(IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921*)SZArrayNew(IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921_il2cpp_TypeInfo_var, (uint32_t)2);
+		IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* L_1 = L_0;
+		WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022* L_2 = (WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022*)il2cpp_codegen_object_new(WorldSpaceCoordinateTransform_t78374BE2B2F79F9E65E9CDA1214D1A4DB6E6C022_il2cpp_TypeInfo_var);
+		WorldSpaceCoordinateTransform__ctor_mF69FC116871F8C0CD3B4A43D697EFAA9765A2EEC(L_2, NULL);
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, L_2);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_2);
+		IPlaybackCoordinateTransformU5BU5D_t9197E99B946BD3AF5A52B7D779B78544F2CDB921* L_3 = L_1;
+		RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A* L_4 = (RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A*)il2cpp_codegen_object_new(RelativeToInitialRootTransform_t57F5B49EDF983DA39CBC80F380983985507B3E3A_il2cpp_TypeInfo_var);
+		RelativeToInitialRootTransform__ctor_m18D45841EEC33E8E432FF10023D4ED86E1646A07(L_4, NULL);
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, L_4);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_4);
+		__this->___m_CoordinateTransformers = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CoordinateTransformers), (void*)L_3);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:688>
+		IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12* L_5 = (IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12*)(IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12*)SZArrayNew(IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12_il2cpp_TypeInfo_var, (uint32_t)2);
+		IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12* L_6 = L_5;
+		TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4* L_7 = (TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4*)il2cpp_codegen_object_new(TimeBasedTimeController_tD85DCD34884D5763567D7C675766B896FC4207A4_il2cpp_TypeInfo_var);
+		TimeBasedTimeController__ctor_m82A65326307630CFEFEEC3F1417118CA6364927B(L_7, NULL);
+		NullCheck(L_6);
+		ArrayElementTypeCheck (L_6, L_7);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_7);
+		IPlaybackTimeControllerU5BU5D_t9CD0EE3CD6858C413125E866BAB2653DA6331F12* L_8 = L_6;
+		FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6* L_9 = (FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6*)il2cpp_codegen_object_new(FrameBasedTimeController_t8030B25C7602B6BA5EECEA1907FC4817AC7723A6_il2cpp_TypeInfo_var);
+		FrameBasedTimeController__ctor_m8F61818B239F7CB1838B12CB1A21D833F87EB0B8(L_9, NULL);
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, L_9);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_9);
+		__this->___m_TimeControllers = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TimeControllers), (void*)L_8);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:701>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:701>
+		return;
+	}
+}
+// Method Definition Index: 75486
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayback__cctor_m46475652D0E6F344938757448CE9CC83C6B383CD (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3251F9D94FAEB0EFF0FCE8361C1F68CC9D1BDC13);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral834E63BE8F3322C2C564A90DEAEB5FC36D2A8262);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA8C84486C65677F5BB4A324135EE22869A8D7030);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE960A08B015C39848F0BF82D13D92DCF40B85C8C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:704>
+		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_0), _stringLiteralA8C84486C65677F5BB4A324135EE22869A8D7030, NULL);
+		((XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_StaticFields*)il2cpp_codegen_static_fields_for(XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var))->___k_TryUpdateHandMarker = L_0;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:705>
+		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_1), _stringLiteral3251F9D94FAEB0EFF0FCE8361C1F68CC9D1BDC13, NULL);
+		((XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_StaticFields*)il2cpp_codegen_static_fields_for(XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var))->___k_TryUpdateHandImplMarker = L_1;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:706>
+		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_2), _stringLiteral834E63BE8F3322C2C564A90DEAEB5FC36D2A8262, NULL);
+		((XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_StaticFields*)il2cpp_codegen_static_fields_for(XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var))->___k_TryUpdateHandByFrameMarker = L_2;
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:707>
+		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_3), _stringLiteralE960A08B015C39848F0BF82D13D92DCF40B85C8C, NULL);
+		((XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_StaticFields*)il2cpp_codegen_static_fields_for(XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC_il2cpp_TypeInfo_var))->___k_ShiftByOriginMarker = L_3;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 75487
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* XRHandPlaybackExtensions_GetPlayback_m595657F983D5607E7FABC2061EDAF312DC72095C (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_subsystem, int32_t ___1_handedness, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* V_0 = NULL;
+	XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* G_B3_0 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlaybackExtensions.cs:33>
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlaybackExtensions.cs:34>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = ___0_subsystem;
+		if (L_0)
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		G_B3_0 = ((XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996*)(NULL));
+		goto IL_000c;
+	}
+
+IL_0006:
+	{
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_1 = ___0_subsystem;
+		XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* L_2;
+		L_2 = SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55(L_1, SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55_RuntimeMethod_var);
+		G_B3_0 = L_2;
+	}
+
+IL_000c:
+	{
+		V_0 = ((PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F*)IsInstClass((RuntimeObject*)G_B3_0, PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_il2cpp_TypeInfo_var));
+		PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* L_3 = V_0;
+		if (L_3)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		return (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC*)NULL;
+	}
+
+IL_0017:
+	{
+		PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F* L_4 = V_0;
+		int32_t L_5 = ___1_handedness;
+		NullCheck(L_4);
+		XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* L_6;
+		L_6 = PlaybackProvider_GetUserFacingPlayback_mC871346724E8E19CCC914756DB06DA8F80852D67(L_4, L_5, NULL);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlaybackExtensions.cs:35>
+		return L_6;
+	}
+}
+// Method Definition Index: 75488
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandPlaybackExtensions_IsOnlyForPlayback_m7AB7AAEF9BE1469E2012C52A195F99563708670A (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_subsystem, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubsystemWithProvider_3_get_subsystemDescriptor_m95ABAFCF2F776A54F6CBD73A8F1117D47B9F40B0_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* G_B3_0 = NULL;
+	XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* G_B5_0 = NULL;
+	XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* G_B4_0 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlaybackExtensions.cs:51>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = ___0_subsystem;
+		if (L_0)
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		G_B3_0 = ((XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73*)(NULL));
+		goto IL_000c;
+	}
+
+IL_0006:
+	{
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_1 = ___0_subsystem;
+		NullCheck(L_1);
+		XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* L_2;
+		L_2 = SubsystemWithProvider_3_get_subsystemDescriptor_m95ABAFCF2F776A54F6CBD73A8F1117D47B9F40B0_inline(L_1, SubsystemWithProvider_3_get_subsystemDescriptor_m95ABAFCF2F776A54F6CBD73A8F1117D47B9F40B0_RuntimeMethod_var);
+		G_B3_0 = L_2;
+	}
+
+IL_000c:
+	{
+		XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* L_3 = G_B3_0;
+		if (L_3)
+		{
+			G_B5_0 = L_3;
+			goto IL_0011;
+		}
+		G_B4_0 = L_3;
+	}
+	{
+		G_B5_0 = ((XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73*)(NULL));
+	}
+
+IL_0011:
+	{
+		XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* L_4;
+		L_4 = PlaybackProvider_GetRegisteredDescriptor_m122BC73C6D99AFC64AAA89C9FB794B67DF679E8F_inline(NULL);
+		return (bool)((((RuntimeObject*)(XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73*)G_B5_0) == ((RuntimeObject*)(XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73*)L_4))? 1 : 0);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 75489
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U24BurstDirectCallInitializer_Initialize_mECC8CD09976577EF3165CA0645A5B94E58F15085 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	BurstCompilerOptions_t5F93118F305E1B0C950C6F9AF8BCA74033DA01C9* V_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var);
+		BurstCompilerOptions_t5F93118F305E1B0C950C6F9AF8BCA74033DA01C9* L_0 = ((BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_StaticFields*)il2cpp_codegen_static_fields_for(BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var))->___Options;
+		V_0 = L_0;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 75240
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* WriteRecordingContext_get_writer_m80B39E5A3D99437828E7560223830F566B7432EE_inline (WriteRecordingContext_t3ADC5C24297BF96A227C08F599FCE9BD3AE77A74* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingBlob.cs:451>
+		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_0 = __this->___m_Writer;
+		return L_0;
+	}
+}
+// Method Definition Index: 75243
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* ReadRecordingContext_get_reader_mD078155E179A2D5F01A5E537A6246C82D1AFC600_inline (ReadRecordingContext_tED26719B41AC089E033B6F8487A1F482BDCC71C6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingBlob.cs:524>
+		BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* L_0 = __this->___m_Reader;
+		return L_0;
+	}
+}
+// Method Definition Index: 75244
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRHandRecordingFrameCapturedEventArgs_get_elapsedTime_m8418278A637F97BA42A9FC4562C9EBC92ED443CB_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:11>
+		float L_0 = __this->___U3CelapsedTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 75245
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingFrameCapturedEventArgs_set_elapsedTime_m9C74741865DB757A34A99E7B9F9580F4F199DB8D_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:11>
+		float L_0 = ___0_value;
+		__this->___U3CelapsedTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 75246
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* XRHandRecordingFrameCapturedEventArgs_get_subsystem_mF52ABF24F088139122DDAFA5B133A107C4FA1F49_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:17>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___U3CsubsystemU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 75247
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingFrameCapturedEventArgs_set_subsystem_mB93BEC8ADCE0DD7D7FA488C1BBBCF17ABEC1CE75_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:17>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = ___0_value;
+		__this->___U3CsubsystemU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsubsystemU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 75248
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandRecordingFrameCapturedEventArgs_get_updateSuccessFlags_m5B7D03EB98AEE16E0CB074521C1166F928E81789_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:24>
+		int32_t L_0 = __this->___U3CupdateSuccessFlagsU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 75249
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingFrameCapturedEventArgs_set_updateSuccessFlags_m86F19A2B1D274CAA443C74FD35AC4961260740F1_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:24>
+		int32_t L_0 = ___0_value;
+		__this->___U3CupdateSuccessFlagsU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 75250
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandRecordingFrameCapturedEventArgs_get_updateSuccessFlagsBeforeRender_m3BA3E72A11138230CD04906188D2010C8CA98416_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:38>
+		int32_t L_0 = __this->___U3CupdateSuccessFlagsBeforeRenderU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 75251
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingFrameCapturedEventArgs_set_updateSuccessFlagsBeforeRender_m1D67B420E81BD63AC6072713C44DA60027A6FF26_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:38>
+		int32_t L_0 = ___0_value;
+		__this->___U3CupdateSuccessFlagsBeforeRenderU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 75252
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandRecordingFrameCapturedEventArgs_get_frameIndex_mB1013A2EF060AA0CFEB101BEF309729983F9EB6F_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:44>
+		int32_t L_0 = __this->___U3CframeIndexU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 75253
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingFrameCapturedEventArgs_set_frameIndex_m2A1299C436CB64B501872C11DE20ABA37E57F331_inline (XRHandRecordingFrameCapturedEventArgs_t44786298FC0F78263023A7801CE48CF558102623* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs:44>
+		int32_t L_0 = ___0_value;
+		__this->___U3CframeIndexU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 75254
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* XRHandRecordingInitializeArgs_get_subsystem_mDACD03F1B5DC7AFD327ADDA793AB9CB3F2AC7DBF_inline (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingInitializeArgs.cs:16>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___U3CsubsystemU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 75255
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingInitializeArgs_set_subsystem_m97755BBA78C25B45DD9CD34F574FDE2CA851CB1A_inline (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingInitializeArgs.cs:16>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = ___0_value;
+		__this->___U3CsubsystemU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsubsystemU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 75256
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandRecordingInitializeArgs_get_recordingOptions_m185DCA5301FCBF839040EB67B88E4E837DAE0145_inline (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingInitializeArgs.cs:26>
+		int32_t L_0 = __this->___U3CrecordingOptionsU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 75257
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingInitializeArgs_set_recordingOptions_mBB33DC3FF532154BBC421D53CAD0A099D2A6EA90_inline (XRHandRecordingInitializeArgs_tE849605C07D39ABD87AD535FFCC6020244A54F7C* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingInitializeArgs.cs:26>
+		int32_t L_0 = ___0_value;
+		__this->___U3CrecordingOptionsU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 75267
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* XRHandRecordingSaveArgs_get_recordingName_m6FC20026ECE0F8738A49BFB086F68F059E7537AE_inline (XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingSaveArgs.cs:17>
+		String_t* L_0 = __this->___U3CrecordingNameU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 75268
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingSaveArgs_set_recordingName_m92FAF58FDF28D5CFA64981DC58087F26216D8ECC_inline (XRHandRecordingSaveArgs_t967DFD0BBF37240FB995BCBB3E1364157ACA3D05* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingSaveArgs.cs:17>
+		String_t* L_0 = ___0_value;
+		__this->___U3CrecordingNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CrecordingNameU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 75275
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingSettings_set_timeLimitInSeconds_m4C1BEC6958B31CB675CB5717D74B69805394BA5E_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingSettings.cs:21>
+		float L_0 = ___0_value;
+		il2cpp_codegen_runtime_class_init_inline(XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_il2cpp_TypeInfo_var);
+		((XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_StaticFields*)il2cpp_codegen_static_fields_for(XRHandRecordingSettings_t6330EAD208C2008D238B05505CD67ECD3094EBDE_il2cpp_TypeInfo_var))->___U3CtimeLimitInSecondsU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 75278
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* XRHandRecordingStatusChangedEventArgs_get_blob_m77EC3C6DFD4138EDB97C9FA9BBD0F229FEC10F92_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:60>
+		XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* L_0 = __this->___U3CblobU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 75279
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_blob_m9A08F3171E1ABCA9ECD498982B2ECCAF6EEA90A9_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:60>
+		XRHandRecordingBlob_t3F663F163EA9AF5DEDB35D1768D6315ED7E58069* L_0 = ___0_value;
+		__this->___U3CblobU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CblobU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 75280
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandRecordingStatusChangedEventArgs_get_status_mD97C9AAAC26DE3515678696C312C49AAFD2F0AEC_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:65>
+		int32_t L_0 = __this->___U3CstatusU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 75281
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_status_mA52842D8D75A40E6602E3C744085250395E6418D_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:65>
+		int32_t L_0 = ___0_value;
+		__this->___U3CstatusU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 75282
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRHandRecordingStatusChangedEventArgs_get_elapsedTime_m5D0EBE6D10F9DAA16DF1E119715BA3107F461B77_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:70>
+		float L_0 = __this->___U3CelapsedTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 75283
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_elapsedTime_m1D76562BF0B659234A590698C628A79584EE26B6_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:70>
+		float L_0 = ___0_value;
+		__this->___U3CelapsedTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 75284
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* XRHandRecordingStatusChangedEventArgs_get_recordingName_m41BC76D9DAA2AFEC4A8308F6709FBEC21D3F7714_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:75>
+		String_t* L_0 = __this->___U3CrecordingNameU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 75285
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_recordingName_m5F42C44C0AF9CF88A5B1D8A4C19E085446BC380C_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:75>
+		String_t* L_0 = ___0_value;
+		__this->___U3CrecordingNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CrecordingNameU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 75286
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* XRHandRecordingStatusChangedEventArgs_get_errorMessage_m51FA64EB72CCDA834CA6F84F67F52BEF15233C6C_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:77>
+		String_t* L_0 = __this->___U3CerrorMessageU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 75287
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_errorMessage_mC24DFFA83534E92AC78620FE51D3F9865959E953_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:77>
+		String_t* L_0 = ___0_value;
+		__this->___U3CerrorMessageU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CerrorMessageU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 75289
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* XRHandRecordingStatusChangedEventArgs_get_subsystem_mC577E41E73734FEA09482DE6B3453DF0CF35A892_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:102>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___U3CsubsystemU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 75290
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandRecordingStatusChangedEventArgs_set_subsystem_m39E889424DAC3FA4B69712712111F7B228BE11EF_inline (XRHandRecordingStatusChangedEventArgs_t172B8212CE25C66B2BC462443AFE3309FB119BE0* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs:102>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = ___0_value;
+		__this->___U3CsubsystemU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsubsystemU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 74509
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_id_m06346C96717EB03644F6A1D07F922AED52B4E312_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandSubsystemDescriptor.cs:99>
+		String_t* L_0 = ___0_value;
+		__this->___U3CidU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CidU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 74511
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_providerType_m17C35A2C89EBCAD9286D73F9A3AF610B7FF64A4C_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, Type_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandSubsystemDescriptor.cs:104>
+		Type_t* L_0 = ___0_value;
+		__this->___U3CproviderTypeU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CproviderTypeU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 74515
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_supportsAimPose_mC314F230EB6C48F3E5775B3474A3F8B9A97BE5E9_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandSubsystemDescriptor.cs:119>
+		bool L_0 = ___0_value;
+		__this->___U3CsupportsAimPoseU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 74517
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_supportsAimActivateValue_mD77110D7907FD99803B94715730724FFA4709183_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandSubsystemDescriptor.cs:124>
+		bool L_0 = ___0_value;
+		__this->___U3CsupportsAimActivateValueU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 74519
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_supportsGraspValue_m439CD492B5E89B5BAE3CD363C3EB06A67738C8B2_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandSubsystemDescriptor.cs:129>
+		bool L_0 = ___0_value;
+		__this->___U3CsupportsGraspValueU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 74521
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_supportsGripPose_m327401F6F52488C82B52329B9BCBEF92D16DEA35_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandSubsystemDescriptor.cs:134>
+		bool L_0 = ___0_value;
+		__this->___U3CsupportsGripPoseU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 74523
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_supportsPinchPose_m0FEE07367A7FB667D2CD22FAA3BBE610558D1704_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandSubsystemDescriptor.cs:139>
+		bool L_0 = ___0_value;
+		__this->___U3CsupportsPinchPoseU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 74525
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_supportsPinchValue_m41733B2254E95F28BC438482DEAB73A1858662FF_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandSubsystemDescriptor.cs:144>
+		bool L_0 = ___0_value;
+		__this->___U3CsupportsPinchValueU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 74527
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_supportsPokePose_m5D5ACA80C06EB2043FF3F6070C9EB6BD6977121A_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandSubsystemDescriptor.cs:149>
+		bool L_0 = ___0_value;
+		__this->___U3CsupportsPokePoseU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 75100
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* XRHandCaptureSequence_get_frames_mEB13ECB1DDF6CA3D1DF7BA8338CF20B0C2C21DC7_inline (XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/XRHandCaptureSequence.cs:28>
+		List_1_tE22B6E306DDA01F674E59C9D38C70B3061C6638A* L_0 = __this->___m_Frames;
+		return L_0;
+	}
+}
+// Method Definition Index: 74234
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHand.cs:82>
+		bool L_0 = __this->___m_IsTracked;
+		return L_0;
+	}
+}
+// Method Definition Index: 40567
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 ProfilerMarker_Auto_m133FA724EB95D16187B37D2C8A501D7E989B1F8D_inline (ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD* __this, const RuntimeMethod* method) 
+{
+	AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Profiler/ScriptBindings/ProfilerMarker.bindings.cs:154>
+		intptr_t L_0 = __this->___m_Ptr;
+		AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		AutoScope__ctor_m7F63A273E382CB6328736B6E7F321DDFA40EA9E3_inline((&L_1), L_0, NULL);
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Profiler/ScriptBindings/ProfilerMarker.bindings.cs:155>
+		AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 L_2 = V_0;
+		return L_2;
+	}
+}
+// Method Definition Index: 40569
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AutoScope_Dispose_mED763F3F51261EF8FB79DB32CD06E0A3F6C40481_inline (AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Profiler/ScriptBindings/ProfilerMarker.bindings.cs:145>
+		intptr_t L_0 = __this->___m_Ptr;
+		bool L_1;
+		L_1 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_0, 0, NULL);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Profiler/ScriptBindings/ProfilerMarker.bindings.cs:146>
+		intptr_t L_3 = __this->___m_Ptr;
+		ProfilerUnsafeUtility_EndSample_mFDB4EFB160A9CB817D2F8ED21B88693616B27409(L_3, NULL);
+	}
+
+IL_0021:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Profiler/ScriptBindings/ProfilerMarker.bindings.cs:147>
+		return;
+	}
+}
+// Method Definition Index: 74280
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRHandAimState_get_aimPoseInternal_m6E2D473AA6B68B56C3667CA95F69B21FCA7C0005_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandAimState.cs:228>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = __this->___m_AimPose;
+		return L_0;
+	}
+}
+// Method Definition Index: 74281
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandAimState_set_aimPoseInternal_mC1DF3050FF09083FF19C531F56DEE78669C76530_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandAimState.cs:229>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = ___0_value;
+		__this->___m_AimPose = L_0;
+		return;
+	}
+}
+// Method Definition Index: 74209
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRCommonHandGesturesState_get_aimPoseInternal_mCAB98BA67ED6383E6E77E63EBBD361EB06B1D464_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRCommonHandGesturesState.cs:344>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = __this->___m_AimPose;
+		return L_0;
+	}
+}
+// Method Definition Index: 74210
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRCommonHandGesturesState_set_aimPoseInternal_m8DC7AE7EBE975D3D41CF9E223549B9FFA0D03128_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRCommonHandGesturesState.cs:345>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = ___0_value;
+		__this->___m_AimPose = L_0;
+		return;
+	}
+}
+// Method Definition Index: 74215
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRCommonHandGesturesState_get_gripPoseInternal_mD1FC6ECFB2943B232C76DF66763E4BE959D1E911_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRCommonHandGesturesState.cs:362>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = __this->___m_GripPose;
+		return L_0;
+	}
+}
+// Method Definition Index: 74216
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRCommonHandGesturesState_set_gripPoseInternal_m174803A0C7491484B6D67B7B89FD9173A650C923_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRCommonHandGesturesState.cs:363>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = ___0_value;
+		__this->___m_GripPose = L_0;
+		return;
+	}
+}
+// Method Definition Index: 74217
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRCommonHandGesturesState_get_pinchPoseInternal_m088ACD3C2728BF29FC8D0450E1FF4A54A58490C6_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRCommonHandGesturesState.cs:368>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = __this->___m_PinchPose;
+		return L_0;
+	}
+}
+// Method Definition Index: 74218
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRCommonHandGesturesState_set_pinchPoseInternal_mC96EF78C1166FCFD7FA20A1CCB9F9D019415A473_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRCommonHandGesturesState.cs:369>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = ___0_value;
+		__this->___m_PinchPose = L_0;
+		return;
+	}
+}
+// Method Definition Index: 74221
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRCommonHandGesturesState_get_pokePoseInternal_m21283D3CC3DE71F445A3DF960DAA55B9D8E834F8_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRCommonHandGesturesState.cs:380>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = __this->___m_PokePose;
+		return L_0;
+	}
+}
+// Method Definition Index: 74222
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRCommonHandGesturesState_set_pokePoseInternal_m456B15F0D061B9BF23C05915627F23F728EB7288_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRCommonHandGesturesState.cs:381>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = ___0_value;
+		__this->___m_PokePose = L_0;
+		return;
+	}
+}
+// Method Definition Index: 40565
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline (ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD* __this, String_t* ___0_name, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Profiler/ScriptBindings/ProfilerMarker.bindings.cs:30>
+		String_t* L_0 = ___0_name;
+		intptr_t L_1;
+		L_1 = ProfilerUnsafeUtility_CreateMarker_mC5E1AAB8CC1F0342065DF85BA3334445ED754E64(L_0, (uint16_t)1, 0, 0, NULL);
+		__this->___m_Ptr = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Profiler/ScriptBindings/ProfilerMarker.bindings.cs:31>
+		return;
+	}
+}
+// Method Definition Index: 42946
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:318>
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:319>
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:320>
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:321>
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:323>
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:324>
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 75070
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRHandCaptureFrame_get_timestamp_m227CFEE837E9261F7FE2E793AAD6D86FEA9EF0A2_inline (XRHandCaptureFrame_t224DFB9FF2BA856544F3CCE5DB6CE02918D9F073* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/XRHandCaptureFrame.cs:19>
+		float L_0 = __this->___m_Timestamp;
+		return L_0;
+	}
+}
+// Method Definition Index: 42802
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:36>
+		float L_0 = ___2_t;
+		float L_1;
+		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
+		___2_t = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:39>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_b;
+		float L_5 = L_4.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___x;
+		float L_8 = ___2_t;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_3, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_5, L_7)), L_8))));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:40>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_a;
+		float L_10 = L_9.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___1_b;
+		float L_12 = L_11.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___0_a;
+		float L_14 = L_13.___y;
+		float L_15 = ___2_t;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_12, L_14)), L_15))));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:41>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = ___0_a;
+		float L_17 = L_16.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = ___1_b;
+		float L_19 = L_18.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = ___0_a;
+		float L_21 = L_20.___z;
+		float L_22 = ___2_t;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_19, L_21)), L_22))));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:42>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_0;
+		V_1 = L_23;
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:43>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_1;
+		return L_24;
+	}
+}
+// Method Definition Index: 42866
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Math.bindings.cs:151>
+		float L_0 = ___2_t;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
+		L_1 = Quaternion_Internal_Slerp_mDD63B8384FB0F0AAD4B59635B1D66D6ECB49E763((&___0_a), (&___1_b), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 42947
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:332>
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		float L_2 = ___0_a;
+		float L_3 = ___2_t;
+		float L_4;
+		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_3, NULL);
+		V_0 = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), L_4))));
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:333>
+		float L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 42838
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:721>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 74362
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandJoint_get_trackingState_mD1202D64E796D92C38FA87BD02DFBD58AF5E4696_inline (XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandJoint.cs:43>
+		int32_t L_0 = __this->___m_TrackingState;
+		return L_0;
+	}
+}
+// Method Definition Index: 74193
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRCommonHandGesturesState_get_flags_m28DE88859CFE4D4A802B05CD88BE07F3182AA28E_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRCommonHandGesturesState.cs:116>
+		int32_t L_0 = __this->___m_CommonGesturesFlags;
+		return L_0;
+	}
+}
+// Method Definition Index: 74211
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRCommonHandGesturesState_get_aimActivateValueInternal_m422381BD69FA2E999C62B7B0DEB30C1A8940014C_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRCommonHandGesturesState.cs:350>
+		float L_0 = __this->___m_AimActivateValue;
+		return L_0;
+	}
+}
+// Method Definition Index: 74212
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRCommonHandGesturesState_set_aimActivateValueInternal_m301D65AB8C8185B990CA8E2D5E021F3D09302D22_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRCommonHandGesturesState.cs:351>
+		float L_0 = ___0_value;
+		__this->___m_AimActivateValue = L_0;
+		return;
+	}
+}
+// Method Definition Index: 74213
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRCommonHandGesturesState_get_graspValueInternal_m5C26004B9D0AEB0D2A186DB29AAA839EB00A3070_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRCommonHandGesturesState.cs:356>
+		float L_0 = __this->___m_GraspValue;
+		return L_0;
+	}
+}
+// Method Definition Index: 74214
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRCommonHandGesturesState_set_graspValueInternal_mE6D3C6E2FDD17A42AD25F326C269D1F9C5583FEE_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRCommonHandGesturesState.cs:357>
+		float L_0 = ___0_value;
+		__this->___m_GraspValue = L_0;
+		return;
+	}
+}
+// Method Definition Index: 74219
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRCommonHandGesturesState_get_pinchValueInternal_m3C5CA2EEF328C9A3D1B6CFF90C33BD9616275F4D_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRCommonHandGesturesState.cs:374>
+		float L_0 = __this->___m_PinchValue;
+		return L_0;
+	}
+}
+// Method Definition Index: 74220
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRCommonHandGesturesState_set_pinchValueInternal_m2525479ED68D25A3D32C388FBB08A8BABADC37CF_inline (XRCommonHandGesturesState_t18CE495C531D06CFA5E2FB753CB9DC9813F9D858* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRCommonHandGesturesState.cs:375>
+		float L_0 = ___0_value;
+		__this->___m_PinchValue = L_0;
+		return;
+	}
+}
+// Method Definition Index: 74269
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRHandAimState_get_pinchStrengthIndex_mFC510D1D7622BC7C20C2308D328CB4006A46D377_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandAimState.cs:166>
+		float L_0 = __this->___m_PinchStrengthIndex;
+		return L_0;
+	}
+}
+// Method Definition Index: 74270
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandAimState_set_pinchStrengthIndex_m13121AB7F41745CD7B8037BA7357F84E0B95997C_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandAimState.cs:167>
+		float L_0 = ___0_value;
+		__this->___m_PinchStrengthIndex = L_0;
+		return;
+	}
+}
+// Method Definition Index: 74271
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRHandAimState_get_pinchStrengthMiddle_m7358E799FBA827B309E200EB2F89620660AB80BF_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandAimState.cs:175>
+		float L_0 = __this->___m_PinchStrengthMiddle;
+		return L_0;
+	}
+}
+// Method Definition Index: 74272
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandAimState_set_pinchStrengthMiddle_m5CFDE93F0C7DC460B0675C9725F870E085755DE1_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandAimState.cs:176>
+		float L_0 = ___0_value;
+		__this->___m_PinchStrengthMiddle = L_0;
+		return;
+	}
+}
+// Method Definition Index: 74273
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRHandAimState_get_pinchStrengthRing_m3FC8D078B4119EB357512C2D242A90852E32E28F_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandAimState.cs:184>
+		float L_0 = __this->___m_PinchStrengthRing;
+		return L_0;
+	}
+}
+// Method Definition Index: 74274
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandAimState_set_pinchStrengthRing_mABE1E6CCD847674103368961F1CB939DC4C9E51D_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandAimState.cs:185>
+		float L_0 = ___0_value;
+		__this->___m_PinchStrengthRing = L_0;
+		return;
+	}
+}
+// Method Definition Index: 74275
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRHandAimState_get_pinchStrengthLittle_mF58CB4E7D291C1F1AFDE73B0F46CD89A5CE696DB_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandAimState.cs:193>
+		float L_0 = __this->___m_PinchStrengthLittle;
+		return L_0;
+	}
+}
+// Method Definition Index: 74276
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandAimState_set_pinchStrengthLittle_m960F5BF3B8F0C4DB8E16287BE4CD4BCEC38A6E32_inline (XRHandAimState_tE6FE6D8596FAD861E3D2D21DD47E1653612C44C3* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHandAimState.cs:194>
+		float L_0 = ___0_value;
+		__this->___m_PinchStrengthLittle = L_0;
+		return;
+	}
+}
+// Method Definition Index: 42945
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:305>
+		int32_t L_0 = ___0_value;
+		int32_t L_1 = ___1_min;
+		V_0 = (bool)((((int32_t)L_0) < ((int32_t)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:306>
+		int32_t L_3 = ___1_min;
+		___0_value = L_3;
+		goto IL_0019;
+	}
+
+IL_000e:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:307>
+		int32_t L_4 = ___0_value;
+		int32_t L_5 = ___2_max;
+		V_1 = (bool)((((int32_t)L_4) > ((int32_t)L_5))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:308>
+		int32_t L_7 = ___2_max;
+		___0_value = L_7;
+	}
+
+IL_0019:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:309>
+		int32_t L_8 = ___0_value;
+		V_2 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:310>
+		int32_t L_9 = V_2;
+		return L_9;
+	}
+}
+// Method Definition Index: 74232
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRHand_get_rootPose_m4F34E7F55AEBFD2FF7491364ADB00B27BF86F1A5_inline (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/XRHand.cs:62>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = __this->___m_RootPose;
+		return L_0;
+	}
+}
+// Method Definition Index: 42888
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_get_eulerAngles_m2DB5158B5C3A71FD60FC8A6EE43D3AAA1CFED122_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Quaternion.cs:265>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Quaternion_Internal_ToEulerRad_mC5BD020889B5A4FB6894CFB69A5D4C07B321B919(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_0, (57.2957802f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Quaternion_Internal_MakePositive_m73E2D01920CB0DFE661A55022C129E8617F0C9A8(L_1, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 42889
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Quaternion.cs:270>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		float L_0 = ___0_x;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_0, (0.0174532924f)));
+		float L_1 = ___1_y;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_1, (0.0174532924f)));
+		float L_2 = ___2_z;
+		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_2, (0.0174532924f)));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3;
+		L_3 = Quaternion_Internal_FromEulerRad_mD0C4C0EFE1D70EC0EA4A92B11F1A4D5B0A134E49((&V_0), NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 42862
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_rotation, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Math.bindings.cs:141>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0;
+		L_0 = Quaternion_Internal_Inverse_m0ABC2C5E4F26053F9F6B8260065D08E264F62566((&___0_rotation), NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 42878
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Quaternion.cs:75>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
+		return L_0;
+	}
+}
+// Method Definition Index: 42847
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:780>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		(&V_0)->___z = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 42846
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:777>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_9, L_11));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 42879
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Quaternion.cs:80>
+		il2cpp_codegen_initobj((&V_0), sizeof(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_lhs;
+		float L_1 = L_0.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___1_rhs;
+		float L_3 = L_2.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = ___0_lhs;
+		float L_5 = L_4.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = ___1_rhs;
+		float L_7 = L_6.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = ___0_lhs;
+		float L_9 = L_8.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = ___1_rhs;
+		float L_11 = L_10.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12 = ___0_lhs;
+		float L_13 = L_12.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = ___1_rhs;
+		float L_15 = L_14.___y;
+		(&V_0)->___x = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11)))), ((float)il2cpp_codegen_multiply(L_13, L_15))));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = ___0_lhs;
+		float L_17 = L_16.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = ___1_rhs;
+		float L_19 = L_18.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20 = ___0_lhs;
+		float L_21 = L_20.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = ___1_rhs;
+		float L_23 = L_22.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_24 = ___0_lhs;
+		float L_25 = L_24.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26 = ___1_rhs;
+		float L_27 = L_26.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_28 = ___0_lhs;
+		float L_29 = L_28.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_30 = ___1_rhs;
+		float L_31 = L_30.___z;
+		(&V_0)->___y = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_17, L_19)), ((float)il2cpp_codegen_multiply(L_21, L_23)))), ((float)il2cpp_codegen_multiply(L_25, L_27)))), ((float)il2cpp_codegen_multiply(L_29, L_31))));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_32 = ___0_lhs;
+		float L_33 = L_32.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_34 = ___1_rhs;
+		float L_35 = L_34.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_36 = ___0_lhs;
+		float L_37 = L_36.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_38 = ___1_rhs;
+		float L_39 = L_38.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_40 = ___0_lhs;
+		float L_41 = L_40.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_42 = ___1_rhs;
+		float L_43 = L_42.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_44 = ___0_lhs;
+		float L_45 = L_44.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_46 = ___1_rhs;
+		float L_47 = L_46.___x;
+		(&V_0)->___z = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_33, L_35)), ((float)il2cpp_codegen_multiply(L_37, L_39)))), ((float)il2cpp_codegen_multiply(L_41, L_43)))), ((float)il2cpp_codegen_multiply(L_45, L_47))));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_48 = ___0_lhs;
+		float L_49 = L_48.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_50 = ___1_rhs;
+		float L_51 = L_50.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_52 = ___0_lhs;
+		float L_53 = L_52.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_54 = ___1_rhs;
+		float L_55 = L_54.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_56 = ___0_lhs;
+		float L_57 = L_56.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_58 = ___1_rhs;
+		float L_59 = L_58.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_60 = ___0_lhs;
+		float L_61 = L_60.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_62 = ___1_rhs;
+		float L_63 = L_62.___z;
+		(&V_0)->___w = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_49, L_51)), ((float)il2cpp_codegen_multiply(L_53, L_55)))), ((float)il2cpp_codegen_multiply(L_57, L_59)))), ((float)il2cpp_codegen_multiply(L_61, L_63))));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_64 = V_0;
+		return L_64;
+	}
+}
+// Method Definition Index: 75326
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlaybackFrameProvider_UpdateSequence_mC65A2E64698652B1C27B8698AD78ED89124672E4_inline (PlaybackFrameProvider_tA8465836FF48F68B174B678E8435FD21A280FC5E* __this, XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* ___0_newSequence, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:57>
+		XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* L_0 = ___0_newSequence;
+		__this->___m_Sequence = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Sequence), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackFrameProvider.cs:58>
+		return;
+	}
+}
+// Method Definition Index: 75440
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRHandPlayback_get_isPlaying_mCFEE681F6C675E0A75F2CC0464B6FADE7ABF5F9B_inline (XRHandPlayback_t53A2B5080D2C9F1A172B9071A1CEC18C775402AC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/XRHandPlayback.cs:178>
+		bool L_0 = __this->___m_IsPlaying;
+		return L_0;
+	}
+}
+// Method Definition Index: 75110
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandCaptureSequence_get_flags_mE0DD2B34F2525D4562CAECAD9E67BAFAD5D8F2C7_inline (XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/XRHandCaptureSequence.cs:150>
+		int32_t L_0 = __this->___m_SequenceFlags;
+		return L_0;
+	}
+}
+// Method Definition Index: 75103
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandCaptureSequence_get_detectedHandMeshLayout_m7B5B383D0119DEE2C57441DEE488B233490D3FE5_inline (XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/XRHandCaptureSequence.cs:96>
+		int32_t L_0 = __this->___m_DetectedHandMeshLayout;
+		return L_0;
+	}
+}
+// Method Definition Index: 75352
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlaybackGestureHandler_SetCoordinateTransform_m4921438617B1489053B98374302511423C16C6C4_inline (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, RuntimeObject* ___0_coordinateTransform, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:323>
+		RuntimeObject* L_0 = ___0_coordinateTransform;
+		__this->___m_CoordinateTransform = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CoordinateTransform), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:324>
+		return;
+	}
+}
+// Method Definition Index: 75353
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlaybackGestureHandler_SetTimeController_mBBB7E260AA2D4A7AA81D6479F53A16A759AD7E18_inline (PlaybackGestureHandler_t1A8101D932654967EE76F9353A61452E7AC64A37* __this, RuntimeObject* ___0_timeController, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:328>
+		RuntimeObject* L_0 = ___0_timeController;
+		__this->___m_TimeController = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TimeController), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/PlaybackGestureHandler.cs:329>
+		return;
+	}
+}
+// Method Definition Index: 75098
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float XRHandCaptureSequence_get_durationInSeconds_mBA819931E78008CF5A3BEE2D43F04BE1A0FCE63D_inline (XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/XRHandCaptureSequence.cs:20>
+		float L_0 = __this->___m_DurationInSeconds;
+		return L_0;
+	}
+}
+// Method Definition Index: 75319
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* PlaybackProvider_GetRegisteredDescriptor_m122BC73C6D99AFC64AAA89C9FB794B67DF679E8F_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@84a303a92f74/Runtime/Capture/Playback/Impl/PlaybackProvider.cs:118>
+		XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* L_0 = ((PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_StaticFields*)il2cpp_codegen_static_fields_for(PlaybackProvider_tC969A1C55DB56DA4B4367D8D8A9B621C695AA30F_il2cpp_TypeInfo_var))->___s_RegisteredDescriptor;
+		return L_0;
+	}
+}
+// Method Definition Index: 21174
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+	}
+	{
+		int32_t L_1 = __this->____size;
+		V_0 = L_1;
+		__this->____size = 0;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = __this->____items;
+		int32_t L_4 = V_0;
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
+		return;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+// Method Definition Index: 14836
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 2));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = ((EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 2)))->___Value;
+		return L_0;
+	}
+}
+// Method Definition Index: 21166
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 13806
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_gshared_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = __this->___value;
+		return L_0;
+	}
+}
+// Method Definition Index: 13804
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_gshared_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		bool L_0 = __this->___hasValue;
+		return L_0;
+	}
+}
+// Method Definition Index: 80959
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* SubsystemWithProvider_3_get_subsystemDescriptor_mB4052808D703DF75CA2D74A5801B59172E3F80C7_gshared_inline (SubsystemWithProvider_3_t548D9C2A4778C7ADB62496A2A07F8B7563309893* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/Subsystems/SubsystemWithProvider.cs:50>
+		RuntimeObject* L_0 = __this->___U3CsubsystemDescriptorU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 40568
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AutoScope__ctor_m7F63A273E382CB6328736B6E7F321DDFA40EA9E3_inline (AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139* __this, intptr_t ___0_markerPtr, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Profiler/ScriptBindings/ProfilerMarker.bindings.cs:114>
+		intptr_t L_0 = ___0_markerPtr;
+		__this->___m_Ptr = L_0;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Profiler/ScriptBindings/ProfilerMarker.bindings.cs:115>
+		intptr_t L_1 = __this->___m_Ptr;
+		bool L_2;
+		L_2 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_1, 0, NULL);
+		V_0 = L_2;
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Profiler/ScriptBindings/ProfilerMarker.bindings.cs:116>
+		intptr_t L_4 = ___0_markerPtr;
+		ProfilerUnsafeUtility_BeginSample_mB5106F4E7ECEF54906545665ED23928D14F5FCA7(L_4, NULL);
+	}
+
+IL_0023:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Profiler/ScriptBindings/ProfilerMarker.bindings.cs:117>
+		return;
+	}
+}
+// Method Definition Index: 15422
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		intptr_t L_0 = ___0_value1;
+		intptr_t L_1 = ___1_value2;
+		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 42849
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:786>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_1, L_2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_7, L_8));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		return L_9;
+	}
+}
